@@ -1,0 +1,2369 @@
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/ubuntu/capri/bribe-scheduler/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/ubuntu/capri/bribe-scheduler/target/scala-2.12/bribesched_2.12-0.1.jar ...[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Tainted node ip-172-31-16-123 <cpu, mem> = <8, 31.322433471679688>
+Active node ip-172-31-21-210 <cpu, mem> = <8, 30.977577209472656>
+Active node ip-172-31-25-13 <cpu, mem> = <8, 30.977577209472656>
+Active node ip-172-31-40-144 <cpu, mem> = <8, 30.977577209472656>
+Active node ip-172-31-40-44 <cpu, mem> = <8, 30.977577209472656>
+Active node ip-172-31-43-4 <cpu, mem> = <8, 30.977577209472656>
+Starting the bribe pod controller
+ClusterState 1587845930306 0.0 30 154.88788604736328 
+ClusterState 1587845935296 0.260001 29 153.88788604736328 
+ClusterState 1587845940294 0.26 24 148.88788604736328 
+ClusterState 1587845945294 0.26 24 148.88788604736328 
+ClusterState 1587845950294 0.26 24 148.88788604736328 
+ClusterState 1587845955294 0.26 23 147.88788604736328 
+ClusterState 1587845960294 0.26 17 141.88788604736328 
+ClusterState 1587845965294 0.26 12 136.88788604736328 
+ClusterState 1587845970294 0.26 12 136.88788604736328 
+ClusterState 1587845975294 0.26 12 136.88788604736328 
+ClusterState 1587845980294 0.26 12 136.88788604736328 
+ClusterState 1587845985294 0.26 12 136.88788604736328 
+ClusterState 1587845990294 0.26 12 136.88788604736328 
+ClusterState 1587845995294 0.26 12 136.88788604736328 
+ClusterState 1587846000294 0.26 12 136.88788604736328 
+ClusterState 1587846005294 0.26 12 136.88788604736328 
+pod "imdb-e747abbe17f03e6cb60916fc0bab1088-driver" force deleted
+JobFinished 1587846006231 1587845933001 job-39-0 5 0.260001 1.0010253 414424 73221 73146 75 0 1 5 1
+ClusterState 1587846010294 0.42 18 142.88788604736328 
+ClusterState 1587846015294 0.42 18 142.88788604736328 
+ClusterState 1587846020294 0.42 18 142.88788604736328 
+ClusterState 1587846025294 0.42 18 142.88788604736328 
+ClusterState 1587846030294 0.42 18 142.88788604736328 
+ClusterState 1587846035294 0.42 18 142.88788604736328 
+pod "imdb-00223628b12d342b8ff00e172a617b9d-driver" force deleted
+JobFinished 1587846039090 1587845959365 job-38-2 5 0.870001 1.0001004 450204 79724 79716 8 0 1 5 1
+ClusterState 1587846040294 0.42 24 148.88788604736328 
+ClusterState 1587846045294 0.42 24 148.88788604736328 
+ClusterState 1587846050294 0.340001 23 147.88788604736328 
+ClusterState 1587846055294 0.34 17 141.88788604736328 
+ClusterState 1587846060294 0.34 12 136.88788604736328 
+ClusterState 1587846065294 0.34 12 136.88788604736328 
+ClusterState 1587846070294 0.34 12 136.88788604736328 
+ClusterState 1587846075294 0.34 12 136.88788604736328 
+ClusterState 1587846080294 0.34 12 136.88788604736328 
+ClusterState 1587846085294 0.30000099999999996 10 134.88788604736328 
+ClusterState 1587846090294 0.3 0 124.88788604736328 
+ClusterState 1587846095294 0.3 0 124.88788604736328 
+ClusterState 1587846100294 0.3 0 124.88788604736328 
+ClusterState 1587846105294 0.3 0 124.88788604736328 
+ClusterState 1587846110294 0.3 0 124.88788604736328 
+pod "imdb-b67c9f9ec8073edf939aac3f64eaefc5-driver" force deleted
+JobFinished 1587846113872 1587846049589 job-11-3 5 0.340001 1.0000622 359951 64283 64279 4 0 1 5 1
+ClusterState 1587846115294 0.3 6 130.88788604736328 
+ClusterState 1587846120294 0.3 6 130.88788604736328 
+ClusterState 1587846125294 0.3 6 130.88788604736328 
+ClusterState 1587846130294 0.3 7 131.88788604736328 
+pod "imdb-9aaad10160a93836954b7597985a1641-driver" force deleted
+JobFinished 1587846130689 1587846054865 job-6-4 5 0.47000099999999995 1.0000659 427428 75824 75819 5 0 1 5 1
+ClusterState 1587846135294 0.3 12 136.88788604736328 
+pod "imdb-745743fff5123840b7a89c499b519d4b-driver" force deleted
+JobFinished 1587846137615 1587845952546 job-80-1 5 0.42000099999999996 1.0000324 1085121 185068 185062 6 0 1 5 1
+ClusterState 1587846140294 0.3 18 142.88788604736328 
+pod "imdb-c7440ceacf7d3995bbbcbc48ef63fc68-driver" force deleted
+JobFinished 1587846144542 1587846082304 job-107-5 5 0.30000099999999996 1.0001125 345601 62237 62230 7 0 1 5 1
+ClusterState 1587846145294 0.340001 23 147.88788604736328 
+ClusterState 1587846150294 0.34 18 142.88788604736328 
+ClusterState 1587846155294 0.34 18 142.88788604736328 
+ClusterState 1587846160294 0.34 18 142.88788604736328 
+ClusterState 1587846165294 0.34 18 142.88788604736328 
+ClusterState 1587846170294 0.34 18 142.88788604736328 
+ClusterState 1587846175294 0.34 18 142.88788604736328 
+ClusterState 1587846180294 0.34 18 142.88788604736328 
+ClusterState 1587846185294 0.280001 17 141.88788604736328 
+ClusterState 1587846190294 0.28 12 136.88788604736328 
+ClusterState 1587846195294 0.28 12 136.88788604736328 
+ClusterState 1587846200294 0.28 12 136.88788604736328 
+ClusterState 1587846205294 0.28 12 136.88788604736328 
+ClusterState 1587846210294 0.28 12 136.88788604736328 
+ClusterState 1587846215294 0.28 12 136.88788604736328 
+ClusterState 1587846220294 0.28 12 136.88788604736328 
+ClusterState 1587846225294 0.28 11 135.88788604736328 
+pod "imdb-1ec75b74b95733a1951255da9dded220-driver" force deleted
+JobFinished 1587846228950 1587846140640 job-110-7 5 0.340001 1.0000453 505463 88310 88306 4 0 1 5 1
+ClusterState 1587846230294 0.28 12 136.88788604736328 
+ClusterState 1587846235294 0.28 12 136.88788604736328 
+ClusterState 1587846240294 0.28 12 136.88788604736328 
+ClusterState 1587846245294 0.28 12 136.88788604736328 
+ClusterState 1587846250294 0.28 12 136.88788604736328 
+ClusterState 1587846255294 0.28 12 136.88788604736328 
+ClusterState 1587846260294 0.28 12 136.88788604736328 
+ClusterState 1587846265294 0.28 12 136.88788604736328 
+ClusterState 1587846270294 0.28 12 136.88788604736328 
+ClusterState 1587846275294 0.28 12 136.88788604736328 
+ClusterState 1587846280294 0.28 12 136.88788604736328 
+ClusterState 1587846285294 0.28 12 136.88788604736328 
+ClusterState 1587846290294 0.28 12 136.88788604736328 
+ClusterState 1587846295294 0.28 12 136.88788604736328 
+ClusterState 1587846300294 0.28 12 136.88788604736328 
+ClusterState 1587846305294 0.28 12 136.88788604736328 
+ClusterState 1587846310294 0.28 12 136.88788604736328 
+ClusterState 1587846315294 0.28 12 136.88788604736328 
+ClusterState 1587846320294 0.28 12 136.88788604736328 
+ClusterState 1587846325294 0.28 12 136.88788604736328 
+ClusterState 1587846330294 0.28 12 136.88788604736328 
+ClusterState 1587846335294 0.28 12 136.88788604736328 
+ClusterState 1587846340294 0.040001 10 134.88788604736328 
+ClusterState 1587846345294 0.04 0 124.88788604736328 
+ClusterState 1587846350294 0.04 0 124.88788604736328 
+ClusterState 1587846355294 0.04 0 124.88788604736328 
+ClusterState 1587846360294 0.04 0 124.88788604736328 
+ClusterState 1587846365294 0.04 0 124.88788604736328 
+ClusterState 1587846370294 0.04 0 124.88788604736328 
+ClusterState 1587846375294 0.04 0 124.88788604736328 
+ClusterState 1587846380294 0.04 0 124.88788604736328 
+ClusterState 1587846385294 0.04 0 124.88788604736328 
+ClusterState 1587846390294 0.04 0 124.88788604736328 
+ClusterState 1587846395294 0.04 0 124.88788604736328 
+ClusterState 1587846400294 0.04 0 124.88788604736328 
+pod "imdb-92ae19a3ac593f7f992b370e9bfe5930-driver" force deleted
+JobFinished 1587846402664 1587846338953 job-12-11 5 0.510001 1.0000942 355203 63711 63705 6 0 1 5 1
+ClusterState 1587846405294 0.04 6 130.88788604736328 
+ClusterState 1587846410294 0.04 6 130.88788604736328 
+ClusterState 1587846415294 0.04 6 130.88788604736328 
+pod "imdb-0dd0e32eabef3024a3301a54a22ac3b4-driver" force deleted
+JobFinished 1587846417664 1587846220567 job-79-9 5 0.280001 1.0000304 1154721 197097 197091 6 0 1 5 1
+pod "imdb-cbcc043cdb07395bad7b66f8867881db-driver" force deleted
+JobFinished 1587846418091 1587846083470 job-21-6 5 0.750001 1.0000149 1979666 334620 334615 5 0 1 5 1
+ClusterState 1587846420294 0.04 15 139.88788604736328 
+ClusterState 1587846425294 0.04 6 130.88788604736328 
+ClusterState 1587846430294 0.04 6 130.88788604736328 
+ClusterState 1587846435294 0.04 6 130.88788604736328 
+ClusterState 1587846440294 0.04 6 130.88788604736328 
+ClusterState 1587846445294 0.04 6 130.88788604736328 
+ClusterState 1587846450294 0.04 6 130.88788604736328 
+ClusterState 1587846455294 0.04 6 130.88788604736328 
+ClusterState 1587846460294 0.04 6 130.88788604736328 
+ClusterState 1587846465294 0.04 6 130.88788604736328 
+ClusterState 1587846470294 0.04 6 130.88788604736328 
+ClusterState 1587846475294 0.04 6 130.88788604736328 
+ClusterState 1587846480294 0.04 6 130.88788604736328 
+pod "imdb-f59c2158f6ca3512b5fe8227c67b5181-driver" force deleted
+ClusterState 1587846485294 0.04 11 135.88788604736328 
+JobFinished 1587846485469 1587846415320 job-11-12 5 0.240001 1.0001283 395086 70149 70140 9 0 1 5 1
+ClusterState 1587846490294 0.04 11 135.88788604736328 
+pod "imdb-556abeaa25f1371787d15939c1fe5db7-driver" force deleted
+JobFinished 1587846491715 1587846418091 job-13-13 5 0.390001 1.0000544 413173 73623 73619 4 0 1 5 1
+ClusterState 1587846495294 0.04 12 136.88788604736328 
+ClusterState 1587846500294 0.04 12 136.88788604736328 
+ClusterState 1587846505294 0.04 12 136.88788604736328 
+ClusterState 1587846510294 0.04 12 136.88788604736328 
+ClusterState 1587846515294 0.04 12 136.88788604736328 
+ClusterState 1587846520294 0.04 12 136.88788604736328 
+ClusterState 1587846525294 0.04 12 136.88788604736328 
+ClusterState 1587846530294 0.04 12 136.88788604736328 
+ClusterState 1587846535294 0.04 12 136.88788604736328 
+ClusterState 1587846540294 0.04 12 136.88788604736328 
+ClusterState 1587846545294 0.04 12 136.88788604736328 
+ClusterState 1587846550294 0.04 11 135.88788604736328 
+ClusterState 1587846555294 0.04 6 130.88788604736328 
+ClusterState 1587846560294 0.04 5 129.88788604736328 
+ClusterState 1587846565294 0.04 0 124.88788604736328 
+ClusterState 1587846570294 0.04 0 124.88788604736328 
+ClusterState 1587846575294 0.04 0 124.88788604736328 
+ClusterState 1587846580294 0.04 0 124.88788604736328 
+pod "imdb-c92e51bffb15376b8b4d6587eda2a828-driver" force deleted
+JobFinished 1587846581389 1587846181219 job-105-8 5 0.280001 1.00001 2372321 400170 400166 4 0 1 5 1
+ClusterState 1587846585294 0.04 6 130.88788604736328 
+ClusterState 1587846590294 0.04 6 130.88788604736328 
+ClusterState 1587846595294 0.04 6 130.88788604736328 
+ClusterState 1587846600294 0.04 5 129.88788604736328 
+ClusterState 1587846605294 0.04 0 124.88788604736328 
+ClusterState 1587846610294 0.04 0 124.88788604736328 
+ClusterState 1587846615294 0.04 0 124.88788604736328 
+ClusterState 1587846620294 0.04 0 124.88788604736328 
+ClusterState 1587846625294 0.04 0 124.88788604736328 
+pod "imdb-5f1730ad8ae33e1484720aa903c6e229-exec-5" force deleted
+pod "imdb-5f1730ad8ae33e1484720aa903c6e229-exec-3" force deleted
+ClusterState 1587846630294 0.04 0 124.88788604736328 
+pod "imdb-5f1730ad8ae33e1484720aa903c6e229-exec-4" force deleted
+pod "imdb-5f1730ad8ae33e1484720aa903c6e229-exec-1" force deleted
+ClusterState 1587846635294 0.040001 1 125.88788604736328 
+pod "imdb-5f1730ad8ae33e1484720aa903c6e229-exec-2" force deleted
+pod "imdb-5f1730ad8ae33e1484720aa903c6e229-driver" force deleted
+pod "imdb-aedc7f733e0932c5be86069a40f86cd9-exec-2" force deleted
+pod "imdb-aedc7f733e0932c5be86069a40f86cd9-exec-5" force deleted
+pod "imdb-aedc7f733e0932c5be86069a40f86cd9-exec-4" force deleted
+pod "imdb-aedc7f733e0932c5be86069a40f86cd9-exec-3" force deleted
+pod "imdb-aedc7f733e0932c5be86069a40f86cd9-driver" force deleted
+ClusterState 1587846640294 0.11 0 124.88788604736328 
+ClusterState 1587846645294 0.11 0 124.88788604736328 
+ClusterState 1587846650294 0.11 0 124.88788604736328 
+pod "imdb-43e9470c9f6c370a9d7dcb9febdf0161-exec-3" force deleted
+ClusterState 1587846655294 0.11 0 124.88788604736328 
+ClusterState 1587846660294 0.11 0 124.88788604736328 
+pod "imdb-43e9470c9f6c370a9d7dcb9febdf0161-exec-4" force deleted
+pod "imdb-43e9470c9f6c370a9d7dcb9febdf0161-exec-1" force deleted
+pod "imdb-43e9470c9f6c370a9d7dcb9febdf0161-exec-2" force deleted
+pod "imdb-43e9470c9f6c370a9d7dcb9febdf0161-exec-5" force deleted
+pod "imdb-43e9470c9f6c370a9d7dcb9febdf0161-driver" force deleted
+ClusterState 1587846665294 0.12 0 124.88788604736328 
+pod "imdb-af7957f03a17328b922746eedc99a62a-driver" force deleted
+JobFinished 1587846669325 1587846595999 job-7-17 5 0.770001 1.0000546 413874 73326 73322 4 0 1 5 1
+ClusterState 1587846670294 0.12 6 130.88788604736328 
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-43e9470c9f6c370a9d7dcb9febdf0161-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-aedc7f733e0932c5be86069a40f86cd9-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-5f1730ad8ae33e1484720aa903c6e229-exec-6
+ClusterState 1587846675294 0.040001 3 127.88788604736328 
+pod "imdb-0ca66baab8033b77bec84da18002ce1e-driver" force deleted
+pod "imdb-96f435cc6793381499068ed25fd0ca16-driver" force deleted
+ClusterState 1587846680294 0.11 0 124.88788604736328 
+pod "imdb-1545a1ce5e653f978031b597095dd19c-exec-2" force deleted
+pod "imdb-1545a1ce5e653f978031b597095dd19c-exec-1" force deleted
+pod "imdb-1545a1ce5e653f978031b597095dd19c-exec-5" force deleted
+pod "imdb-1545a1ce5e653f978031b597095dd19c-exec-4" force deleted
+pod "imdb-1545a1ce5e653f978031b597095dd19c-driver" force deleted
+ClusterState 1587846685294 0.12 0 124.88788604736328 
+ClusterState 1587846690294 0.12 0 124.88788604736328 
+ClusterState 1587846695294 0.12 0 124.88788604736328 
+ClusterState 1587846700294 0.12 0 124.88788604736328 
+ClusterState 1587846705294 0.12 0 124.88788604736328 
+ClusterState 1587846710294 0.12 0 124.88788604736328 
+ClusterState 1587846715294 0.12 0 124.88788604736328 
+ClusterState 1587846720294 0.12 0 124.88788604736328 
+pod "imdb-9858d7eed53c38479ffa069d70d30c1f-driver" force deleted
+JobFinished 1587846722504 1587846548303 job-16-15 5 0.120001 1.0000287 1018041 174200 174195 5 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1545a1ce5e653f978031b597095dd19c-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-96f435cc6793381499068ed25fd0ca16-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-96f435cc6793381499068ed25fd0ca16-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-96f435cc6793381499068ed25fd0ca16-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-96f435cc6793381499068ed25fd0ca16-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-96f435cc6793381499068ed25fd0ca16-exec-1
+ClusterState 1587846725294 0.040001 2 126.88788604736328 
+pod "imdb-887f85466de43a19827e6632355a6fcb-driver" force deleted
+pod "imdb-19c273ac91843d8491e91ba249e18ee5-driver" force deleted
+pod "imdb-50c6174baa77375fb74c3e33f68d6227-driver" force deleted
+ClusterState 1587846730294 0.11 0 124.88788604736328 
+ClusterState 1587846735294 0.11 0 124.88788604736328 
+ClusterState 1587846740294 0.11 0 124.88788604736328 
+ClusterState 1587846745294 0.11 0 124.88788604736328 
+pod "imdb-58518d579f96346c82756e14b3d97184-driver" force deleted
+JobFinished 1587846747776 1587846676653 job-37-21 5 0.740001 1.0000563 388754 71122 71118 4 0 1 5 1
+ClusterState 1587846750294 0.040001 3 127.88788604736328 
+pod "imdb-6e1879941e4e3f01bd960c15bdf8b16a-driver" force deleted
+ClusterState 1587846755294 0.05 0 124.88788604736328 
+ClusterState 1587846760294 0.05 0 124.88788604736328 
+ClusterState 1587846765294 0.05 0 124.88788604736328 
+pod "imdb-856d7090636c3dfa96d59b86579d90cf-exec-4" force deleted
+ClusterState 1587846770294 0.05 0 124.88788604736328 
+pod "imdb-856d7090636c3dfa96d59b86579d90cf-exec-5" force deleted
+pod "imdb-856d7090636c3dfa96d59b86579d90cf-exec-1" force deleted
+pod "imdb-856d7090636c3dfa96d59b86579d90cf-exec-2" force deleted
+pod "imdb-856d7090636c3dfa96d59b86579d90cf-driver" force deleted
+pod "imdb-86e29c4df07d3786bc8ee3b70cf8b32c-driver" force deleted
+ClusterState 1587846775294 0.11 0 124.88788604736328 
+ClusterState 1587846780294 0.11 0 124.88788604736328 
+ClusterState 1587846785294 0.11 0 124.88788604736328 
+ClusterState 1587846790294 0.11 0 124.88788604736328 
+ClusterState 1587846795294 0.11 0 124.88788604736328 
+ClusterState 1587846800294 0.11 0 124.88788604736328 
+ClusterState 1587846805294 0.11 0 124.88788604736328 
+ClusterState 1587846810294 0.11 0 124.88788604736328 
+ClusterState 1587846815294 0.11 0 124.88788604736328 
+ClusterState 1587846820294 0.11 1 125.88788604736328 
+pod "imdb-9579149f335a3644a46ba23bf792f708-driver" force deleted
+JobFinished 1587846820686 1587846630026 job-93-19 5 0.240001 1.0004723 1100089 190660 190570 90 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-856d7090636c3dfa96d59b86579d90cf-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-86e29c4df07d3786bc8ee3b70cf8b32c-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-86e29c4df07d3786bc8ee3b70cf8b32c-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-86e29c4df07d3786bc8ee3b70cf8b32c-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-86e29c4df07d3786bc8ee3b70cf8b32c-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-86e29c4df07d3786bc8ee3b70cf8b32c-exec-1
+ClusterState 1587846825294 0.040001 3 127.88788604736328 
+pod "imdb-ed445e0b935234309cca135a4e6f6bd2-driver" force deleted
+ClusterState 1587846830294 0.05 0 124.88788604736328 
+pod "imdb-a46cec762b7e3b23904a1fa61f3826e7-driver" force deleted
+JobFinished 1587846834791 1587846485469 job-22-14 5 0.48000099999999996 1.0000229 2063637 349321 349313 8 0 1 5 1
+ClusterState 1587846835294 0.05 0 124.88788604736328 
+pod "imdb-b3ffd715583130ef9ee12abace5ddd04-exec-4" force deleted
+ClusterState 1587846840294 0.05 0 124.88788604736328 
+pod "imdb-b3ffd715583130ef9ee12abace5ddd04-exec-5" force deleted
+pod "imdb-b3ffd715583130ef9ee12abace5ddd04-exec-2" force deleted
+pod "imdb-b3ffd715583130ef9ee12abace5ddd04-exec-3" force deleted
+pod "imdb-b3ffd715583130ef9ee12abace5ddd04-exec-1" force deleted
+pod "imdb-6750e09f96fb39a98f95e2c14c51a3fb-exec-5" force deleted
+ClusterState 1587846845294 0.05 0 124.88788604736328 
+pod "imdb-6750e09f96fb39a98f95e2c14c51a3fb-exec-4" force deleted
+ClusterState 1587846850294 0.05 0 124.88788604736328 
+pod "imdb-6750e09f96fb39a98f95e2c14c51a3fb-exec-3" force deleted
+pod "imdb-6750e09f96fb39a98f95e2c14c51a3fb-exec-2" force deleted
+pod "imdb-6750e09f96fb39a98f95e2c14c51a3fb-exec-1" force deleted
+pod "imdb-b3ffd715583130ef9ee12abace5ddd04-driver" force deleted
+pod "imdb-6750e09f96fb39a98f95e2c14c51a3fb-driver" force deleted
+ClusterState 1587846855294 0.11 0 124.88788604736328 
+pod "imdb-24984ed2fc8b31edab75dc667c5af0a1-driver" force deleted
+JobFinished 1587846855752 1587846654969 job-44-20 5 0.220001 1.0005631 1167208 200783 200670 113 0 1 5 1
+ClusterState 1587846860294 0.11 6 130.88788604736328 
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-b3ffd715583130ef9ee12abace5ddd04-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-6750e09f96fb39a98f95e2c14c51a3fb-exec-6
+ClusterState 1587846865294 0.020001 2 126.88788604736328 
+ClusterState 1587846870294 0.020001 0 124.88788604736328 
+pod "imdb-b913ce9503a231f399491599767b976f-driver" force deleted
+pod "imdb-7e8c1b2cc4f43eaaa3e6c2ffe1e27d09-driver" force deleted
+ClusterState 1587846875294 0.05 0 124.88788604736328 
+pod "imdb-264cf9b1a8d83387967d188029c29365-exec-2" force deleted
+pod "imdb-264cf9b1a8d83387967d188029c29365-exec-5" force deleted
+pod "imdb-264cf9b1a8d83387967d188029c29365-driver" force deleted
+pod "imdb-c70a01648d9d3d64b07ca680f02ae1e3-driver" force deleted
+pod "imdb-0d93bbdfb3b2321a9229034c3a71370c-exec-1" force deleted
+pod "imdb-0d93bbdfb3b2321a9229034c3a71370c-exec-2" force deleted
+pod "imdb-0d93bbdfb3b2321a9229034c3a71370c-exec-5" force deleted
+pod "imdb-0d93bbdfb3b2321a9229034c3a71370c-exec-3" force deleted
+pod "imdb-0d93bbdfb3b2321a9229034c3a71370c-exec-4" force deleted
+pod "imdb-0d93bbdfb3b2321a9229034c3a71370c-driver" force deleted
+ClusterState 1587846880294 0.29 0 124.88788604736328 
+ClusterState 1587846885294 0.29 0 124.88788604736328 
+ClusterState 1587846890294 0.29 0 124.88788604736328 
+ClusterState 1587846895294 0.29 0 124.88788604736328 
+ClusterState 1587846900294 0.29 0 124.88788604736328 
+ClusterState 1587846905294 0.29 0 124.88788604736328 
+ClusterState 1587846910294 0.29 0 124.88788604736328 
+ClusterState 1587846915294 0.29 0 124.88788604736328 
+ClusterState 1587846920294 0.29 0 124.88788604736328 
+ClusterState 1587846925294 0.29 0 124.88788604736328 
+ClusterState 1587846930294 0.29 0 124.88788604736328 
+ClusterState 1587846935294 0.29 0 124.88788604736328 
+ClusterState 1587846940295 0.29 0 124.88788604736328 
+ClusterState 1587846945295 0.29 0 124.88788604736328 
+ClusterState 1587846950295 0.29 0 124.88788604736328 
+ClusterState 1587846955295 0.29 0 124.88788604736328 
+ClusterState 1587846960295 0.29 0 124.88788604736328 
+ClusterState 1587846965295 0.29 0 124.88788604736328 
+ClusterState 1587846970295 0.29 0 124.88788604736328 
+ClusterState 1587846975295 0.29 0 124.88788604736328 
+ClusterState 1587846980295 0.29 0 124.88788604736328 
+ClusterState 1587846985295 0.29 0 124.88788604736328 
+ClusterState 1587846990295 0.29 0 124.88788604736328 
+ClusterState 1587846995295 0.29 0 124.88788604736328 
+ClusterState 1587847000295 0.29 0 124.88788604736328 
+ClusterState 1587847005295 0.29 0 124.88788604736328 
+ClusterState 1587847010295 0.29 0 124.88788604736328 
+ClusterState 1587847015295 0.29 0 124.88788604736328 
+ClusterState 1587847020295 0.29 0 124.88788604736328 
+ClusterState 1587847025295 0.29 0 124.88788604736328 
+pod "imdb-a89203673df733f5a02fda06da68a651-driver" force deleted
+JobFinished 1587847026919 1587846850073 job-40-26 5 0.380001 1.0005035 1037646 176846 176757 89 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0d93bbdfb3b2321a9229034c3a71370c-exec-7
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0d93bbdfb3b2321a9229034c3a71370c-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-c70a01648d9d3d64b07ca680f02ae1e3-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-264cf9b1a8d83387967d188029c29365-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-c70a01648d9d3d64b07ca680f02ae1e3-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-c70a01648d9d3d64b07ca680f02ae1e3-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-c70a01648d9d3d64b07ca680f02ae1e3-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-c70a01648d9d3d64b07ca680f02ae1e3-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-264cf9b1a8d83387967d188029c29365-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-264cf9b1a8d83387967d188029c29365-exec-1
+ClusterState 1587847030295 0.020001 0 124.88788604736328 
+ClusterState 1587847035295 0.020001 0 124.88788604736328 
+pod "imdb-0675f044532e32b1a26da5ff209b0eb9-driver" force deleted
+pod "imdb-f4676ffed98f331d9e3a76dcd550ebc3-driver" force deleted
+pod "imdb-e85962293f8034a6b59134b9786de6c1-driver" force deleted
+pod "imdb-a75b88ea93d63a54aa8594b75eb96eb3-driver" force deleted
+pod "imdb-2a67068a179435a8a75f16085a17a576-driver" force deleted
+ClusterState 1587847040295 0.24 0 124.88788604736328 
+pod "imdb-8b3dd6e15c153a8aa167ca9f0580d7a3-driver" force deleted
+JobFinished 1587847042561 1587846835549 job-94-24 5 0.770001 1.0004301 1205684 207012 206923 89 0 1 5 1
+ClusterState 1587847045295 0.200001 5 129.88788604736328 
+pod "imdb-9e77343854a438399910169e5a16d11c-driver" force deleted
+JobFinished 1587847047511 1587847036338 job-66-10 5 0.040001 -1 1803950 711399 994 366294 1802956 8 5 0
+pod "imdb-acc2907f698b3aa6a71337706bd87f46-driver" force deleted
+pod "imdb-d04db7aca7dc3b71b0b380f7649518b2-driver" force deleted
+JobFinished 1587847047722 1587847036522 job-49-18 5 0.050001000000000004 -1 217320 418767 1212 314960 216108 8 13 0
+pod "imdb-880c3c416faf3463bc7b690da9818e9b-driver" force deleted
+pod "imdb-99b21e7961af3663911cc9618141d00d-driver" force deleted
+ClusterState 1587847050295 0.2 0 124.88788604736328 
+pod "imdb-80f29d526b5e39b0875a3c2fa664caef-exec-2" force deleted
+ClusterState 1587847055295 0.2 0 124.88788604736328 
+pod "imdb-80f29d526b5e39b0875a3c2fa664caef-exec-1" force deleted
+pod "imdb-80f29d526b5e39b0875a3c2fa664caef-exec-5" force deleted
+pod "imdb-80f29d526b5e39b0875a3c2fa664caef-exec-4" force deleted
+pod "imdb-80f29d526b5e39b0875a3c2fa664caef-exec-3" force deleted
+pod "imdb-80f29d526b5e39b0875a3c2fa664caef-driver" force deleted
+ClusterState 1587847060295 0.24 0 124.88788604736328 
+ClusterState 1587847065295 0.24 0 124.88788604736328 
+ClusterState 1587847070295 0.24 0 124.88788604736328 
+ClusterState 1587847075295 0.24 0 124.88788604736328 
+ClusterState 1587847080295 0.24 0 124.88788604736328 
+ClusterState 1587847085295 0.24 0 124.88788604736328 
+ClusterState 1587847090295 0.24 0 124.88788604736328 
+pod "imdb-6c1a40ea564b3299ae102a9e75bd6e6b-driver" force deleted
+JobFinished 1587847092272 1587846974616 job-12-29 5 0.240001 1.8004254 344622 117656 65349 52307 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-80f29d526b5e39b0875a3c2fa664caef-exec-6
+ClusterState 1587847095295 0.050001000000000004 0 124.88788604736328 
+ClusterState 1587847100295 0.050001000000000004 0 124.88788604736328 
+pod "imdb-f24c95d7a5bc3236ad70ed5e99dc96b0-driver" force deleted
+pod "imdb-76fe63d26b413535baca71486836f6aa-driver" force deleted
+pod "imdb-bd65c0fbef0033b683fdfced78727dd8-driver" force deleted
+pod "imdb-8928c12ede9d3b9eb2dec0829d47ce23-exec-2" force deleted
+pod "imdb-8928c12ede9d3b9eb2dec0829d47ce23-driver" force deleted
+pod "imdb-b6a2c0271c7b37eab68ce2fe282a76e7-exec-5" force deleted
+pod "imdb-b6a2c0271c7b37eab68ce2fe282a76e7-exec-2" force deleted
+pod "imdb-b6a2c0271c7b37eab68ce2fe282a76e7-driver" force deleted
+ClusterState 1587847105298 0.2 0 124.88788604736328 
+ClusterState 1587847110298 0.2 0 124.88788604736328 
+ClusterState 1587847115298 0.2 0 124.88788604736328 
+ClusterState 1587847120298 0.2 0 124.88788604736328 
+ClusterState 1587847125298 0.2 0 124.88788604736328 
+ClusterState 1587847130298 0.2 0 124.88788604736328 
+ClusterState 1587847135298 0.2 0 124.88788604736328 
+ClusterState 1587847140312 0.2 0 124.88788604736328 
+pod "imdb-4eff079057a1367ea2b0f79db3bb27e7-exec-1" force deleted
+ClusterState 1587847145313 0.2 0 124.88788604736328 
+pod "imdb-4eff079057a1367ea2b0f79db3bb27e7-exec-2" force deleted
+pod "imdb-4eff079057a1367ea2b0f79db3bb27e7-exec-3" force deleted
+pod "imdb-4eff079057a1367ea2b0f79db3bb27e7-exec-4" force deleted
+pod "imdb-4eff079057a1367ea2b0f79db3bb27e7-exec-5" force deleted
+ClusterState 1587847150314 0.21 1 125.88788604736328 
+pod "imdb-4eff079057a1367ea2b0f79db3bb27e7-driver" force deleted
+ClusterState 1587847155319 0.21 0 124.88788604736328 
+ClusterState 1587847160319 0.21 0 124.88788604736328 
+ClusterState 1587847165338 0.21 0 124.88788604736328 
+pod "imdb-00f0f1c330653483bff6accdcdc2a9ff-driver" force deleted
+JobFinished 1587847167967 1587846865659 job-26-27 5 0.29000099999999995 1.0000166 1762223 302308 302303 5 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-4eff079057a1367ea2b0f79db3bb27e7-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-b6a2c0271c7b37eab68ce2fe282a76e7-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-b6a2c0271c7b37eab68ce2fe282a76e7-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-b6a2c0271c7b37eab68ce2fe282a76e7-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8928c12ede9d3b9eb2dec0829d47ce23-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8928c12ede9d3b9eb2dec0829d47ce23-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8928c12ede9d3b9eb2dec0829d47ce23-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8928c12ede9d3b9eb2dec0829d47ce23-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-bd65c0fbef0033b683fdfced78727dd8-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-bd65c0fbef0033b683fdfced78727dd8-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-bd65c0fbef0033b683fdfced78727dd8-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-bd65c0fbef0033b683fdfced78727dd8-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-bd65c0fbef0033b683fdfced78727dd8-exec-1
+pod "imdb-fde8b6192fd93136910401afbe1293e6-driver" force deleted
+ClusterState 1587847170350 0.050001000000000004 6 130.88788604736328 
+JobFinished 1587847170554 1587846766475 job-103-23 5 0.780001 1.0002476 2391674 404078 403978 100 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-f24c95d7a5bc3236ad70ed5e99dc96b0-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-f24c95d7a5bc3236ad70ed5e99dc96b0-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-f24c95d7a5bc3236ad70ed5e99dc96b0-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-f24c95d7a5bc3236ad70ed5e99dc96b0-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-f24c95d7a5bc3236ad70ed5e99dc96b0-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0675f044532e32b1a26da5ff209b0eb9-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-b913ce9503a231f399491599767b976f-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0675f044532e32b1a26da5ff209b0eb9-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-b913ce9503a231f399491599767b976f-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0675f044532e32b1a26da5ff209b0eb9-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0675f044532e32b1a26da5ff209b0eb9-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0675f044532e32b1a26da5ff209b0eb9-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-b913ce9503a231f399491599767b976f-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-b913ce9503a231f399491599767b976f-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-b913ce9503a231f399491599767b976f-exec-5
+pod "imdb-77dfa7acabd237258f70d86d43b5b172-driver" force deleted
+ClusterState 1587847175352 0.040001 0 124.88788604736328 
+pod "imdb-ad463aff78bd370bb3f2afaf03535ed9-driver" force deleted
+pod "imdb-a31eca5a579d3d7bbc4aead7133c390b-driver" force deleted
+JobFinished 1587847177798 1587847101280 job-99-22 5 0.050001000000000004 -1 220474 494592 9579 388784 210895 8 7 0
+pod "imdb-8eb8774e4e993df0af5831daaabf8961-driver" force deleted
+pod "imdb-e9f42a13bc0f3336bcf157c76781680d-exec-2" force deleted
+pod "imdb-e9f42a13bc0f3336bcf157c76781680d-driver" force deleted
+pod "imdb-953891a710d33049b36ab3f628194c5f-driver" force deleted
+ClusterState 1587847180398 0.16 1 125.88788604736328 
+ClusterState 1587847185372 0.16 0 124.88788604736328 
+ClusterState 1587847190377 0.16 0 124.88788604736328 
+ClusterState 1587847195388 0.16 0 124.88788604736328 
+ClusterState 1587847200396 0.16 0 124.88788604736328 
+ClusterState 1587847205401 0.16 0 124.88788604736328 
+pod "imdb-b84fdf4418c9360b92168d8ad0a440b8-driver" force deleted
+JobFinished 1587847209512 1587847142274 job-11-35 5 0.210001 1.0072656 366610 67238 66753 485 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-953891a710d33049b36ab3f628194c5f-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-953891a710d33049b36ab3f628194c5f-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-953891a710d33049b36ab3f628194c5f-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-953891a710d33049b36ab3f628194c5f-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-953891a710d33049b36ab3f628194c5f-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-e9f42a13bc0f3336bcf157c76781680d-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-e9f42a13bc0f3336bcf157c76781680d-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-e9f42a13bc0f3336bcf157c76781680d-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-e9f42a13bc0f3336bcf157c76781680d-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8eb8774e4e993df0af5831daaabf8961-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8eb8774e4e993df0af5831daaabf8961-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8eb8774e4e993df0af5831daaabf8961-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8eb8774e4e993df0af5831daaabf8961-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8eb8774e4e993df0af5831daaabf8961-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-a31eca5a579d3d7bbc4aead7133c390b-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-a31eca5a579d3d7bbc4aead7133c390b-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-a31eca5a579d3d7bbc4aead7133c390b-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-a31eca5a579d3d7bbc4aead7133c390b-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-a31eca5a579d3d7bbc4aead7133c390b-exec-5
+ClusterState 1587847210401 0.020001 1 125.88788604736328 
+ClusterState 1587847215401 0.020001 1 125.88788604736328 
+pod "imdb-98aed49148cd3fc788dab590da654972-driver" force deleted
+pod "imdb-9f98251302e53c7f8b82d2f468681ec9-driver" force deleted
+pod "imdb-ea68f2c89f063130ba1c1c3843aa64bf-exec-5" force deleted
+pod "imdb-ea68f2c89f063130ba1c1c3843aa64bf-exec-1" force deleted
+pod "imdb-ea68f2c89f063130ba1c1c3843aa64bf-exec-2" force deleted
+pod "imdb-ea68f2c89f063130ba1c1c3843aa64bf-driver" force deleted
+pod "imdb-2b0a598d781c35058f4ac39aa8f8e462-driver" force deleted
+JobFinished 1587847219273 1587847180178 job-49-16 5 0.110001 -1 1565142 661933 9737 347433 1555405 8 16 0
+ClusterState 1587847220401 0.14 0 124.88788604736328 
+ClusterState 1587847225401 0.14 0 124.88788604736328 
+pod "imdb-93d241e3bb8e31b1bb758c8180d9e4ca-exec-5" force deleted
+ClusterState 1587847230401 0.14 0 124.88788604736328 
+pod "imdb-93d241e3bb8e31b1bb758c8180d9e4ca-exec-3" force deleted
+pod "imdb-93d241e3bb8e31b1bb758c8180d9e4ca-exec-4" force deleted
+pod "imdb-93d241e3bb8e31b1bb758c8180d9e4ca-exec-1" force deleted
+pod "imdb-93d241e3bb8e31b1bb758c8180d9e4ca-exec-2" force deleted
+pod "imdb-93d241e3bb8e31b1bb758c8180d9e4ca-driver" force deleted
+ClusterState 1587847235401 0.16 0 124.88788604736328 
+ClusterState 1587847240401 0.16 0 124.88788604736328 
+ClusterState 1587847245401 0.16 0 124.88788604736328 
+ClusterState 1587847250401 0.16 0 124.88788604736328 
+ClusterState 1587847255401 0.16 0 124.88788604736328 
+ClusterState 1587847260401 0.16 0 124.88788604736328 
+pod "imdb-277dc2ec552e3cc48524e3cfa3cb9f8e-exec-2" force deleted
+ClusterState 1587847265401 0.16 0 124.88788604736328 
+ClusterState 1587847270401 0.16 0 124.88788604736328 
+pod "imdb-277dc2ec552e3cc48524e3cfa3cb9f8e-exec-3" force deleted
+pod "imdb-277dc2ec552e3cc48524e3cfa3cb9f8e-exec-1" force deleted
+pod "imdb-277dc2ec552e3cc48524e3cfa3cb9f8e-exec-4" force deleted
+pod "imdb-277dc2ec552e3cc48524e3cfa3cb9f8e-exec-5" force deleted
+pod "imdb-277dc2ec552e3cc48524e3cfa3cb9f8e-driver" force deleted
+ClusterState 1587847275401 0.2 0 124.88788604736328 
+ClusterState 1587847280401 0.2 0 124.88788604736328 
+ClusterState 1587847285401 0.2 0 124.88788604736328 
+ClusterState 1587847290401 0.2 0 124.88788604736328 
+pod "imdb-ef152a6122f434ce98bf68314a4c9934-driver" force deleted
+JobFinished 1587847292324 1587846866957 job-104-28 5 0.780001 1.0000165 2502417 425366 425359 7 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-277dc2ec552e3cc48524e3cfa3cb9f8e-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-93d241e3bb8e31b1bb758c8180d9e4ca-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-2b0a598d781c35058f4ac39aa8f8e462-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-2b0a598d781c35058f4ac39aa8f8e462-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-2b0a598d781c35058f4ac39aa8f8e462-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-2b0a598d781c35058f4ac39aa8f8e462-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-2b0a598d781c35058f4ac39aa8f8e462-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-ea68f2c89f063130ba1c1c3843aa64bf-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-ea68f2c89f063130ba1c1c3843aa64bf-exec-4
+pod "imdb-081570043c0139afb73e428f55762b92-driver" force deleted
+ClusterState 1587847295401 0.050001000000000004 0 124.88788604736328 
+pod "imdb-3f5f1590f56e36d6ba21232935f03cf7-driver" force deleted
+pod "imdb-700e10ffe88b36b799727581f51decdf-driver" force deleted
+pod "imdb-adeb5bfb7669363e889bae5bba7133dd-driver" force deleted
+pod "imdb-2150ba355308396b8317fbf64648aed9-driver" force deleted
+pod "imdb-0ffee796125133c28e2da82d8babcc93-driver" force deleted
+ClusterState 1587847300401 0.16 0 124.88788604736328 
+ClusterState 1587847305401 0.16 0 124.88788604736328 
+ClusterState 1587847310401 0.16 0 124.88788604736328 
+ClusterState 1587847315403 0.16 1 125.88788604736328 
+pod "imdb-98b0dc155ac4363080b4b1513ebb6ede-exec-2" force deleted
+ClusterState 1587847320402 0.16 0 124.88788604736328 
+pod "imdb-98b0dc155ac4363080b4b1513ebb6ede-exec-3" force deleted
+pod "imdb-98b0dc155ac4363080b4b1513ebb6ede-exec-4" force deleted
+pod "imdb-98b0dc155ac4363080b4b1513ebb6ede-exec-5" force deleted
+pod "imdb-98b0dc155ac4363080b4b1513ebb6ede-exec-1" force deleted
+pod "imdb-98b0dc155ac4363080b4b1513ebb6ede-driver" force deleted
+ClusterState 1587847325421 0.2 0 124.88788604736328 
+ClusterState 1587847330421 0.2 0 124.88788604736328 
+ClusterState 1587847335470 0.2 0 124.88788604736328 
+ClusterState 1587847340436 0.2 0 124.88788604736328 
+ClusterState 1587847345435 0.2 0 124.88788604736328 
+pod "imdb-a7acb4b0c26c327baa4cbc84804ce221-driver" force deleted
+JobFinished 1587847349762 1587847264531 job-36-37 5 0.250001 1.0011399 470205 85196 85099 97 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-98b0dc155ac4363080b4b1513ebb6ede-exec-6
+ClusterState 1587847350435 0.060001 0 124.88788604736328 
+ClusterState 1587847355435 0.060001 0 124.88788604736328 
+pod "imdb-a1c8fbd5954737c1bf650b8048e1512c-driver" force deleted
+pod "imdb-d12e60e9b98b37e688abc1e18ae3e127-driver" force deleted
+pod "imdb-84fdfebbb9a636ef80925ae3bafe3903-driver" force deleted
+pod "imdb-3612b498f1893bed835b27f9a6643d53-driver" force deleted
+pod "imdb-952a1525bd3d318a881474548572b0ad-driver" force deleted
+ClusterState 1587847360444 0.16 0 124.88788604736328 
+ClusterState 1587847365444 0.16 0 124.88788604736328 
+ClusterState 1587847370448 0.16 0 124.88788604736328 
+pod "imdb-98b02055568a35bd9af34b5ea3838b12-driver" force deleted
+JobFinished 1587847374633 1587847052496 job-30-32 5 0.5400010000000001 1.0002887 1892677 322136 322043 93 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-952a1525bd3d318a881474548572b0ad-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-952a1525bd3d318a881474548572b0ad-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-952a1525bd3d318a881474548572b0ad-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-952a1525bd3d318a881474548572b0ad-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-952a1525bd3d318a881474548572b0ad-exec-4
+ClusterState 1587847375456 0.050001000000000004 0 124.88788604736328 
+pod "imdb-883ae5df1557365793a888b9eda090f0-driver" force deleted
+ClusterState 1587847380467 0.060001 1 125.88788604736328 
+pod "imdb-8521bcf3d53f3da5a6480baae1405da4-driver" force deleted
+pod "imdb-55bd2eb343773995b696aab30f7b3ec5-driver" force deleted
+pod "imdb-675f4a56c0a63c4c9d2414e26dc6d87e-driver" force deleted
+ClusterState 1587847385467 0.14 0 124.88788604736328 
+ClusterState 1587847390467 0.14 0 124.88788604736328 
+ClusterState 1587847395472 0.14 0 124.88788604736328 
+ClusterState 1587847400476 0.14 0 124.88788604736328 
+ClusterState 1587847405476 0.14 0 124.88788604736328 
+ClusterState 1587847410482 0.14 0 124.88788604736328 
+ClusterState 1587847415494 0.14 0 124.88788604736328 
+ClusterState 1587847420494 0.14 0 124.88788604736328 
+ClusterState 1587847425494 0.14 0 124.88788604736328 
+ClusterState 1587847430495 0.14 0 124.88788604736328 
+ClusterState 1587847435508 0.14 0 124.88788604736328 
+ClusterState 1587847440508 0.14 0 124.88788604736328 
+ClusterState 1587847445508 0.14 0 124.88788604736328 
+ClusterState 1587847450511 0.14 0 124.88788604736328 
+ClusterState 1587847455514 0.14 0 124.88788604736328 
+ClusterState 1587847460520 0.14 0 124.88788604736328 
+ClusterState 1587847465525 0.14 0 124.88788604736328 
+ClusterState 1587847470525 0.14 0 124.88788604736328 
+ClusterState 1587847475525 0.14 0 124.88788604736328 
+ClusterState 1587847480527 0.14 0 124.88788604736328 
+ClusterState 1587847485532 0.14 0 124.88788604736328 
+ClusterState 1587847490536 0.14 0 124.88788604736328 
+ClusterState 1587847495545 0.14 0 124.88788604736328 
+ClusterState 1587847500545 0.14 0 124.88788604736328 
+ClusterState 1587847505564 0.14 0 124.88788604736328 
+pod "imdb-78ed98900d0b388ca5d5616827d1767f-driver" force deleted
+JobFinished 1587847508723 1587847315257 job-80-41 5 0.530001 1.0010866 1109816 193466 193256 210 0 1 5 1
+ClusterState 1587847510564 0.14 1 125.88788604736328 
+pod "imdb-3024587abe783989a7ef683e7b09f462-exec-2" force deleted
+pod "imdb-3024587abe783989a7ef683e7b09f462-exec-3" force deleted
+pod "imdb-3024587abe783989a7ef683e7b09f462-exec-4" force deleted
+ClusterState 1587847515564 0.14 0 124.88788604736328 
+pod "imdb-3024587abe783989a7ef683e7b09f462-exec-5" force deleted
+pod "imdb-3024587abe783989a7ef683e7b09f462-exec-1" force deleted
+pod "imdb-41ef16b2cd153e38b0676ca0c5b899c0-exec-5" force deleted
+pod "imdb-41ef16b2cd153e38b0676ca0c5b899c0-exec-2" force deleted
+pod "imdb-41ef16b2cd153e38b0676ca0c5b899c0-exec-1" force deleted
+pod "imdb-41ef16b2cd153e38b0676ca0c5b899c0-exec-4" force deleted
+pod "imdb-41ef16b2cd153e38b0676ca0c5b899c0-exec-3" force deleted
+pod "imdb-41ef16b2cd153e38b0676ca0c5b899c0-driver" force deleted
+pod "imdb-3024587abe783989a7ef683e7b09f462-driver" force deleted
+pod "imdb-c68c160c2d9b3dbaaff0ac013277297f-exec-1" force deleted
+pod "imdb-c68c160c2d9b3dbaaff0ac013277297f-exec-5" force deleted
+ClusterState 1587847520564 0.16 0 124.88788604736328 
+pod "imdb-c68c160c2d9b3dbaaff0ac013277297f-exec-4" force deleted
+pod "imdb-c68c160c2d9b3dbaaff0ac013277297f-exec-3" force deleted
+pod "imdb-c68c160c2d9b3dbaaff0ac013277297f-exec-2" force deleted
+pod "imdb-c68c160c2d9b3dbaaff0ac013277297f-driver" force deleted
+pod "imdb-33db43ac2adc3497a9ecd199c4f8c07a-driver" force deleted
+pod "imdb-8c5a865a396d3343b11277b56aa5e488-driver" force deleted
+JobFinished 1587847524786 1587847151130 job-58-31 5 0.200001 1.3603866 2469364 485405 356814 52326 358466 3 15 1
+ClusterState 1587847525564 0.22 5 129.88788604736328 
+ClusterState 1587847530564 0.22 5 129.88788604736328 
+ClusterState 1587847535564 0.22 0 124.88788604736328 
+ClusterState 1587847540564 0.22 0 124.88788604736328 
+ClusterState 1587847545564 0.22 0 124.88788604736328 
+pod "imdb-6488dc1691f433ea9e9b7d9936fd3f92-driver" force deleted
+ClusterState 1587847550564 0.35 6 130.88788604736328 
+JobFinished 1587847550575 1587847228732 job-89-36 5 0.220001 1.0002766 1901106 321843 321754 89 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-c68c160c2d9b3dbaaff0ac013277297f-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-41ef16b2cd153e38b0676ca0c5b899c0-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-41ef16b2cd153e38b0676ca0c5b899c0-exec-8
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3024587abe783989a7ef683e7b09f462-exec-7
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3024587abe783989a7ef683e7b09f462-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-41ef16b2cd153e38b0676ca0c5b899c0-exec-7
+ClusterState 1587847555564 0.080001 0 124.88788604736328 
+pod "imdb-7b05ca8615d639ce9c60953af409cf98-driver" force deleted
+pod "imdb-aed93e5c335e3720b2034b828cc27be3-driver" force deleted
+pod "imdb-3576bacc92273d0cbcdfbe2b771fc25b-exec-2" force deleted
+pod "imdb-3576bacc92273d0cbcdfbe2b771fc25b-exec-5" force deleted
+pod "imdb-a161f59f2b1a3f4bb45c816ffdbb1bc9-driver" force deleted
+pod "imdb-3576bacc92273d0cbcdfbe2b771fc25b-driver" force deleted
+ClusterState 1587847560564 0.16 0 124.88788604736328 
+ClusterState 1587847565564 0.16 0 124.88788604736328 
+ClusterState 1587847570564 0.16 0 124.88788604736328 
+ClusterState 1587847575564 0.16 0 124.88788604736328 
+ClusterState 1587847580564 0.16 0 124.88788604736328 
+pod "imdb-613754104e8c38bf94495067d2900199-driver" force deleted
+JobFinished 1587847584253 1587847510542 job-4-45 5 0.6600010000000001 1.0014265 398882 73711 73606 105 0 1 5 1
+ClusterState 1587847585571 0.16 0 124.88788604736328 
+ClusterState 1587847590571 0.16 0 124.88788604736328 
+ClusterState 1587847595574 0.16 0 124.88788604736328 
+pod "imdb-6f5552b95407316497ecee3eafad7314-driver" force deleted
+JobFinished 1587847598526 1587847515273 job-37-47 5 0.460001 1.0011424 453256 83252 83157 95 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-a161f59f2b1a3f4bb45c816ffdbb1bc9-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3576bacc92273d0cbcdfbe2b771fc25b-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-a161f59f2b1a3f4bb45c816ffdbb1bc9-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-a161f59f2b1a3f4bb45c816ffdbb1bc9-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-a161f59f2b1a3f4bb45c816ffdbb1bc9-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-a161f59f2b1a3f4bb45c816ffdbb1bc9-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3576bacc92273d0cbcdfbe2b771fc25b-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3576bacc92273d0cbcdfbe2b771fc25b-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-7b05ca8615d639ce9c60953af409cf98-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-7b05ca8615d639ce9c60953af409cf98-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-7b05ca8615d639ce9c60953af409cf98-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-7b05ca8615d639ce9c60953af409cf98-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-7b05ca8615d639ce9c60953af409cf98-exec-3
+ClusterState 1587847600582 0.060001 0 124.88788604736328 
+pod "imdb-e9ef091a2eb830ba9178d76e60d2eb87-driver" force deleted
+pod "imdb-159ed24b1e0b30f3ac74d8b14cde2369-driver" force deleted
+JobFinished 1587847605516 1587847381005 job-50-30 5 0.060001 -1 59379 567105 6733 507912 52646 8 3 0
+ClusterState 1587847605622 0.130001 1 125.88788604736328 
+pod "imdb-df8ea03e690b37a79da6af42f968ba64-driver" force deleted
+pod "imdb-28ca02d26f2c3e46b59685d04b87bcbf-driver" force deleted
+ClusterState 1587847610622 0.14 0 124.88788604736328 
+pod "imdb-e66d10ee02fe316ca7e03acd6d1cce42-exec-2" force deleted
+pod "imdb-658b37e03c073407b82af7a509ef8a3b-driver" force deleted
+JobFinished 1587847614439 1587847525533 job-108-49 5 0.530001 1.0000563 503559 88905 88900 5 0 1 5 1
+ClusterState 1587847615622 0.14 5 129.88788604736328 
+ClusterState 1587847620626 0.14 0 124.88788604736328 
+ClusterState 1587847625627 0.14 0 124.88788604736328 
+ClusterState 1587847630634 0.14 0 124.88788604736328 
+pod "imdb-798a38f17aec3f70a09f6dcacf39f972-exec-3" force deleted
+pod "imdb-40cfb36d0ce83aeeafc27f644ec9ca55-driver" force deleted
+ClusterState 1587847635634 0.14 3 127.88788604736328 
+JobFinished 1587847636606 1587847524786 job-0-48 5 0.160001 1.3525691 397760 116325 86003 25903 3896 2 5 1
+pod "imdb-e66d10ee02fe316ca7e03acd6d1cce42-exec-3" force deleted
+ClusterState 1587847640640 0.14 0 124.88788604736328 
+ClusterState 1587847645649 0.14 0 124.88788604736328 
+ClusterState 1587847650650 0.14 0 124.88788604736328 
+ClusterState 1587847655650 0.14 0 124.88788604736328 
+ClusterState 1587847660650 0.14 0 124.88788604736328 
+ClusterState 1587847665650 0.14 0 124.88788604736328 
+ClusterState 1587847670650 0.14 0 124.88788604736328 
+ClusterState 1587847675650 0.14 0 124.88788604736328 
+ClusterState 1587847680650 0.14 0 124.88788604736328 
+ClusterState 1587847685661 0.14 0 124.88788604736328 
+ClusterState 1587847690665 0.14 0 124.88788604736328 
+ClusterState 1587847695667 0.14 0 124.88788604736328 
+ClusterState 1587847700667 0.14 0 124.88788604736328 
+ClusterState 1587847705677 0.14 0 124.88788604736328 
+ClusterState 1587847710677 0.14 0 124.88788604736328 
+ClusterState 1587847715677 0.14 0 124.88788604736328 
+ClusterState 1587847720677 0.14 0 124.88788604736328 
+ClusterState 1587847725682 0.14 0 124.88788604736328 
+pod "imdb-798a38f17aec3f70a09f6dcacf39f972-exec-4" force deleted
+ClusterState 1587847730696 0.14 0 124.88788604736328 
+ClusterState 1587847735696 0.14 0 124.88788604736328 
+pod "imdb-e66d10ee02fe316ca7e03acd6d1cce42-exec-1" force deleted
+pod "imdb-1a0d16bc46083509b279f45b947e5b21-exec-5" force deleted
+pod "imdb-1a0d16bc46083509b279f45b947e5b21-exec-4" force deleted
+pod "imdb-1a0d16bc46083509b279f45b947e5b21-exec-3" force deleted
+pod "imdb-1a0d16bc46083509b279f45b947e5b21-exec-2" force deleted
+ClusterState 1587847740703 0.14 0 124.88788604736328 
+ClusterState 1587847745705 0.14 0 124.88788604736328 
+pod "imdb-1a0d16bc46083509b279f45b947e5b21-exec-1" force deleted
+pod "imdb-e66d10ee02fe316ca7e03acd6d1cce42-exec-4" force deleted
+ClusterState 1587847750724 0.14 0 124.88788604736328 
+pod "imdb-e66d10ee02fe316ca7e03acd6d1cce42-exec-5" force deleted
+pod "imdb-1a0d16bc46083509b279f45b947e5b21-driver" force deleted
+pod "imdb-e66d10ee02fe316ca7e03acd6d1cce42-driver" force deleted
+pod "imdb-798a38f17aec3f70a09f6dcacf39f972-driver" force deleted
+pod "imdb-9bdee17968613c479394fbdc39a2dd21-exec-5" force deleted
+pod "imdb-9bdee17968613c479394fbdc39a2dd21-exec-4" force deleted
+ClusterState 1587847755734 0.16 1 125.88788604736328 
+pod "imdb-9bdee17968613c479394fbdc39a2dd21-exec-3" force deleted
+pod "imdb-9bdee17968613c479394fbdc39a2dd21-exec-2" force deleted
+pod "imdb-9bdee17968613c479394fbdc39a2dd21-exec-1" force deleted
+pod "imdb-9bdee17968613c479394fbdc39a2dd21-driver" force deleted
+ClusterState 1587847760734 0.24 0 124.88788604736328 
+ClusterState 1587847765735 0.24 0 124.88788604736328 
+ClusterState 1587847770740 0.24 0 124.88788604736328 
+ClusterState 1587847775740 0.24 0 124.88788604736328 
+ClusterState 1587847780740 0.24 0 124.88788604736328 
+ClusterState 1587847785741 0.24 0 124.88788604736328 
+ClusterState 1587847790741 0.24 0 124.88788604736328 
+ClusterState 1587847795741 0.24 0 124.88788604736328 
+ClusterState 1587847800745 0.24 0 124.88788604736328 
+ClusterState 1587847805745 0.24 0 124.88788604736328 
+ClusterState 1587847810745 0.24 0 124.88788604736328 
+pod "imdb-17882a1b7072320594a0495abcb26269-driver" force deleted
+JobFinished 1587847812773 1587847745762 job-107-53 5 0.240001 1.0091563 361140 67010 66402 608 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-9bdee17968613c479394fbdc39a2dd21-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-798a38f17aec3f70a09f6dcacf39f972-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-e66d10ee02fe316ca7e03acd6d1cce42-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-798a38f17aec3f70a09f6dcacf39f972-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-798a38f17aec3f70a09f6dcacf39f972-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-e66d10ee02fe316ca7e03acd6d1cce42-exec-7
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1a0d16bc46083509b279f45b947e5b21-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-28ca02d26f2c3e46b59685d04b87bcbf-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-28ca02d26f2c3e46b59685d04b87bcbf-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-28ca02d26f2c3e46b59685d04b87bcbf-exec-1
+ClusterState 1587847815745 0.080001 0 124.88788604736328 
+pod "imdb-ff2786aef1c835c4b31ad7256aa2ec72-driver" force deleted
+pod "imdb-32ef38647a6f3d21951415b581c4b38d-driver" force deleted
+pod "imdb-d7ccb726398430b8b359e1f27ef35f98-exec-5" force deleted
+pod "imdb-d7ccb726398430b8b359e1f27ef35f98-exec-2" force deleted
+pod "imdb-3721edcf75ca3f119dca3e0620548895-driver" force deleted
+pod "imdb-d7ccb726398430b8b359e1f27ef35f98-driver" force deleted
+pod "imdb-d0fc517c3374351198bd2ac020e31796-driver" force deleted
+JobFinished 1587847818908 1587847754964 job-30-34 5 0.14000100000000001 -1 1121797 712728 6116 340995 1115681 8 14 0
+ClusterState 1587847820745 0.16 0 124.88788604736328 
+pod "imdb-b110b7958fa43b1087c47e82b60072da-driver" force deleted
+JobFinished 1587847823135 1587847747993 job-38-54 5 0.760001 1.0100682 407732 75142 74393 749 0 1 5 1
+ClusterState 1587847825745 0.16 6 130.88788604736328 
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-d7ccb726398430b8b359e1f27ef35f98-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-d7ccb726398430b8b359e1f27ef35f98-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-d7ccb726398430b8b359e1f27ef35f98-exec-4
+ClusterState 1587847830745 0.060001 0 124.88788604736328 
+ClusterState 1587847835745 0.060001 0 124.88788604736328 
+pod "imdb-c77dc6ef83413cea8f4dce5101571bad-driver" force deleted
+pod "imdb-4e4b9d84a5843a778f5bc1a4f6cde71d-driver" force deleted
+pod "imdb-bf5e32a398dc322ea99747c525272eca-driver" force deleted
+pod "imdb-cebd38670aaa3ed399f3554f733b3fff-driver" force deleted
+JobFinished 1587847838306 1587847631308 job-78-51 5 0.740001 1.0041136 1202824 206997 206149 848 0 1 5 1
+ClusterState 1587847840745 0.14 0 124.88788604736328 
+ClusterState 1587847845745 0.14 0 124.88788604736328 
+pod "imdb-5ff930a309803a68a73d4b5e6fc2c86a-exec-1" force deleted
+ClusterState 1587847850745 0.14 0 124.88788604736328 
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-3" force deleted
+pod "imdb-39363506b3e73adc8f88920d2efc1549-exec-2" force deleted
+pod "imdb-39363506b3e73adc8f88920d2efc1549-exec-1" force deleted
+pod "imdb-5ff930a309803a68a73d4b5e6fc2c86a-exec-3" force deleted
+pod "imdb-5ff930a309803a68a73d4b5e6fc2c86a-exec-2" force deleted
+pod "imdb-9f21d45be2eb39778d2ba1c7def7db03-driver" force deleted
+ClusterState 1587847855745 0.14 2 126.88788604736328 
+JobFinished 1587847856072 1587847511250 job-29-46 5 0.35000099999999995 1.0003829 2037649 344822 344690 132 0 1 5 1
+ClusterState 1587847860745 0.14 6 130.88788604736328 
+ClusterState 1587847865745 0.14 0 124.88788604736328 
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-5" force deleted
+ClusterState 1587847870745 0.14 0 124.88788604736328 
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-4" force deleted
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-2" force deleted
+pod "imdb-39363506b3e73adc8f88920d2efc1549-exec-4" force deleted
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-1" force deleted
+pod "imdb-39363506b3e73adc8f88920d2efc1549-exec-3" force deleted
+ClusterState 1587847875745 0.14 0 124.88788604736328 
+ClusterState 1587847880745 0.14 0 124.88788604736328 
+ClusterState 1587847885749 0.14 0 124.88788604736328 
+ClusterState 1587847890749 0.14 0 124.88788604736328 
+ClusterState 1587847895749 0.14 0 124.88788604736328 
+ClusterState 1587847900749 0.14 0 124.88788604736328 
+ClusterState 1587847905764 0.14 0 124.88788604736328 
+pod "imdb-377d3a8214963289add0789cd178286d-driver" force deleted
+JobFinished 1587847910575 1587847847422 job-2-55 5 0.640001 1.0018721 338541 63152 63034 118 0 1 5 1
+ClusterState 1587847910764 0.130001 0 124.88788604736328 
+pod "imdb-7d76b9ab05343480a64e8c2c1ad277d6-driver" force deleted
+ClusterState 1587847915779 0.14 0 124.88788604736328 
+ClusterState 1587847920778 0.14 0 124.88788604736328 
+ClusterState 1587847925791 0.14 0 124.88788604736328 
+ClusterState 1587847930797 0.14 0 124.88788604736328 
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-6" force deleted
+pod "imdb-ea25c01b51673abc8abbaec7aadbdeb0-driver" force deleted
+ClusterState 1587847935810 0.14 3 127.88788604736328 
+JobFinished 1587847937085 1587847866000 job-2-57 5 0.440001 1.0014652 391152 71084 70980 104 0 1 5 1
+ClusterState 1587847940810 0.14 0 124.88788604736328 
+ClusterState 1587847945810 0.14 0 124.88788604736328 
+ClusterState 1587847950810 0.14 0 124.88788604736328 
+ClusterState 1587847955811 0.14 0 124.88788604736328 
+ClusterState 1587847960812 0.14 0 124.88788604736328 
+ClusterState 1587847965828 0.14 1 125.88788604736328 
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-7" force deleted
+ClusterState 1587847970873 0.14 0 124.88788604736328 
+pod "imdb-39363506b3e73adc8f88920d2efc1549-exec-8" force deleted
+pod "imdb-39363506b3e73adc8f88920d2efc1549-exec-7" force deleted
+pod "imdb-5ff930a309803a68a73d4b5e6fc2c86a-exec-7" force deleted
+pod "imdb-5ff930a309803a68a73d4b5e6fc2c86a-exec-6" force deleted
+pod "imdb-5ff930a309803a68a73d4b5e6fc2c86a-exec-5" force deleted
+ClusterState 1587847975833 0.14 0 124.88788604736328 
+ClusterState 1587847980839 0.14 0 124.88788604736328 
+ClusterState 1587847985839 0.14 0 124.88788604736328 
+ClusterState 1587847990839 0.14 0 124.88788604736328 
+ClusterState 1587847995839 0.14 0 124.88788604736328 
+ClusterState 1587848000841 0.14 0 124.88788604736328 
+ClusterState 1587848005841 0.14 0 124.88788604736328 
+ClusterState 1587848010845 0.14 0 124.88788604736328 
+pod "imdb-a9b72dd1cb12307fa9f0a1f62d2c2c93-driver" force deleted
+JobFinished 1587848013194 1587847757569 job-73-33 5 0.160001 4.7600803 3996406 954001 200417 224332 2826006 6 27 1
+ClusterState 1587848015858 0.100001 0 124.88788604736328 
+pod "imdb-13dee34deb7d36c280502a6b001f7ba1-driver" force deleted
+pod "imdb-0b108c89bad1312cb32224fe5bb8e39b-driver" force deleted
+ClusterState 1587848020855 0.14 0 124.88788604736328 
+ClusterState 1587848025855 0.14 0 124.88788604736328 
+ClusterState 1587848030855 0.14 0 124.88788604736328 
+ClusterState 1587848035855 0.14 0 124.88788604736328 
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-12" force deleted
+ClusterState 1587848040865 0.14 0 124.88788604736328 
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-10" force deleted
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-11" force deleted
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-9" force deleted
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-8" force deleted
+pod "imdb-39363506b3e73adc8f88920d2efc1549-exec-9" force deleted
+ClusterState 1587848045881 0.14 1 125.88788604736328 
+ClusterState 1587848050884 0.14 0 124.88788604736328 
+ClusterState 1587848055884 0.14 0 124.88788604736328 
+ClusterState 1587848060890 0.14 0 124.88788604736328 
+ClusterState 1587848065890 0.14 0 124.88788604736328 
+pod "imdb-c4c25477b33f3fcda83e0ad698af1b43-driver" force deleted
+ClusterState 1587848070890 0.14 3 127.88788604736328 
+JobFinished 1587848071505 1587847729262 job-29-52 5 0.820001 1.0011145 2003679 342243 341862 381 0 1 5 1
+ClusterState 1587848075890 0.090001 1 125.88788604736328 
+pod "imdb-192e2d6cce093bde86198bebd7273be7-driver" force deleted
+pod "imdb-e25cb93bc0f33715ab7d09845f892230-driver" force deleted
+pod "imdb-f348de18732b37a5a37fdce9e15e78e8-driver" force deleted
+ClusterState 1587848080890 0.14 0 124.88788604736328 
+ClusterState 1587848085890 0.14 0 124.88788604736328 
+ClusterState 1587848090900 0.14 0 124.88788604736328 
+ClusterState 1587848095912 0.14 0 124.88788604736328 
+ClusterState 1587848100925 0.14 0 124.88788604736328 
+ClusterState 1587848105935 0.14 1 125.88788604736328 
+pod "imdb-39363506b3e73adc8f88920d2efc1549-driver" force deleted
+JobFinished 1587848109424 1587847819002 job-93-50 5 0.14000100000000001 1.7774119 1798327 498756 280608 69295 971224 3 19 1
+ClusterState 1587848110935 0.090001 1 125.88788604736328 
+pod "imdb-3910098f1ce23192aa0e5636a37654f0-driver" force deleted
+pod "imdb-6ccaa3dadeeb3d3cb44f68741e2b3261-driver" force deleted
+pod "imdb-724542b3231b31c7ae122f19a5662d46-driver" force deleted
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-14" force deleted
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-15" force deleted
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-13" force deleted
+ClusterState 1587848115935 0.14 0 124.88788604736328 
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-16" force deleted
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-17" force deleted
+pod "imdb-5ff930a309803a68a73d4b5e6fc2c86a-exec-4" force deleted
+pod "imdb-5ff930a309803a68a73d4b5e6fc2c86a-driver" force deleted
+pod "imdb-fc975f78a87533ed92bb38c3eabae1f9-driver" force deleted
+ClusterState 1587848120935 0.18 0 124.88788604736328 
+pod "imdb-73b56e96d8f43415ba56010750261987-exec-5" force deleted
+ClusterState 1587848125935 0.18 0 124.88788604736328 
+ClusterState 1587848130935 0.18 0 124.88788604736328 
+pod "imdb-73b56e96d8f43415ba56010750261987-exec-4" force deleted
+pod "imdb-73b56e96d8f43415ba56010750261987-exec-3" force deleted
+pod "imdb-73b56e96d8f43415ba56010750261987-exec-2" force deleted
+pod "imdb-73b56e96d8f43415ba56010750261987-exec-1" force deleted
+pod "imdb-73b56e96d8f43415ba56010750261987-driver" force deleted
+ClusterState 1587848135935 0.35 0 124.88788604736328 
+ClusterState 1587848140935 0.35 0 124.88788604736328 
+ClusterState 1587848145935 0.35 0 124.88788604736328 
+ClusterState 1587848150935 0.35 0 124.88788604736328 
+ClusterState 1587848155935 0.35 0 124.88788604736328 
+ClusterState 1587848160935 0.35 0 124.88788604736328 
+ClusterState 1587848165935 0.35 0 124.88788604736328 
+ClusterState 1587848170935 0.35 0 124.88788604736328 
+ClusterState 1587848175935 0.35 0 124.88788604736328 
+pod "imdb-3cba88b691ea371189fd1009beabe6df-driver" force deleted
+JobFinished 1587848178140 1587848105504 job-7-63 5 0.380001 1.0150931 397009 72636 71556 1080 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-73b56e96d8f43415ba56010750261987-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-18
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-19
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-fc975f78a87533ed92bb38c3eabae1f9-exec-20
+pod "imdb-4e31f844ccac314193af4ad3e0454592-driver" force deleted
+JobFinished 1587848180515 1587848110878 job-0-64 5 0.35000099999999995 1.0012221 382550 69637 69552 85 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-c77dc6ef83413cea8f4dce5101571bad-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-c77dc6ef83413cea8f4dce5101571bad-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-c77dc6ef83413cea8f4dce5101571bad-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-c77dc6ef83413cea8f4dce5101571bad-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-c77dc6ef83413cea8f4dce5101571bad-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3f5f1590f56e36d6ba21232935f03cf7-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3f5f1590f56e36d6ba21232935f03cf7-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3f5f1590f56e36d6ba21232935f03cf7-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3f5f1590f56e36d6ba21232935f03cf7-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3f5f1590f56e36d6ba21232935f03cf7-exec-5
+ClusterState 1587848180935 0.010001 1 125.88788604736328 
+pod "imdb-9be707f870e0384897e006b049c48146-driver" force deleted
+pod "imdb-56878a8e745a3d96b3e93d6bfa59db30-driver" force deleted
+ClusterState 1587848185945 0.050001000000000004 1 125.88788604736328 
+pod "imdb-6742534349813011a8e2c4b28eab4cfc-driver" force deleted
+pod "imdb-71ccf94929e83558bb5755e924eb0f51-driver" force deleted
+pod "imdb-47ef67329703354e8dc2081b31341caf-driver" force deleted
+pod "imdb-e3cb6b604d3e3b8f87f8476b1fb01710-driver" force deleted
+pod "imdb-b426b2c491e232b68071711189b3365b-driver" force deleted
+pod "imdb-ca3f5b96d8c03062ae87d54139d4e0d4-driver" force deleted
+pod "imdb-4b6c31e8f78234c18806fb51fdde8f36-driver" force deleted
+ClusterState 1587848190956 0.14 1 125.88788604736328 
+pod "imdb-b5b997fa41eb34e3874a1cb336a00fe0-driver" force deleted
+JobFinished 1587848194480 1587848123917 job-1-66 5 0.760001 1.0015613 379672 70563 70453 110 0 1 5 1
+ClusterState 1587848195955 0.14 6 130.88788604736328 
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-4b6c31e8f78234c18806fb51fdde8f36-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-4b6c31e8f78234c18806fb51fdde8f36-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-4b6c31e8f78234c18806fb51fdde8f36-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-4b6c31e8f78234c18806fb51fdde8f36-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-4b6c31e8f78234c18806fb51fdde8f36-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-ca3f5b96d8c03062ae87d54139d4e0d4-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-ca3f5b96d8c03062ae87d54139d4e0d4-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-ca3f5b96d8c03062ae87d54139d4e0d4-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-ca3f5b96d8c03062ae87d54139d4e0d4-exec-1
+ClusterState 1587848200956 0.100001 4 128.88788604736328 
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-ca3f5b96d8c03062ae87d54139d4e0d4-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-b426b2c491e232b68071711189b3365b-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-b426b2c491e232b68071711189b3365b-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-b426b2c491e232b68071711189b3365b-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-b426b2c491e232b68071711189b3365b-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-b426b2c491e232b68071711189b3365b-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-e3cb6b604d3e3b8f87f8476b1fb01710-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-e3cb6b604d3e3b8f87f8476b1fb01710-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-e3cb6b604d3e3b8f87f8476b1fb01710-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-e3cb6b604d3e3b8f87f8476b1fb01710-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-e3cb6b604d3e3b8f87f8476b1fb01710-exec-5
+ClusterState 1587848205968 0.050001000000000004 0 124.88788604736328 
+pod "imdb-711302036abe39df86c37139355a834d-driver" force deleted
+pod "imdb-deeec83ffe14338cb39aea49ef3231e2-driver" force deleted
+pod "imdb-489f4dd172583d30a33850959fa76f34-driver" force deleted
+pod "imdb-3677d5b26df13a67b629964a2bb40a4d-driver" force deleted
+ClusterState 1587848210968 0.100001 0 124.88788604736328 
+ClusterState 1587848215969 0.100001 0 124.88788604736328 
+ClusterState 1587848220979 0.100001 0 124.88788604736328 
+ClusterState 1587848225979 0.100001 0 124.88788604736328 
+ClusterState 1587848230986 0.100001 0 124.88788604736328 
+ClusterState 1587848235988 0.100001 0 124.88788604736328 
+ClusterState 1587848240996 0.100001 0 124.88788604736328 
+pod "imdb-1f640bd722a53bf29c79494ad810e330-driver" force deleted
+ClusterState 1587848246000 0.12 0 124.88788604736328 
+ClusterState 1587848251003 0.12 0 124.88788604736328 
+pod "imdb-a3f4701ff9563ae49a64ace0bbfc3de6-exec-5" force deleted
+pod "imdb-a3f4701ff9563ae49a64ace0bbfc3de6-exec-4" force deleted
+pod "imdb-a3f4701ff9563ae49a64ace0bbfc3de6-exec-2" force deleted
+pod "imdb-a3f4701ff9563ae49a64ace0bbfc3de6-exec-1" force deleted
+pod "imdb-a3f4701ff9563ae49a64ace0bbfc3de6-driver" force deleted
+ClusterState 1587848256018 0.14 0 124.88788604736328 
+ClusterState 1587848261018 0.14 0 124.88788604736328 
+ClusterState 1587848266021 0.14 0 124.88788604736328 
+ClusterState 1587848271021 0.14 0 124.88788604736328 
+ClusterState 1587848276022 0.14 1 125.88788604736328 
+pod "imdb-f348e0e3c2583ac09e510f3fd5072001-driver" force deleted
+JobFinished 1587848277131 1587847933488 job-22-58 5 0.510001 1.0018542 2024330 343643 343007 636 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1f640bd722a53bf29c79494ad810e330-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1f640bd722a53bf29c79494ad810e330-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1f640bd722a53bf29c79494ad810e330-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1f640bd722a53bf29c79494ad810e330-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1f640bd722a53bf29c79494ad810e330-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3677d5b26df13a67b629964a2bb40a4d-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3677d5b26df13a67b629964a2bb40a4d-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3677d5b26df13a67b629964a2bb40a4d-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3677d5b26df13a67b629964a2bb40a4d-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3677d5b26df13a67b629964a2bb40a4d-exec-4
+ClusterState 1587848281022 0.080001 0 124.88788604736328 
+pod "imdb-bb45fe94265b3419a0ba812307fb4373-driver" force deleted
+ClusterState 1587848286055 0.09 0 124.88788604736328 
+pod "imdb-1b865d8688b032ca8ad1c2c6993df365-exec-2" force deleted
+pod "imdb-c077ec9085633d0892a260cc6631defc-driver" force deleted
+pod "imdb-1b865d8688b032ca8ad1c2c6993df365-driver" force deleted
+pod "imdb-91ccc42405ad3bb8a59b64cb0edd4329-exec-2" force deleted
+pod "imdb-91ccc42405ad3bb8a59b64cb0edd4329-driver" force deleted
+pod "imdb-7bf204ff0c2432ff8a00c115e2c76fb2-driver" force deleted
+ClusterState 1587848291069 0.12 0 124.88788604736328 
+ClusterState 1587848296069 0.12 0 124.88788604736328 
+ClusterState 1587848301074 0.12 0 124.88788604736328 
+ClusterState 1587848306074 0.12 0 124.88788604736328 
+ClusterState 1587848311074 0.12 0 124.88788604736328 
+ClusterState 1587848316077 0.12 0 124.88788604736328 
+ClusterState 1587848321077 0.12 0 124.88788604736328 
+ClusterState 1587848326083 0.12 0 124.88788604736328 
+ClusterState 1587848331083 0.12 0 124.88788604736328 
+ClusterState 1587848336096 0.12 0 124.88788604736328 
+ClusterState 1587848341103 0.12 0 124.88788604736328 
+ClusterState 1587848346106 0.12 0 124.88788604736328 
+ClusterState 1587848351113 0.12 0 124.88788604736328 
+pod "imdb-65847ac687a5311fb1b99f6cadf02b28-driver" force deleted
+JobFinished 1587848354532 1587848132482 job-52-59 5 0.180001 2.2044923 1961277 388846 176388 46217 954667 2 10 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-7bf204ff0c2432ff8a00c115e2c76fb2-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-7bf204ff0c2432ff8a00c115e2c76fb2-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-91ccc42405ad3bb8a59b64cb0edd4329-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-91ccc42405ad3bb8a59b64cb0edd4329-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-91ccc42405ad3bb8a59b64cb0edd4329-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-7bf204ff0c2432ff8a00c115e2c76fb2-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-91ccc42405ad3bb8a59b64cb0edd4329-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-7bf204ff0c2432ff8a00c115e2c76fb2-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-7bf204ff0c2432ff8a00c115e2c76fb2-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-c077ec9085633d0892a260cc6631defc-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-c077ec9085633d0892a260cc6631defc-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-c077ec9085633d0892a260cc6631defc-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-c077ec9085633d0892a260cc6631defc-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-c077ec9085633d0892a260cc6631defc-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1b865d8688b032ca8ad1c2c6993df365-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1b865d8688b032ca8ad1c2c6993df365-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1b865d8688b032ca8ad1c2c6993df365-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1b865d8688b032ca8ad1c2c6993df365-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-bb45fe94265b3419a0ba812307fb4373-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-bb45fe94265b3419a0ba812307fb4373-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-bb45fe94265b3419a0ba812307fb4373-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-bb45fe94265b3419a0ba812307fb4373-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-bb45fe94265b3419a0ba812307fb4373-exec-5
+ClusterState 1587848356131 0.060001 0 124.88788604736328 
+ClusterState 1587848361134 0.060001 0 124.88788604736328 
+pod "imdb-c14f234d6ff23f8ebaeff66c1ab293ae-driver" force deleted
+pod "imdb-7e824f696008339a9de21e919f00f87d-exec-2" force deleted
+pod "imdb-7e824f696008339a9de21e919f00f87d-driver" force deleted
+pod "imdb-0dd6715d8cac3a0995621da15577443f-exec-2" force deleted
+pod "imdb-0018135ec0393c2b9bc81c57f8562d4b-driver" force deleted
+ClusterState 1587848366177 0.1 1 125.88788604736328 
+pod "imdb-0dd6715d8cac3a0995621da15577443f-driver" force deleted
+ClusterState 1587848371177 0.1 0 124.88788604736328 
+pod "imdb-c1afdcb70b7b391caf9fbb710d4063a9-driver" force deleted
+JobFinished 1587848375289 1587848117613 job-75-42 5 0.14000100000000001 5.2496004 2580887 1034901 197139 223095 1446091 7 32 1
+ClusterState 1587848376177 0.1 0 124.88788604736328 
+ClusterState 1587848381188 0.1 0 124.88788604736328 
+ClusterState 1587848386192 0.1 0 124.88788604736328 
+ClusterState 1587848391205 0.1 0 124.88788604736328 
+pod "imdb-32dea5e506e6371986e4b05b77f25451-exec-2" force deleted
+ClusterState 1587848396218 0.1 0 124.88788604736328 
+pod "imdb-32dea5e506e6371986e4b05b77f25451-exec-3" force deleted
+ClusterState 1587848401222 0.1 1 125.88788604736328 
+pod "imdb-32dea5e506e6371986e4b05b77f25451-exec-1" force deleted
+pod "imdb-32dea5e506e6371986e4b05b77f25451-exec-4" force deleted
+pod "imdb-32dea5e506e6371986e4b05b77f25451-exec-5" force deleted
+pod "imdb-2939795f62553e818bdaa65e4a0da3fa-exec-5" force deleted
+ClusterState 1587848406227 0.1 0 124.88788604736328 
+ClusterState 1587848411227 0.1 0 124.88788604736328 
+ClusterState 1587848416227 0.1 0 124.88788604736328 
+ClusterState 1587848421227 0.1 0 124.88788604736328 
+ClusterState 1587848426227 0.1 0 124.88788604736328 
+ClusterState 1587848431227 0.1 0 124.88788604736328 
+ClusterState 1587848436227 0.1 0 124.88788604736328 
+pod "imdb-9b5dfff3afa73bd1b5e371f8cd895e76-driver" force deleted
+JobFinished 1587848439397 1587848037706 job-102-61 5 0.47000099999999995 1.0009369 2371588 401690 401314 376 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0018135ec0393c2b9bc81c57f8562d4b-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0dd6715d8cac3a0995621da15577443f-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0018135ec0393c2b9bc81c57f8562d4b-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0dd6715d8cac3a0995621da15577443f-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0018135ec0393c2b9bc81c57f8562d4b-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0018135ec0393c2b9bc81c57f8562d4b-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0dd6715d8cac3a0995621da15577443f-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0018135ec0393c2b9bc81c57f8562d4b-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0dd6715d8cac3a0995621da15577443f-exec-5
+ClusterState 1587848441227 0.07000100000000001 0 124.88788604736328 
+pod "imdb-5394bf62995a3968b7728c542cf8576d-driver" force deleted
+pod "imdb-02ad32f90ac73607a0ed0f181c946cf8-driver" force deleted
+pod "imdb-9f96c47c93163105bc58629e21300e9c-driver" force deleted
+pod "imdb-5b1d452b3c7437789048ce943e4bfee0-driver" force deleted
+ClusterState 1587848446227 0.1 0 124.88788604736328 
+ClusterState 1587848451227 0.1 0 124.88788604736328 
+ClusterState 1587848456227 0.1 0 124.88788604736328 
+ClusterState 1587848461227 0.1 0 124.88788604736328 
+pod "imdb-2939795f62553e818bdaa65e4a0da3fa-driver" force deleted
+JobFinished 1587848463854 1587848291006 job-110-56 5 0.100001 5.6297984 608219 615382 109308 418759 110948 7 6 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-7e824f696008339a9de21e919f00f87d-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-7e824f696008339a9de21e919f00f87d-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-7e824f696008339a9de21e919f00f87d-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-7e824f696008339a9de21e919f00f87d-exec-4
+ClusterState 1587848466227 0.050001000000000004 0 124.88788604736328 
+pod "imdb-8fdc08e7c4903b2297c8ef2e1b4e7b13-driver" force deleted
+pod "imdb-011864a315fc349e924b8b8d098d87b5-driver" force deleted
+pod "imdb-21f1159a7cba33018de0e559add1eb53-driver" force deleted
+pod "imdb-8caafb14ee8f3d5baa9909c62681e759-driver" force deleted
+ClusterState 1587848471227 0.09 0 124.88788604736328 
+pod "imdb-d9b09ac509f93db18926b2564b04e6b3-driver" force deleted
+JobFinished 1587848473561 1587848255474 job-43-65 5 0.120001 1.7869213 1365572 350996 196425 86357 246437 3 9 1
+ClusterState 1587848476227 0.09 0 124.88788604736328 
+ClusterState 1587848481227 0.09 0 124.88788604736328 
+ClusterState 1587848486235 0.09 0 124.88788604736328 
+pod "imdb-32dea5e506e6371986e4b05b77f25451-driver" force deleted
+JobFinished 1587848490845 1587848290064 job-6-70 5 0.100001 1.7022134 539852 232027 136309 82834 168751 2 11 1
+ClusterState 1587848491235 0.020001 0 124.88788604736328 
+pod "imdb-400fe1e61c96346caf50176e4d73d46d-driver" force deleted
+ClusterState 1587848496251 0.050001000000000004 1 125.88788604736328 
+pod "imdb-0ec1ac6ed1f4396f993f4b1629fcb4be-driver" force deleted
+pod "imdb-6c98c563e017372f9ad26985c8e695aa-driver" force deleted
+pod "imdb-8a0cbbbe43c631b0883188b006b5db4f-driver" force deleted
+pod "imdb-9302955211d8361a9d74ed5f47ba8563-exec-3" force deleted
+pod "imdb-9302955211d8361a9d74ed5f47ba8563-exec-2" force deleted
+pod "imdb-9302955211d8361a9d74ed5f47ba8563-exec-5" force deleted
+pod "imdb-9302955211d8361a9d74ed5f47ba8563-driver" force deleted
+ClusterState 1587848501270 0.08 0 124.88788604736328 
+pod "imdb-d8fe882f75f03f2eaad569803753f6d5-exec-1" force deleted
+ClusterState 1587848506296 0.08 0 124.88788604736328 
+ClusterState 1587848511290 0.08 0 124.88788604736328 
+pod "imdb-d8fe882f75f03f2eaad569803753f6d5-exec-2" force deleted
+pod "imdb-d8fe882f75f03f2eaad569803753f6d5-exec-3" force deleted
+pod "imdb-d8fe882f75f03f2eaad569803753f6d5-exec-4" force deleted
+pod "imdb-d8fe882f75f03f2eaad569803753f6d5-exec-5" force deleted
+pod "imdb-d8fe882f75f03f2eaad569803753f6d5-driver" force deleted
+ClusterState 1587848516290 0.09 0 124.88788604736328 
+ClusterState 1587848521290 0.09 0 124.88788604736328 
+ClusterState 1587848526298 0.09 0 124.88788604736328 
+ClusterState 1587848531300 0.09 0 124.88788604736328 
+ClusterState 1587848536300 0.09 0 124.88788604736328 
+ClusterState 1587848541306 0.09 0 124.88788604736328 
+ClusterState 1587848546306 0.09 0 124.88788604736328 
+ClusterState 1587848551309 0.09 0 124.88788604736328 
+ClusterState 1587848556306 0.09 0 124.88788604736328 
+ClusterState 1587848561308 0.09 0 124.88788604736328 
+ClusterState 1587848566309 0.09 0 124.88788604736328 
+ClusterState 1587848571324 0.09 0 124.88788604736328 
+pod "imdb-eb86ca5279cf3670accb0eb9f046eeba-exec-1" force deleted
+ClusterState 1587848576332 0.09 0 124.88788604736328 
+ClusterState 1587848581332 0.09 0 124.88788604736328 
+ClusterState 1587848586332 0.09 0 124.88788604736328 
+pod "imdb-eb86ca5279cf3670accb0eb9f046eeba-exec-2" force deleted
+ClusterState 1587848591343 0.09 0 124.88788604736328 
+ClusterState 1587848596350 0.09 0 124.88788604736328 
+pod "imdb-eb86ca5279cf3670accb0eb9f046eeba-exec-3" force deleted
+pod "imdb-eb86ca5279cf3670accb0eb9f046eeba-exec-4" force deleted
+pod "imdb-eb86ca5279cf3670accb0eb9f046eeba-exec-5" force deleted
+pod "imdb-ebe2ff0c5f583e76bd61b59723e40384-exec-5" force deleted
+pod "imdb-ebe2ff0c5f583e76bd61b59723e40384-exec-4" force deleted
+ClusterState 1587848601350 0.09 0 124.88788604736328 
+ClusterState 1587848606350 0.09 0 124.88788604736328 
+pod "imdb-ebe2ff0c5f583e76bd61b59723e40384-exec-3" force deleted
+ClusterState 1587848611350 0.09 0 124.88788604736328 
+ClusterState 1587848616352 0.09 1 125.88788604736328 
+pod "imdb-ebe2ff0c5f583e76bd61b59723e40384-exec-2" force deleted
+pod "imdb-ebe2ff0c5f583e76bd61b59723e40384-exec-1" force deleted
+pod "imdb-ebe2ff0c5f583e76bd61b59723e40384-driver" force deleted
+pod "imdb-eb86ca5279cf3670accb0eb9f046eeba-driver" force deleted
+JobFinished 1587848617559 1587848444725 job-44-60 5 0.090001 -1 803833 587153 153698 374760 650135 8 5 0
+pod "imdb-1cfddb5bc7863c089dd458745a3b4f14-exec-1" force deleted
+ClusterState 1587848621352 0.1 0 124.88788604736328 
+ClusterState 1587848626367 0.1 0 124.88788604736328 
+ClusterState 1587848631375 0.1 0 124.88788604736328 
+ClusterState 1587848636375 0.1 0 124.88788604736328 
+ClusterState 1587848641375 0.1 0 124.88788604736328 
+ClusterState 1587848646375 0.1 0 124.88788604736328 
+ClusterState 1587848651375 0.1 0 124.88788604736328 
+ClusterState 1587848656386 0.1 0 124.88788604736328 
+ClusterState 1587848661386 0.1 0 124.88788604736328 
+ClusterState 1587848666386 0.1 0 124.88788604736328 
+pod "imdb-817e59f76b1c3f1db3015de7e95b664d-driver" force deleted
+JobFinished 1587848670125 1587848244568 job-63-69 5 0.160001 1.0022751 2504540 425557 424591 966 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-ebe2ff0c5f583e76bd61b59723e40384-exec-7
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-eb86ca5279cf3670accb0eb9f046eeba-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-ebe2ff0c5f583e76bd61b59723e40384-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-d8fe882f75f03f2eaad569803753f6d5-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-9302955211d8361a9d74ed5f47ba8563-exec-1
+ClusterState 1587848671406 0.060001 0 124.88788604736328 
+pod "imdb-a6dbfd4df4a43c6fb091f88827e040fe-driver" force deleted
+ClusterState 1587848676390 0.060001 6 130.88788604736328 
+JobFinished 1587848676950 1587848590431 job-36-75 5 0.220001 1.0064679 465007 86519 85963 556 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8a0cbbbe43c631b0883188b006b5db4f-exec-5
+pod "imdb-5e68a6f726803464b5a11905619dd7f6-driver" force deleted
+pod "imdb-6d9b801b71cb3677ad8b5c09340cbfdb-driver" force deleted
+pod "imdb-edb462138b9b39f3a1a77a3e3de6165a-driver" force deleted
+pod "imdb-6b28648f9b7532b39e579c473aa3232c-driver" force deleted
+ClusterState 1587848681391 0.09 3 127.88788604736328 
+JobFinished 1587848682542 1587848609675 job-11-76 5 0.440001 1.0080236 395757 72867 72287 580 0 1 5 1
+ClusterState 1587848686391 0.09 5 129.88788604736328 
+pod "imdb-3065cb4885d4382fb6e6dab2c9c5c45b-driver" force deleted
+JobFinished 1587848691172 1587848394679 job-33-71 5 0.36000099999999996 1.0014862 1738964 296493 296053 440 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-edb462138b9b39f3a1a77a3e3de6165a-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-edb462138b9b39f3a1a77a3e3de6165a-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-edb462138b9b39f3a1a77a3e3de6165a-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-edb462138b9b39f3a1a77a3e3de6165a-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-edb462138b9b39f3a1a77a3e3de6165a-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-6d9b801b71cb3677ad8b5c09340cbfdb-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-6d9b801b71cb3677ad8b5c09340cbfdb-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-6d9b801b71cb3677ad8b5c09340cbfdb-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-6d9b801b71cb3677ad8b5c09340cbfdb-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-6d9b801b71cb3677ad8b5c09340cbfdb-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-5e68a6f726803464b5a11905619dd7f6-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8a0cbbbe43c631b0883188b006b5db4f-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-5e68a6f726803464b5a11905619dd7f6-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-5e68a6f726803464b5a11905619dd7f6-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8a0cbbbe43c631b0883188b006b5db4f-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-5e68a6f726803464b5a11905619dd7f6-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8a0cbbbe43c631b0883188b006b5db4f-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8a0cbbbe43c631b0883188b006b5db4f-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-5e68a6f726803464b5a11905619dd7f6-exec-3
+ClusterState 1587848691391 0.040001 6 130.88788604736328 
+pod "imdb-e0e33afbd78b3c569046790d551292bb-driver" force deleted
+pod "imdb-1eb262539ac33a0c8241575d96cffb01-driver" force deleted
+ClusterState 1587848696391 0.020001 0 124.88788604736328 
+pod "imdb-7408bd63f1793f109f2af4baf7d49ae8-driver" force deleted
+pod "imdb-e685dce680333763b67afba6918bc7b3-driver" force deleted
+pod "imdb-961da5f3753637a7b2cfad5581039af7-driver" force deleted
+pod "imdb-01160130dfca3a4c90859224c345a383-driver" force deleted
+ClusterState 1587848701391 0.08 0 124.88788604736328 
+ClusterState 1587848706402 0.08 0 124.88788604736328 
+ClusterState 1587848711402 0.08 0 124.88788604736328 
+ClusterState 1587848716402 0.08 0 124.88788604736328 
+pod "imdb-fe91a07ee20539eebcb49ce9f271ad14-exec-1" force deleted
+pod "imdb-1cfddb5bc7863c089dd458745a3b4f14-driver" force deleted
+JobFinished 1587848719973 1587848504970 job-42-73 5 0.100001 1.0021534 1195646 215003 214541 462 103976 1 6 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-01160130dfca3a4c90859224c345a383-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-01160130dfca3a4c90859224c345a383-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-01160130dfca3a4c90859224c345a383-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-01160130dfca3a4c90859224c345a383-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-01160130dfca3a4c90859224c345a383-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-961da5f3753637a7b2cfad5581039af7-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-961da5f3753637a7b2cfad5581039af7-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-961da5f3753637a7b2cfad5581039af7-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-961da5f3753637a7b2cfad5581039af7-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-961da5f3753637a7b2cfad5581039af7-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-e685dce680333763b67afba6918bc7b3-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-e685dce680333763b67afba6918bc7b3-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-e685dce680333763b67afba6918bc7b3-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-e685dce680333763b67afba6918bc7b3-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-e685dce680333763b67afba6918bc7b3-exec-4
+ClusterState 1587848721402 1.0E-6 0 124.88788604736328 
+pod "imdb-6851313464613e5394082e1c4ed8d278-driver" force deleted
+pod "imdb-77dabf46ab1e382ca7a5f07a659b12ac-driver" force deleted
+pod "imdb-73f116ff83df3c8280492193d266d682-driver" force deleted
+pod "imdb-65490536a74b3d849b3c061ee297289c-driver" force deleted
+pod "imdb-5f383f63b4a835518be228cf1e60b15a-driver" force deleted
+ClusterState 1587848726402 0.07000100000000001 0 124.88788604736328 
+pod "imdb-4f0b5507dd273eaea85f43d77a4ad870-driver" force deleted
+ClusterState 1587848731402 0.08 1 125.88788604736328 
+pod "imdb-fe91a07ee20539eebcb49ce9f271ad14-exec-5" force deleted
+pod "imdb-fe91a07ee20539eebcb49ce9f271ad14-exec-4" force deleted
+pod "imdb-fe91a07ee20539eebcb49ce9f271ad14-exec-3" force deleted
+pod "imdb-fe91a07ee20539eebcb49ce9f271ad14-driver" force deleted
+ClusterState 1587848736402 0.09 0 124.88788604736328 
+ClusterState 1587848741402 0.09 0 124.88788604736328 
+ClusterState 1587848746402 0.09 0 124.88788604736328 
+ClusterState 1587848751402 0.09 0 124.88788604736328 
+pod "imdb-5fc8e76990213ea883b64a9b7c8b556d-exec-3" force deleted
+ClusterState 1587848756402 0.09 0 124.88788604736328 
+ClusterState 1587848761402 0.09 0 124.88788604736328 
+pod "imdb-5fc8e76990213ea883b64a9b7c8b556d-exec-4" force deleted
+pod "imdb-5fc8e76990213ea883b64a9b7c8b556d-exec-1" force deleted
+pod "imdb-5fc8e76990213ea883b64a9b7c8b556d-exec-2" force deleted
+pod "imdb-94e3e38dce9632ef91c0a60ac3f024cb-exec-1" force deleted
+pod "imdb-5fc8e76990213ea883b64a9b7c8b556d-exec-5" force deleted
+ClusterState 1587848766402 0.09 0 124.88788604736328 
+ClusterState 1587848771402 0.09 0 124.88788604736328 
+pod "imdb-4b1554176dee3eb782b975d6e264d901-driver" force deleted
+JobFinished 1587848775657 1587848687040 job-109-78 5 0.5500010000000001 1.0001919 500443 88617 88600 17 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-4f0b5507dd273eaea85f43d77a4ad870-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-4f0b5507dd273eaea85f43d77a4ad870-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-4f0b5507dd273eaea85f43d77a4ad870-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-4f0b5507dd273eaea85f43d77a4ad870-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-4f0b5507dd273eaea85f43d77a4ad870-exec-4
+ClusterState 1587848776402 0.050001000000000004 0 124.88788604736328 
+pod "imdb-10bbebde59443ff99edb189725591c3f-driver" force deleted
+pod "imdb-ea54e68ec8623b8dae1fa08d3e95aa48-driver" force deleted
+pod "imdb-75c06157b03f3b20a460d848bac1f96b-driver" force deleted
+JobFinished 1587848780441 1587848731562 job-42-68 5 0.07000100000000001 -1 74384 561451 4769 491508 69615 8 4 0
+pod "imdb-c2709b42b65436f0adee7fe36caa9dd5-driver" force deleted
+ClusterState 1587848781419 0.09 0 124.88788604736328 
+ClusterState 1587848786419 0.09 0 124.88788604736328 
+ClusterState 1587848791428 0.09 0 124.88788604736328 
+ClusterState 1587848796428 0.09 0 124.88788604736328 
+ClusterState 1587848801428 0.09 0 124.88788604736328 
+ClusterState 1587848806428 0.09 0 124.88788604736328 
+ClusterState 1587848811428 0.09 0 124.88788604736328 
+ClusterState 1587848816428 0.09 0 124.88788604736328 
+ClusterState 1587848821428 0.09 0 124.88788604736328 
+ClusterState 1587848826428 0.09 0 124.88788604736328 
+ClusterState 1587848831431 0.09 0 124.88788604736328 
+pod "imdb-39c408d7e3f73af0b80ab2ed6dfd8f97-driver" force deleted
+ClusterState 1587848836436 0.09 5 129.88788604736328 
+JobFinished 1587848837042 1587848754532 job-38-81 5 0.320001 1.0010313 452701 82510 82425 85 0 1 5 1
+ClusterState 1587848841448 1.0E-6 0 124.88788604736328 
+pod "imdb-3b8712ca1a2d3e2caa34142b9d66632e-driver" force deleted
+pod "imdb-fdf425d744c537cc9a61f028102f15e8-exec-2" force deleted
+pod "imdb-fdf425d744c537cc9a61f028102f15e8-driver" force deleted
+ClusterState 1587848846467 0.050001000000000004 1 125.88788604736328 
+pod "imdb-1de7e2ccdac930b6aa9cd13aa0b80b99-driver" force deleted
+pod "imdb-45bac5de55b33282bb85a7e1fc084fab-driver" force deleted
+pod "imdb-fe31fdddf984302b857d7fdb93ccd900-driver" force deleted
+ClusterState 1587848851469 0.08 0 124.88788604736328 
+pod "imdb-94e3e38dce9632ef91c0a60ac3f024cb-driver" force deleted
+JobFinished 1587848853523 1587848617401 job-8-67 5 0.090001 3.4703004 1924022 636349 183370 269968 962270 5 13 1
+ClusterState 1587848856469 0.08 0 124.88788604736328 
+ClusterState 1587848861485 0.08 0 124.88788604736328 
+ClusterState 1587848866485 0.08 0 124.88788604736328 
+ClusterState 1587848871498 0.08 0 124.88788604736328 
+ClusterState 1587848876512 0.08 0 124.88788604736328 
+ClusterState 1587848881525 0.08 0 124.88788604736328 
+ClusterState 1587848886525 0.08 0 124.88788604736328 
+ClusterState 1587848891525 0.08 0 124.88788604736328 
+pod "imdb-6c56c16e80773da4856aa0328dd418dd-driver" force deleted
+JobFinished 1587848894936 1587848724969 job-15-80 5 0.270001 1.0000176 984700 169966 169963 3 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-fe31fdddf984302b857d7fdb93ccd900-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-fe31fdddf984302b857d7fdb93ccd900-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-fe31fdddf984302b857d7fdb93ccd900-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-fe31fdddf984302b857d7fdb93ccd900-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-fe31fdddf984302b857d7fdb93ccd900-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-45bac5de55b33282bb85a7e1fc084fab-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-45bac5de55b33282bb85a7e1fc084fab-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-45bac5de55b33282bb85a7e1fc084fab-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-45bac5de55b33282bb85a7e1fc084fab-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-45bac5de55b33282bb85a7e1fc084fab-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1de7e2ccdac930b6aa9cd13aa0b80b99-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1de7e2ccdac930b6aa9cd13aa0b80b99-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1de7e2ccdac930b6aa9cd13aa0b80b99-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1de7e2ccdac930b6aa9cd13aa0b80b99-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1de7e2ccdac930b6aa9cd13aa0b80b99-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-fdf425d744c537cc9a61f028102f15e8-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-fdf425d744c537cc9a61f028102f15e8-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-fdf425d744c537cc9a61f028102f15e8-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-fdf425d744c537cc9a61f028102f15e8-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3b8712ca1a2d3e2caa34142b9d66632e-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3b8712ca1a2d3e2caa34142b9d66632e-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3b8712ca1a2d3e2caa34142b9d66632e-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3b8712ca1a2d3e2caa34142b9d66632e-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3b8712ca1a2d3e2caa34142b9d66632e-exec-4
+ClusterState 1587848896534 1.0E-6 1 125.88788604736328 
+ClusterState 1587848901537 0.0 0 124.88788604736328 
+pod "imdb-8d8ee362a9b234aeac4e4d7cba8cf321-exec-2" force deleted
+pod "imdb-8d8ee362a9b234aeac4e4d7cba8cf321-driver" force deleted
+pod "imdb-75a54027556b3d6a9fa1710e5b36503b-driver" force deleted
+pod "imdb-d2673018c9053cd883d85031bfd65773-driver" force deleted
+pod "imdb-df5fc4e6c2793b16b2aee03cc2a3d40e-exec-3" force deleted
+pod "imdb-df5fc4e6c2793b16b2aee03cc2a3d40e-exec-2" force deleted
+pod "imdb-df5fc4e6c2793b16b2aee03cc2a3d40e-exec-5" force deleted
+pod "imdb-df5fc4e6c2793b16b2aee03cc2a3d40e-driver" force deleted
+ClusterState 1587848906537 0.07 0 124.88788604736328 
+ClusterState 1587848911547 0.07 0 124.88788604736328 
+ClusterState 1587848916547 0.07 0 124.88788604736328 
+pod "imdb-9a128fa9a3fb34baa9eaa75180820a33-exec-1" force deleted
+pod "imdb-5fc8e76990213ea883b64a9b7c8b556d-driver" force deleted
+JobFinished 1587848921016 1587848618178 job-44-60 5 0.090001 2.201309 2170216 890610 404582 426714 1060314 9 15 1
+ClusterState 1587848921555 0.050001000000000004 5 129.88788604736328 
+ClusterState 1587848926560 0.050001000000000004 0 124.88788604736328 
+pod "imdb-302bc4e097d43e279779ed1b2fb48819-driver" force deleted
+ClusterState 1587848931570 0.07 0 124.88788604736328 
+ClusterState 1587848936570 0.07 0 124.88788604736328 
+ClusterState 1587848941575 0.07 0 124.88788604736328 
+ClusterState 1587848946586 0.07 0 124.88788604736328 
+pod "imdb-1b9c7b87442f3ec08c2010dcb2719fa7-driver" force deleted
+JobFinished 1587848949835 1587848717315 job-94-79 5 0.6600010000000001 1.0004475 1137578 232520 232416 104 0 1 4 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-302bc4e097d43e279779ed1b2fb48819-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-df5fc4e6c2793b16b2aee03cc2a3d40e-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-302bc4e097d43e279779ed1b2fb48819-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-302bc4e097d43e279779ed1b2fb48819-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-302bc4e097d43e279779ed1b2fb48819-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-302bc4e097d43e279779ed1b2fb48819-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-df5fc4e6c2793b16b2aee03cc2a3d40e-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-d2673018c9053cd883d85031bfd65773-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-d2673018c9053cd883d85031bfd65773-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-d2673018c9053cd883d85031bfd65773-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-d2673018c9053cd883d85031bfd65773-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-d2673018c9053cd883d85031bfd65773-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-75a54027556b3d6a9fa1710e5b36503b-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-75a54027556b3d6a9fa1710e5b36503b-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-75a54027556b3d6a9fa1710e5b36503b-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-75a54027556b3d6a9fa1710e5b36503b-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-75a54027556b3d6a9fa1710e5b36503b-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8d8ee362a9b234aeac4e4d7cba8cf321-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8d8ee362a9b234aeac4e4d7cba8cf321-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8d8ee362a9b234aeac4e4d7cba8cf321-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-8d8ee362a9b234aeac4e4d7cba8cf321-exec-3
+ClusterState 1587848951589 1.0E-6 1 125.88788604736328 
+pod "imdb-70f9f6a6d23b3016b605f43a1fb7c427-driver" force deleted
+ClusterState 1587848956603 0.04 1 125.88788604736328 
+pod "imdb-3ab578264d5539cca78be08f7717542c-driver" force deleted
+pod "imdb-02e6b20ff4fd3a3b97b9b3088b4709a3-exec-2" force deleted
+pod "imdb-02e6b20ff4fd3a3b97b9b3088b4709a3-exec-5" force deleted
+pod "imdb-02e6b20ff4fd3a3b97b9b3088b4709a3-driver" force deleted
+ClusterState 1587848961614 0.05 0 124.88788604736328 
+pod "imdb-1de5db09ee94378ab4ceb8ebf220d9b0-exec-4" force deleted
+pod "imdb-1de5db09ee94378ab4ceb8ebf220d9b0-exec-2" force deleted
+pod "imdb-1de5db09ee94378ab4ceb8ebf220d9b0-exec-3" force deleted
+pod "imdb-1de5db09ee94378ab4ceb8ebf220d9b0-driver" force deleted
+pod "imdb-9a128fa9a3fb34baa9eaa75180820a33-exec-3" force deleted
+ClusterState 1587848966629 0.07 0 124.88788604736328 
+ClusterState 1587848971629 0.07 0 124.88788604736328 
+ClusterState 1587848976645 0.07 0 124.88788604736328 
+ClusterState 1587848981654 0.07 0 124.88788604736328 
+ClusterState 1587848986654 0.07 0 124.88788604736328 
+ClusterState 1587848991654 0.07 0 124.88788604736328 
+ClusterState 1587848996654 0.07 0 124.88788604736328 
+ClusterState 1587849001654 0.07 0 124.88788604736328 
+ClusterState 1587849006654 0.07 0 124.88788604736328 
+pod "imdb-9a128fa9a3fb34baa9eaa75180820a33-exec-2" force deleted
+ClusterState 1587849011654 0.07 0 124.88788604736328 
+pod "imdb-833e5a9e49ad3c66b536764d7362ea59-driver" force deleted
+JobFinished 1587849016283 1587848843666 job-9-83 5 0.620001 1.0078177 984288 172616 171277 1339 0 1 5 1
+ClusterState 1587849016654 0.07 6 130.88788604736328 
+ClusterState 1587849021654 0.07 0 124.88788604736328 
+pod "imdb-9a128fa9a3fb34baa9eaa75180820a33-exec-5" force deleted
+ClusterState 1587849026654 0.07 0 124.88788604736328 
+pod "imdb-95337f04528f393ea1deda7c323abca8-driver" force deleted
+JobFinished 1587849029870 1587848781883 job-42-72 5 0.080001 3.1552875 1361439 608412 192823 321176 264314 7 14 1
+ClusterState 1587849031654 0.07 0 124.88788604736328 
+pod "imdb-9a128fa9a3fb34baa9eaa75180820a33-exec-4" force deleted
+pod "imdb-9a128fa9a3fb34baa9eaa75180820a33-exec-7" force deleted
+pod "imdb-9a128fa9a3fb34baa9eaa75180820a33-exec-6" force deleted
+pod "imdb-9a128fa9a3fb34baa9eaa75180820a33-driver" force deleted
+pod "imdb-b1a59315995d31368622b72f7978426e-exec-2" force deleted
+ClusterState 1587849036654 0.4 0 124.88788604736328 
+ClusterState 1587849041654 0.4 0 124.88788604736328 
+ClusterState 1587849046654 0.4 0 124.88788604736328 
+ClusterState 1587849051654 0.4 0 124.88788604736328 
+ClusterState 1587849056654 0.4 0 124.88788604736328 
+pod "imdb-b1a59315995d31368622b72f7978426e-exec-3" force deleted
+ClusterState 1587849061654 0.4 0 124.88788604736328 
+pod "imdb-b1a59315995d31368622b72f7978426e-exec-4" force deleted
+pod "imdb-b1a59315995d31368622b72f7978426e-exec-5" force deleted
+pod "imdb-b1a59315995d31368622b72f7978426e-exec-1" force deleted
+pod "imdb-b1a59315995d31368622b72f7978426e-driver" force deleted
+pod "imdb-0a6c3e5540183e75973bc00fae912068-exec-5" force deleted
+ClusterState 1587849066654 0.42 0 124.88788604736328 
+ClusterState 1587849071654 0.42 0 124.88788604736328 
+pod "imdb-0a6c3e5540183e75973bc00fae912068-exec-4" force deleted
+ClusterState 1587849076654 0.42 0 124.88788604736328 
+ClusterState 1587849081665 0.42 0 124.88788604736328 
+pod "imdb-0a6c3e5540183e75973bc00fae912068-exec-3" force deleted
+pod "imdb-0a6c3e5540183e75973bc00fae912068-exec-2" force deleted
+pod "imdb-0a6c3e5540183e75973bc00fae912068-exec-1" force deleted
+pod "imdb-0a6c3e5540183e75973bc00fae912068-driver" force deleted
+pod "imdb-9c6d10e1412731a68faac4d0c4db026e-exec-5" force deleted
+ClusterState 1587849086665 0.5 0 124.88788604736328 
+pod "imdb-9f4aa7061f3d3e3a800748ac13191f3c-driver" force deleted
+JobFinished 1587849088961 1587849025861 job-2-88 5 0.870001 1.0016191 348366 63099 62997 102 0 1 5 1
+ClusterState 1587849091672 0.5 6 130.88788604736328 
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-0a6c3e5540183e75973bc00fae912068-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-b1a59315995d31368622b72f7978426e-exec-6
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-9a128fa9a3fb34baa9eaa75180820a33-exec-8
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1de5db09ee94378ab4ceb8ebf220d9b0-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-1de5db09ee94378ab4ceb8ebf220d9b0-exec-5
+ClusterState 1587849096672 0.040001 0 124.88788604736328 
+pod "imdb-906f0a8d6d763b7e9b31c3d40b61af67-driver" force deleted
+JobFinished 1587849099988 1587848959993 job-78-44 5 0.040001 -1 60934 1606704 6122 1545637 54812 8 2 0
+pod "imdb-d9a65718f06d3acc8c0f8d21063a4716-driver" force deleted
+pod "imdb-03c8081ce8a03ad79497d830ded72e25-driver" force deleted
+ClusterState 1587849101676 0.42 1 125.88788604736328 
+pod "imdb-52cd1d15c41939faad025fcfad6096e2-driver" force deleted
+ClusterState 1587849106680 0.42 0 124.88788604736328 
+ClusterState 1587849111681 0.42 0 124.88788604736328 
+ClusterState 1587849116688 0.42 0 124.88788604736328 
+ClusterState 1587849121688 0.42 0 124.88788604736328 
+ClusterState 1587849126688 0.42 0 124.88788604736328 
+ClusterState 1587849131697 0.42 0 124.88788604736328 
+ClusterState 1587849136697 0.42 0 124.88788604736328 
+ClusterState 1587849141702 0.42 0 124.88788604736328 
+ClusterState 1587849146708 0.42 0 124.88788604736328 
+ClusterState 1587849151726 0.42 0 124.88788604736328 
+pod "imdb-bf683f9d14503f7cad54cb4fccf444e3-exec-5" force deleted
+ClusterState 1587849156762 0.42 0 124.88788604736328 
+ClusterState 1587849161762 0.42 1 125.88788604736328 
+pod "imdb-bf683f9d14503f7cad54cb4fccf444e3-exec-4" force deleted
+pod "imdb-bf683f9d14503f7cad54cb4fccf444e3-exec-2" force deleted
+pod "imdb-bf683f9d14503f7cad54cb4fccf444e3-exec-1" force deleted
+pod "imdb-bf683f9d14503f7cad54cb4fccf444e3-driver" force deleted
+pod "imdb-9c6d10e1412731a68faac4d0c4db026e-exec-6" force deleted
+ClusterState 1587849166762 0.5 0 124.88788604736328 
+pod "imdb-a956f9082211357e81721adac4b47170-driver" force deleted
+ClusterState 1587849171776 0.5 3 127.88788604736328 
+JobFinished 1587849174083 1587848957163 job-93-86 5 0.500001 1.003985 1248211 216920 216059 861 203501 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-bf683f9d14503f7cad54cb4fccf444e3-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-52cd1d15c41939faad025fcfad6096e2-exec-3
+ClusterState 1587849176780 0.42000099999999996 1 125.88788604736328 
+pod "imdb-4e400a022bd43248b4d510d5137a008f-driver" force deleted
+pod "imdb-9b5599f79e7c38d59dde2f770e0e2dbd-driver" force deleted
+pod "imdb-9c6d10e1412731a68faac4d0c4db026e-exec-7" force deleted
+ClusterState 1587849181789 0.5 0 124.88788604736328 
+pod "imdb-9c6d10e1412731a68faac4d0c4db026e-exec-1" force deleted
+ClusterState 1587849186798 0.5 0 124.88788604736328 
+ClusterState 1587849191805 0.5 1 125.88788604736328 
+pod "imdb-9c6d10e1412731a68faac4d0c4db026e-exec-2" force deleted
+pod "imdb-9c6d10e1412731a68faac4d0c4db026e-exec-3" force deleted
+pod "imdb-9c6d10e1412731a68faac4d0c4db026e-exec-4" force deleted
+pod "imdb-9c6d10e1412731a68faac4d0c4db026e-driver" force deleted
+ClusterState 1587849196861 0.62 0 124.88788604736328 
+pod "imdb-ee5402dd0aad325fb341905ef9a2ab01-exec-2" force deleted
+pod "imdb-ee5402dd0aad325fb341905ef9a2ab01-exec-4" force deleted
+ClusterState 1587849201861 0.620001 1 125.88788604736328 
+pod "imdb-ee5402dd0aad325fb341905ef9a2ab01-exec-5" force deleted
+pod "imdb-ee5402dd0aad325fb341905ef9a2ab01-driver" force deleted
+ClusterState 1587849206878 0.64 0 124.88788604736328 
+ClusterState 1587849211881 0.64 0 124.88788604736328 
+ClusterState 1587849216881 0.64 0 124.88788604736328 
+ClusterState 1587849221890 0.64 0 124.88788604736328 
+pod "imdb-3fc159f142933da09c02f6ff9d376487-driver" force deleted
+JobFinished 1587849224480 1587849154586 job-1-92 5 0.770001 1.0099998 371334 69894 69202 692 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-ee5402dd0aad325fb341905ef9a2ab01-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-ee5402dd0aad325fb341905ef9a2ab01-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-9c6d10e1412731a68faac4d0c4db026e-exec-8
+ClusterState 1587849226890 0.400001 0 124.88788604736328 
+pod "imdb-414749f78aca32d58ab9a21bedd3c752-driver" force deleted
+pod "imdb-74ef84a553af3408a6af08c2be837541-driver" force deleted
+pod "imdb-6caaa0756a353091832ec0b7c2808161-driver" force deleted
+ClusterState 1587849231890 0.62 1 125.88788604736328 
+pod "imdb-9becf3ca332f399ca73e2a85384aa043-driver" force deleted
+ClusterState 1587849236890 0.62 0 124.88788604736328 
+pod "imdb-bd0fb24d089830b49babc0e597bc18a0-driver" force deleted
+ClusterState 1587849241890 0.62 5 129.88788604736328 
+JobFinished 1587849242125 1587849169219 job-107-93 5 0.640001 1.011642 392487 72906 72067 839 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-9becf3ca332f399ca73e2a85384aa043-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-9becf3ca332f399ca73e2a85384aa043-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-9becf3ca332f399ca73e2a85384aa043-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-9becf3ca332f399ca73e2a85384aa043-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-9becf3ca332f399ca73e2a85384aa043-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-52cd1d15c41939faad025fcfad6096e2-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-52cd1d15c41939faad025fcfad6096e2-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-52cd1d15c41939faad025fcfad6096e2-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-52cd1d15c41939faad025fcfad6096e2-exec-4
+ClusterState 1587849246890 0.170001 0 124.88788604736328 
+pod "imdb-f94b460f871839cd9cb481aebebd6c85-driver" force deleted
+pod "imdb-607ead563c4030e9820882601dfdea41-driver" force deleted
+pod "imdb-0cd79e9faea63b039b51010eadf30d2d-driver" force deleted
+pod "imdb-f36619c057d73ef497bb2845f0d7160b-driver" force deleted
+ClusterState 1587849251895 0.59 0 124.88788604736328 
+ClusterState 1587849256895 0.59 0 124.88788604736328 
+ClusterState 1587849261905 0.59 0 124.88788604736328 
+ClusterState 1587849266920 0.59 0 124.88788604736328 
+pod "imdb-7b36e048040a39e391c20d13735e6562-driver" force deleted
+JobFinished 1587849269328 1587849074813 job-43-91 5 0.990001 1.0007563 1125075 194515 194368 147 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-f36619c057d73ef497bb2845f0d7160b-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-f36619c057d73ef497bb2845f0d7160b-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-f36619c057d73ef497bb2845f0d7160b-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-f36619c057d73ef497bb2845f0d7160b-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-f36619c057d73ef497bb2845f0d7160b-exec-5
+ClusterState 1587849271931 0.110001 0 124.88788604736328 
+pod "imdb-7729cb50d80933bf8a870111f7328943-driver" force deleted
+pod "imdb-b271c136ec6d331aaa5a2be23de0caba-driver" force deleted
+pod "imdb-db59c1d334183f4a9ec8a368d60d1602-driver" force deleted
+ClusterState 1587849276931 0.42000099999999996 1 125.88788604736328 
+pod "imdb-507c6c9becde39698258a026644f3682-exec-2" force deleted
+pod "imdb-507c6c9becde39698258a026644f3682-driver" force deleted
+ClusterState 1587849281936 0.5 0 124.88788604736328 
+ClusterState 1587849286936 0.5 0 124.88788604736328 
+ClusterState 1587849291936 0.5 0 124.88788604736328 
+ClusterState 1587849296936 0.5 0 124.88788604736328 
+ClusterState 1587849301940 0.5 0 124.88788604736328 
+ClusterState 1587849306940 0.5 0 124.88788604736328 
+ClusterState 1587849311940 0.5 0 124.88788604736328 
+ClusterState 1587849316940 0.5 0 124.88788604736328 
+ClusterState 1587849321940 0.5 0 124.88788604736328 
+pod "imdb-cb7a0dccd4f233429974e689c6b96a0d-driver" force deleted
+JobFinished 1587849324234 1587849057251 job-34-90 5 0.710001 1.000371 1572616 266983 266884 99 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-507c6c9becde39698258a026644f3682-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-507c6c9becde39698258a026644f3682-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-507c6c9becde39698258a026644f3682-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-507c6c9becde39698258a026644f3682-exec-4
+ClusterState 1587849326940 0.110001 0 124.88788604736328 
+pod "imdb-88f6100e70d73d8b874fa8ea65868572-driver" force deleted
+pod "imdb-c525e49383a13f63be1c0dfdfdf4f395-driver" force deleted
+pod "imdb-8cc59aa5c5fc3916bb2569e0c0636f14-driver" force deleted
+pod "imdb-1e7df4f7c26330efa5b612d93dcfdbec-driver" force deleted
+ClusterState 1587849331940 0.44 0 124.88788604736328 
+ClusterState 1587849336940 0.44 0 124.88788604736328 
+ClusterState 1587849341940 0.44 0 124.88788604736328 
+ClusterState 1587849346940 0.44 0 124.88788604736328 
+ClusterState 1587849351940 0.44 0 124.88788604736328 
+ClusterState 1587849356940 0.44 0 124.88788604736328 
+ClusterState 1587849361940 0.44 0 124.88788604736328 
+ClusterState 1587849366940 0.44 0 124.88788604736328 
+ClusterState 1587849371940 0.44 0 124.88788604736328 
+ClusterState 1587849376940 0.44 0 124.88788604736328 
+ClusterState 1587849381940 0.44 0 124.88788604736328 
+ClusterState 1587849386940 0.44 0 124.88788604736328 
+ClusterState 1587849391940 0.44 0 124.88788604736328 
+ClusterState 1587849396941 0.44 0 124.88788604736328 
+ClusterState 1587849401947 0.44 0 124.88788604736328 
+ClusterState 1587849406946 0.44 0 124.88788604736328 
+ClusterState 1587849411953 0.44 0 124.88788604736328 
+ClusterState 1587849416953 0.44 0 124.88788604736328 
+ClusterState 1587849421960 0.44 0 124.88788604736328 
+pod "imdb-ab6bcb70640136318fc37c9d3e978d5a-driver" force deleted
+JobFinished 1587849425167 1587849203891 job-46-95 5 0.620001 1.20351 1198041 241518 200678 21251 41964 2 8 1
+ClusterState 1587849426966 0.07000100000000001 0 124.88788604736328 
+pod "imdb-6209a6275f693562b6ac355149c292e5-driver" force deleted
+pod "imdb-30c2ea138e9736ed877cfc5423825bdc-driver" force deleted
+ClusterState 1587849431973 0.400001 1 125.88788604736328 
+pod "imdb-50d88c6744e53a19b5be3df0bee2e8d0-driver" force deleted
+pod "imdb-8ebe745f9d4d337bb20b4a9a309a5e27-driver" force deleted
+JobFinished 1587849432761 1587849329981 job-48-87 5 0.400001 -1 291602 421546 7581 322205 284021 8 5 0
+ClusterState 1587849436977 0.42 0 124.88788604736328 
+ClusterState 1587849441977 0.42 0 124.88788604736328 
+ClusterState 1587849446977 0.42 1 125.88788604736328 
+pod "imdb-0e6abf1e9d7033319ec1bec16d907249-driver" force deleted
+JobFinished 1587849448150 1587849233372 job-47-97 5 0.590001 1.1990349 1185264 246500 205582 32063 8047 2 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-03c8081ce8a03ad79497d830ded72e25-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-03c8081ce8a03ad79497d830ded72e25-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-03c8081ce8a03ad79497d830ded72e25-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-03c8081ce8a03ad79497d830ded72e25-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-03c8081ce8a03ad79497d830ded72e25-exec-4
+ClusterState 1587849451986 0.050001000000000004 0 124.88788604736328 
+pod "imdb-b5ae2bac96fa36ada90b1809ea177e1f-driver" force deleted
+pod "imdb-acee64da6f273bb79b064daadde4e7d4-driver" force deleted
+pod "imdb-f2772c485fe03840af74db58ad3adf2e-driver" force deleted
+pod "imdb-3ce75f5aa0123a6f87774e4eec731628-exec-2" force deleted
+ClusterState 1587849456994 0.4 1 125.88788604736328 
+pod "imdb-3ce75f5aa0123a6f87774e4eec731628-driver" force deleted
+ClusterState 1587849461994 0.4 0 124.88788604736328 
+ClusterState 1587849467005 0.4 0 124.88788604736328 
+pod "imdb-733f36a18b463ec7aa7c1c0918d106e2-driver" force deleted
+ClusterState 1587849472005 0.4 4 128.88788604736328 
+JobFinished 1587849472848 1587849251004 job-45-89 5 0.500001 2.1765041 2055600 442936 203508 56240 924136 4 12 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3ce75f5aa0123a6f87774e4eec731628-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3ce75f5aa0123a6f87774e4eec731628-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3ce75f5aa0123a6f87774e4eec731628-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3ce75f5aa0123a6f87774e4eec731628-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-d9a65718f06d3acc8c0f8d21063a4716-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-d9a65718f06d3acc8c0f8d21063a4716-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-d9a65718f06d3acc8c0f8d21063a4716-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-d9a65718f06d3acc8c0f8d21063a4716-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-d9a65718f06d3acc8c0f8d21063a4716-exec-3
+ClusterState 1587849477005 0.040001 0 124.88788604736328 
+pod "imdb-cdffd10deb5638f8b8f52be9a36487b5-driver" force deleted
+pod "imdb-9237a87787b33036a81ddda61eb94950-driver" force deleted
+JobFinished 1587849478825 1587849454781 job-22-82 5 0.050001000000000004 -1 96081 708920 5857 636191 90224 8 6 0
+pod "imdb-010d42d98c1838a18db5193126bd739e-driver" force deleted
+pod "imdb-89d451ebc958363c9852330aa11e58be-driver" force deleted
+ClusterState 1587849482016 0.17 0 124.88788604736328 
+ClusterState 1587849487013 0.17 0 124.88788604736328 
+ClusterState 1587849492013 0.17 0 124.88788604736328 
+ClusterState 1587849497019 0.17 0 124.88788604736328 
+ClusterState 1587849502029 0.17 0 124.88788604736328 
+pod "imdb-3c2bfc9528433c138f45228d2a40c447-driver" force deleted
+JobFinished 1587849505859 1587849309407 job-75-99 5 0.440001 1.081677 963846 196452 181618 14834 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-89d451ebc958363c9852330aa11e58be-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-89d451ebc958363c9852330aa11e58be-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-89d451ebc958363c9852330aa11e58be-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-89d451ebc958363c9852330aa11e58be-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-89d451ebc958363c9852330aa11e58be-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-02e6b20ff4fd3a3b97b9b3088b4709a3-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-906f0a8d6d763b7e9b31c3d40b61af67-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-02e6b20ff4fd3a3b97b9b3088b4709a3-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-906f0a8d6d763b7e9b31c3d40b61af67-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-906f0a8d6d763b7e9b31c3d40b61af67-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-906f0a8d6d763b7e9b31c3d40b61af67-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-02e6b20ff4fd3a3b97b9b3088b4709a3-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-906f0a8d6d763b7e9b31c3d40b61af67-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3ab578264d5539cca78be08f7717542c-exec-2
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3ab578264d5539cca78be08f7717542c-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3ab578264d5539cca78be08f7717542c-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3ab578264d5539cca78be08f7717542c-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-3ab578264d5539cca78be08f7717542c-exec-1
+ClusterState 1587849507036 1.0E-6 0 124.88788604736328 
+pod "imdb-0003611f4dad3aa092904c82de825664-driver" force deleted
+pod "imdb-3f6e2a14a11d359790d691148ceaf671-driver" force deleted
+ClusterState 1587849512054 0.07000100000000001 1 125.88788604736328 
+pod "imdb-3c1ef9d3a7eb3067b4eeb253fec65bc5-driver" force deleted
+pod "imdb-252f0053d2193f5492f14dcfaccadf5f-driver" force deleted
+ClusterState 1587849517055 0.11 0 124.88788604736328 
+ClusterState 1587849522055 0.11 0 124.88788604736328 
+ClusterState 1587849527055 0.11 0 124.88788604736328 
+ClusterState 1587849532055 0.11 0 124.88788604736328 
+ClusterState 1587849537061 0.11 0 124.88788604736328 
+pod "imdb-4388322ad64b3f738e220b791bd59ad8-driver" force deleted
+ClusterState 1587849542065 0.11 2 126.88788604736328 
+JobFinished 1587849542891 1587849457728 job-6-94 5 0.170001 5.267242 396124 368807 70019 262143 36052 6 6 1
+ClusterState 1587849547068 1.0E-6 2 126.88788604736328 
+pod "imdb-49f5bf0ff4b738ee8f76442322b5e329-driver" force deleted
+pod "imdb-6258de60c2103442b852cae351150729-driver" force deleted
+JobFinished 1587849550490 1587849512044 job-18-62 5 0.010001 -1 47545 1447601 7541 1396149 40004 8 1 0
+ClusterState 1587849552068 0.07 0 124.88788604736328 
+ClusterState 1587849557068 0.07 0 124.88788604736328 
+ClusterState 1587849562068 0.07 0 124.88788604736328 
+ClusterState 1587849567068 0.07 0 124.88788604736328 
+ClusterState 1587849572069 0.07 0 124.88788604736328 
+ClusterState 1587849577069 0.07 0 124.88788604736328 
+ClusterState 1587849582069 0.07 0 124.88788604736328 
+ClusterState 1587849587075 0.07 0 124.88788604736328 
+ClusterState 1587849592080 0.07 0 124.88788604736328 
+pod "imdb-b05d7680e6963fefad1c6cd769344ca4-driver" force deleted
+JobFinished 1587849596156 1587849191858 job-55-96 5 0.640001 1.003298 2347321 404297 402968 1329 0 1 5 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-6258de60c2103442b852cae351150729-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-6258de60c2103442b852cae351150729-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-6258de60c2103442b852cae351150729-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-6258de60c2103442b852cae351150729-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-6258de60c2103442b852cae351150729-exec-2
+ClusterState 1587849597088 1.0E-6 3 127.88788604736328 
+ClusterState 1587849602087 1.0E-6 3 127.88788604736328 
+pod "imdb-50cad285d72432e38854b64661862d96-driver" force deleted
+JobFinished 1587849604071 1587849550184 job-7-77 5 1.0E-6 -1 45366 969487 7861 921168 37505 8 1 0
+ClusterState 1587849607088 0.01 0 124.88788604736328 
+ClusterState 1587849612088 0.01 0 124.88788604736328 
+pod "imdb-b6b98e3b39fd31f2b418a2dddf285d5a-driver" force deleted
+JobFinished 1587849612716 1587849330101 job-45-85 5 0.42000099999999996 3.7077775 2347151 695364 187542 236601 1272012 8 15 1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-50cad285d72432e38854b64661862d96-exec-5
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-50cad285d72432e38854b64661862d96-exec-4
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-50cad285d72432e38854b64661862d96-exec-1
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-50cad285d72432e38854b64661862d96-exec-3
+Create binding exception io.kubernetes.client.ApiException: Not Found imdb-50cad285d72432e38854b64661862d96-exec-2
+ClusterState 1587849617088 1.0E-6 4 128.88788604736328 
+ClusterState 1587849622088 0.0 0 124.88788604736328 
+ClusterState 1587849627088 0.0 0 124.88788604736328 
+ClusterState 1587849632088 0.0 0 124.88788604736328 
+ClusterState 1587849637088 0.0 0 124.88788604736328 
+ClusterState 1587849642088 0.0 0 124.88788604736328 
+ClusterState 1587849647088 0.0 0 124.88788604736328 
+pod "imdb-eea1fd29d5f3371e94bfca0ba7933f73-driver" force deleted
+JobFinished 1587849652058 1587849433305 job-48-87 5 0.400001 3.0304873 1457135 640842 211465 337073 284021 9 10 1
+ClusterState 1587849652088 0.0 5 129.88788604736328 
+ClusterState 1587849657088 0.0 5 129.88788604736328 
+ClusterState 1587849662088 0.0 5 129.88788604736328 
+ClusterState 1587849667088 0.0 5 129.88788604736328 
+ClusterState 1587849672088 0.0 5 129.88788604736328 
+ClusterState 1587849677088 0.0 5 129.88788604736328 
+ClusterState 1587849682088 0.0 5 129.88788604736328 
+pod "imdb-8eb84676ae483900ba825e84fb2bf122-driver" force deleted
+JobFinished 1587849684264 1587849604520 job-7-77 5 1.0E-6 13.44916 407504 1049680 78048 930725 37505 9 6 1
+ClusterState 1587849687088 0.01 11 135.88788604736328 
+ClusterState 1587849692088 0.01 11 135.88788604736328 
+ClusterState 1587849697088 0.01 11 135.88788604736328 
+ClusterState 1587849702088 0.01 11 135.88788604736328 
+ClusterState 1587849707088 0.01 11 135.88788604736328 
+ClusterState 1587849712088 0.01 11 135.88788604736328 
+ClusterState 1587849717088 0.01 11 135.88788604736328 
+ClusterState 1587849722088 0.01 11 135.88788604736328 
+ClusterState 1587849727088 0.01 11 135.88788604736328 
+ClusterState 1587849732088 0.01 11 135.88788604736328 
+ClusterState 1587849737088 0.01 11 135.88788604736328 
+ClusterState 1587849742088 0.01 11 135.88788604736328 
+ClusterState 1587849747088 0.01 11 135.88788604736328 
+ClusterState 1587849752088 0.01 11 135.88788604736328 
+ClusterState 1587849757088 0.01 11 135.88788604736328 
+ClusterState 1587849762089 0.01 11 135.88788604736328 
+ClusterState 1587849767089 0.01 11 135.88788604736328 
+ClusterState 1587849772089 0.01 11 135.88788604736328 
+ClusterState 1587849777092 0.01 11 135.88788604736328 
+ClusterState 1587849782092 0.01 11 135.88788604736328 
+ClusterState 1587849787092 0.01 11 135.88788604736328 
+ClusterState 1587849792092 0.01 11 135.88788604736328 
+ClusterState 1587849797092 0.01 11 135.88788604736328 
+ClusterState 1587849802092 0.01 11 135.88788604736328 
+ClusterState 1587849807092 0.01 11 135.88788604736328 
+ClusterState 1587849812092 0.01 11 135.88788604736328 
+ClusterState 1587849817092 0.01 11 135.88788604736328 
+ClusterState 1587849822092 0.01 11 135.88788604736328 
+ClusterState 1587849827092 0.01 11 135.88788604736328 
+ClusterState 1587849832092 0.01 11 135.88788604736328 
+ClusterState 1587849837092 0.01 11 135.88788604736328 
+ClusterState 1587849842092 0.01 11 135.88788604736328 
+ClusterState 1587849847094 0.01 12 136.88788604736328 
+pod "imdb-394e6c65e7173d91997fd67ba0df09ee-driver" force deleted
+JobFinished 1587849848394 1587849513239 job-17-84 5 0.07000100000000001 3.1541758 2480676 963484 305463 480251 729320 7 12 1
+ClusterState 1587849852094 0.01 17 141.88788604736328 
+ClusterState 1587849857094 0.01 17 141.88788604736328 
+ClusterState 1587849862094 0.01 17 141.88788604736328 
+ClusterState 1587849867094 0.01 17 141.88788604736328 
+ClusterState 1587849872094 0.01 17 141.88788604736328 
+ClusterState 1587849877095 0.01 17 141.88788604736328 
+ClusterState 1587849882095 0.01 17 141.88788604736328 
+ClusterState 1587849887095 0.01 17 141.88788604736328 
+ClusterState 1587849892095 0.01 17 141.88788604736328 
+pod "imdb-a9bf9eadfba53cc981d31b3d9931f669-driver" force deleted
+ClusterState 1587849897107 0.01 22 146.88788604736328 
+JobFinished 1587849897329 1587849550845 job-18-62 5 0.010001 5.8129525 1807072 1794441 308697 1441477 40004 9 6 1
+ClusterState 1587849902107 0.11 23 147.88788604736328 
+ClusterState 1587849907111 0.11 23 147.88788604736328 
+ClusterState 1587849912111 0.11 23 147.88788604736328 
+ClusterState 1587849917111 0.11 23 147.88788604736328 
+ClusterState 1587849922111 0.11 23 147.88788604736328 
+ClusterState 1587849927111 0.11 23 147.88788604736328 
+pod "imdb-e901d11ff13e383f88b5a23462316e07-driver" force deleted
+JobFinished 1587849929702 1587849480625 job-27-98 5 0.110001 1.6800642 2514038 712070 423835 253443 32445 6 5 1
+ClusterState 1587849932111 0.760001 29 153.88788604736328 
+ClusterState 1587849937111 0.760001 29 153.88788604736328 
+ClusterState 1587849942111 0.760001 29 153.88788604736328 
+ClusterState 1587849947111 0.760001 29 153.88788604736328 
+ClusterState 1587849952111 0.760001 29 153.88788604736328 
+ClusterState 1587849957111 0.760001 29 153.88788604736328 
+ClusterState 1587849962111 0.760001 29 153.88788604736328 
+ClusterState 1587849967111 0.760001 29 153.88788604736328 
+ClusterState 1587849972111 0.760001 29 153.88788604736328 
+ClusterState 1587849977111 0.760001 29 153.88788604736328 
+ClusterState 1587849982111 0.760001 29 153.88788604736328 
+ClusterState 1587849987111 0.760001 29 153.88788604736328 
+ClusterState 1587849992111 0.760001 29 153.88788604736328 
+ClusterState 1587849997111 0.760001 29 153.88788604736328 
+ClusterState 1587850002111 0.760001 29 153.88788604736328 
+ClusterState 1587850007111 0.760001 29 153.88788604736328 
+ClusterState 1587850012111 0.760001 29 153.88788604736328 
+ClusterState 1587850017111 0.760001 29 153.88788604736328 
+ClusterState 1587850022111 0.760001 29 153.88788604736328 
+ClusterState 1587850027111 0.760001 29 153.88788604736328 
+ClusterState 1587850032111 0.760001 29 153.88788604736328 
+ClusterState 1587850037111 0.760001 29 153.88788604736328 
+ClusterState 1587850042111 0.760001 29 153.88788604736328 
+ClusterState 1587850047111 0.760001 29 153.88788604736328 
+ClusterState 1587850052111 0.760001 29 153.88788604736328 
+ClusterState 1587850057111 0.760001 29 153.88788604736328 
+ClusterState 1587850062111 0.760001 29 153.88788604736328 
+ClusterState 1587850067111 0.760001 29 153.88788604736328 
+ClusterState 1587850072111 0.760001 29 153.88788604736328 
+ClusterState 1587850077111 0.760001 29 153.88788604736328 
+ClusterState 1587850082111 0.760001 29 153.88788604736328 
+ClusterState 1587850087111 0.760001 29 153.88788604736328 
+ClusterState 1587850092111 0.760001 29 153.88788604736328 
+ClusterState 1587850097111 0.760001 29 153.88788604736328 
+ClusterState 1587850102111 0.760001 29 153.88788604736328 
+ClusterState 1587850107111 0.760001 29 153.88788604736328 
+ClusterState 1587850112111 0.760001 29 153.88788604736328 
+ClusterState 1587850117111 0.760001 29 153.88788604736328 
+ClusterState 1587850122111 0.760001 29 153.88788604736328 
+ClusterState 1587850127111 0.760001 29 153.88788604736328 
+ClusterState 1587850132111 0.760001 29 153.88788604736328 
+ClusterState 1587850137111 0.760001 29 153.88788604736328 
+ClusterState 1587850142111 0.760001 29 153.88788604736328 
+ClusterState 1587850147111 0.760001 29 153.88788604736328 
+ClusterState 1587850152111 0.760001 29 153.88788604736328 
+ClusterState 1587850157111 0.760001 29 153.88788604736328 
+ClusterState 1587850162114 0.760001 29 153.88788604736328 
+ClusterState 1587850167120 0.760001 29 153.88788604736328 
+ClusterState 1587850172120 0.760001 29 153.88788604736328 
+ClusterState 1587850177138 0.760001 29 153.88788604736328 
+ClusterState 1587850182138 0.760001 29 153.88788604736328 
+ClusterState 1587850187145 0.760001 29 153.88788604736328 
+ClusterState 1587850192156 0.760001 29 153.88788604736328 
+ClusterState 1587850197155 0.760001 29 153.88788604736328 
+ClusterState 1587850202155 0.760001 29 153.88788604736328 
+ClusterState 1587850207156 0.760001 29 153.88788604736328 
+ClusterState 1587850212156 0.760001 29 153.88788604736328 
+ClusterState 1587850217156 0.760001 29 153.88788604736328 
+ClusterState 1587850222156 0.760001 29 153.88788604736328 
+ClusterState 1587850227156 0.760001 29 153.88788604736328 
+ClusterState 1587850232156 0.760001 29 153.88788604736328 
+ClusterState 1587850237156 0.760001 29 153.88788604736328 
+ClusterState 1587850242156 0.760001 29 153.88788604736328 
+ClusterState 1587850247156 0.760001 29 153.88788604736328 
+ClusterState 1587850252156 0.760001 29 153.88788604736328 
+ClusterState 1587850257156 0.760001 29 153.88788604736328 
+ClusterState 1587850262156 0.760001 29 153.88788604736328 
+ClusterState 1587850267156 0.760001 29 153.88788604736328 
+ClusterState 1587850272156 0.760001 29 153.88788604736328 
+ClusterState 1587850277156 0.760001 29 153.88788604736328 
+ClusterState 1587850282156 0.760001 29 153.88788604736328 
+ClusterState 1587850287156 0.760001 29 153.88788604736328 
+ClusterState 1587850292156 0.760001 29 153.88788604736328 
+ClusterState 1587850297156 0.760001 29 153.88788604736328 
+ClusterState 1587850302156 0.760001 29 153.88788604736328 
+ClusterState 1587850307156 0.760001 29 153.88788604736328 
+ClusterState 1587850312156 0.760001 29 153.88788604736328 
+ClusterState 1587850317156 0.760001 29 153.88788604736328 
+ClusterState 1587850322156 0.760001 29 153.88788604736328 
+ClusterState 1587850327156 0.760001 29 153.88788604736328 
+ClusterState 1587850332156 0.760001 29 153.88788604736328 
+ClusterState 1587850337156 0.760001 29 153.88788604736328 
+ClusterState 1587850342156 0.760001 29 153.88788604736328 
+ClusterState 1587850347156 0.760001 29 153.88788604736328 
+ClusterState 1587850352156 0.760001 29 153.88788604736328 
+ClusterState 1587850357156 0.760001 29 153.88788604736328 
+ClusterState 1587850362156 0.760001 29 153.88788604736328 
+ClusterState 1587850367156 0.760001 29 153.88788604736328 
+ClusterState 1587850372156 0.760001 29 153.88788604736328 
+ClusterState 1587850377156 0.760001 29 153.88788604736328 
+ClusterState 1587850382156 0.760001 29 153.88788604736328 
+ClusterState 1587850387156 0.760001 29 153.88788604736328 
+ClusterState 1587850392156 0.760001 29 153.88788604736328 
+ClusterState 1587850397156 0.760001 29 153.88788604736328 
+ClusterState 1587850402156 0.760001 29 153.88788604736328 
+ClusterState 1587850407156 0.760001 29 153.88788604736328 
+ClusterState 1587850412156 0.760001 29 153.88788604736328 
+ClusterState 1587850417156 0.760001 29 153.88788604736328 
+ClusterState 1587850422156 0.760001 29 153.88788604736328 
+ClusterState 1587850427156 0.760001 29 153.88788604736328 
+ClusterState 1587850432159 0.760001 29 153.88788604736328 
+ClusterState 1587850437159 0.760001 29 153.88788604736328 
+ClusterState 1587850442166 0.760001 29 153.88788604736328 
+ClusterState 1587850447166 0.760001 29 153.88788604736328 
+ClusterState 1587850452166 0.760001 29 153.88788604736328 
+ClusterState 1587850457166 0.760001 29 153.88788604736328 
+ClusterState 1587850462170 0.760001 29 153.88788604736328 
+ClusterState 1587850467170 0.760001 29 153.88788604736328 
+ClusterState 1587850472170 0.760001 29 153.88788604736328 
+ClusterState 1587850477170 0.760001 29 153.88788604736328 
+ClusterState 1587850482170 0.760001 29 153.88788604736328 
+ClusterState 1587850487170 0.760001 29 153.88788604736328 
+ClusterState 1587850492170 0.760001 29 153.88788604736328 
+ClusterState 1587850497170 0.760001 29 153.88788604736328 
+ClusterState 1587850502180 0.760001 29 153.88788604736328 
+ClusterState 1587850507180 0.760001 29 153.88788604736328 
+ClusterState 1587850512180 0.760001 29 153.88788604736328 
+ClusterState 1587850517180 0.760001 29 153.88788604736328 
+ClusterState 1587850522180 0.760001 29 153.88788604736328 
+ClusterState 1587850527180 0.760001 29 153.88788604736328 
+ClusterState 1587850532180 0.760001 29 153.88788604736328 
+ClusterState 1587850537180 0.760001 29 153.88788604736328 
+ClusterState 1587850542180 0.760001 29 153.88788604736328 
+ClusterState 1587850547180 0.760001 29 153.88788604736328 
+ClusterState 1587850552180 0.760001 29 153.88788604736328 
+ClusterState 1587850557180 0.760001 29 153.88788604736328 
+ClusterState 1587850562180 0.760001 29 153.88788604736328 
+ClusterState 1587850567180 0.760001 29 153.88788604736328 
+ClusterState 1587850572180 0.760001 29 153.88788604736328 
+ClusterState 1587850577180 0.760001 29 153.88788604736328 
+ClusterState 1587850582180 0.760001 29 153.88788604736328 
+ClusterState 1587850587180 0.760001 29 153.88788604736328 
+ClusterState 1587850592180 0.760001 29 153.88788604736328 
+ClusterState 1587850597180 0.760001 29 153.88788604736328 
+ClusterState 1587850602180 0.760001 29 153.88788604736328 
+ClusterState 1587850607180 0.760001 29 153.88788604736328 
+ClusterState 1587850612180 0.760001 29 153.88788604736328 
+ClusterState 1587850617180 0.760001 29 153.88788604736328 
+ClusterState 1587850622180 0.760001 29 153.88788604736328 
+ClusterState 1587850627180 0.760001 29 153.88788604736328 
+ClusterState 1587850632180 0.760001 29 153.88788604736328 
+ClusterState 1587850637180 0.760001 29 153.88788604736328 
+ClusterState 1587850642180 0.760001 29 153.88788604736328 
+ClusterState 1587850647180 0.760001 29 153.88788604736328 
+ClusterState 1587850652180 0.760001 29 153.88788604736328 
+ClusterState 1587850657180 0.760001 29 153.88788604736328 
+ClusterState 1587850662180 0.760001 29 153.88788604736328 
+ClusterState 1587850667180 0.760001 29 153.88788604736328 
+ClusterState 1587850672180 0.760001 29 153.88788604736328 
+ClusterState 1587850677180 0.760001 29 153.88788604736328 
+ClusterState 1587850682180 0.760001 29 153.88788604736328 
+ClusterState 1587850687180 0.760001 29 153.88788604736328 
+ClusterState 1587850692180 0.760001 29 153.88788604736328 
+ClusterState 1587850697180 0.760001 29 153.88788604736328 
+ClusterState 1587850702180 0.760001 29 153.88788604736328 
+ClusterState 1587850707180 0.760001 29 153.88788604736328 
+ClusterState 1587850712180 0.760001 29 153.88788604736328 
+ClusterState 1587850717180 0.760001 29 153.88788604736328 
+ClusterState 1587850722180 0.760001 29 153.88788604736328 
+ClusterState 1587850727180 0.760001 29 153.88788604736328 
+ClusterState 1587850732180 0.760001 29 153.88788604736328 
+ClusterState 1587850737180 0.760001 29 153.88788604736328 
+ClusterState 1587850742180 0.760001 29 153.88788604736328 
+ClusterState 1587850747180 0.760001 29 153.88788604736328 
+ClusterState 1587850752180 0.760001 29 153.88788604736328 
+ClusterState 1587850757180 0.760001 29 153.88788604736328 
+ClusterState 1587850762180 0.760001 29 153.88788604736328 
+ClusterState 1587850767180 0.760001 29 153.88788604736328 
+ClusterState 1587850772192 0.760001 29 153.88788604736328 
+ClusterState 1587850777192 0.760001 29 153.88788604736328 
+ClusterState 1587850782192 0.760001 29 153.88788604736328 
+ClusterState 1587850787192 0.760001 29 153.88788604736328 
+ClusterState 1587850792194 0.760001 29 153.88788604736328 
+ClusterState 1587850797194 0.760001 29 153.88788604736328 
+ClusterState 1587850802194 0.760001 29 153.88788604736328 
+ClusterState 1587850807194 0.760001 29 153.88788604736328 
+ClusterState 1587850812194 0.760001 29 153.88788604736328 
+ClusterState 1587850817194 0.760001 29 153.88788604736328 
+ClusterState 1587850822194 0.760001 29 153.88788604736328 
+ClusterState 1587850827194 0.760001 29 153.88788604736328 
+ClusterState 1587850832194 0.760001 29 153.88788604736328 
+ClusterState 1587850837194 0.760001 29 153.88788604736328 
+ClusterState 1587850842194 0.760001 29 153.88788604736328 
+ClusterState 1587850847194 0.760001 29 153.88788604736328 
+ClusterState 1587850852194 0.760001 29 153.88788604736328 
+ClusterState 1587850857194 0.760001 29 153.88788604736328 
+ClusterState 1587850862194 0.760001 29 153.88788604736328 
+ClusterState 1587850867194 0.760001 29 153.88788604736328 
+ClusterState 1587850872194 0.760001 29 153.88788604736328 
+ClusterState 1587850877194 0.760001 29 153.88788604736328 
+ClusterState 1587850882194 0.760001 29 153.88788604736328 
+ClusterState 1587850887194 0.760001 29 153.88788604736328 
+ClusterState 1587850892194 0.760001 29 153.88788604736328 
+ClusterState 1587850897194 0.760001 29 153.88788604736328 
+ClusterState 1587850902194 0.760001 29 153.88788604736328 
+ClusterState 1587850907194 0.760001 29 153.88788604736328 
+ClusterState 1587850912194 0.760001 29 153.88788604736328 
+ClusterState 1587850917194 0.760001 29 153.88788604736328 
+ClusterState 1587850922194 0.760001 29 153.88788604736328 
+ClusterState 1587850927194 0.760001 29 153.88788604736328 
+ClusterState 1587850932194 0.760001 29 153.88788604736328 
+ClusterState 1587850937194 0.760001 29 153.88788604736328 
+ClusterState 1587850942194 0.760001 29 153.88788604736328 
+ClusterState 1587850947194 0.760001 29 153.88788604736328 
+ClusterState 1587850952194 0.760001 29 153.88788604736328 
+ClusterState 1587850957194 0.760001 29 153.88788604736328 
+ClusterState 1587850962194 0.760001 29 153.88788604736328 
+ClusterState 1587850967194 0.760001 29 153.88788604736328 
+ClusterState 1587850972194 0.760001 29 153.88788604736328 
+ClusterState 1587850977194 0.760001 29 153.88788604736328 
+ClusterState 1587850982194 0.760001 29 153.88788604736328 
+ClusterState 1587850987194 0.760001 29 153.88788604736328 
+ClusterState 1587850992194 0.760001 29 153.88788604736328 
+ClusterState 1587850997194 0.760001 29 153.88788604736328 
+ClusterState 1587851002194 0.760001 29 153.88788604736328 
+ClusterState 1587851007194 0.760001 29 153.88788604736328 
+ClusterState 1587851012194 0.760001 29 153.88788604736328 
+ClusterState 1587851017194 0.760001 29 153.88788604736328 
+ClusterState 1587851022194 0.760001 29 153.88788604736328 
+ClusterState 1587851027194 0.760001 29 153.88788604736328 
+ClusterState 1587851032194 0.760001 29 153.88788604736328 
+ClusterState 1587851037194 0.760001 29 153.88788604736328 
+ClusterState 1587851042194 0.760001 29 153.88788604736328 
+ClusterState 1587851047194 0.760001 29 153.88788604736328 
+ClusterState 1587851052194 0.760001 29 153.88788604736328 
+ClusterState 1587851057194 0.760001 29 153.88788604736328 
+ClusterState 1587851062194 0.760001 29 153.88788604736328 
+ClusterState 1587851067194 0.760001 29 153.88788604736328 
+ClusterState 1587851072194 0.760001 29 153.88788604736328 
+ClusterState 1587851077194 0.760001 29 153.88788604736328 
+ClusterState 1587851082194 0.760001 29 153.88788604736328 
+ClusterState 1587851087194 0.760001 29 153.88788604736328 
+ClusterState 1587851092194 0.760001 29 153.88788604736328 
+ClusterState 1587851097194 0.760001 29 153.88788604736328 
+ClusterState 1587851102194 0.760001 29 153.88788604736328 
+ClusterState 1587851107194 0.760001 29 153.88788604736328 
+ClusterState 1587851112194 0.760001 29 153.88788604736328 
+ClusterState 1587851117194 0.760001 29 153.88788604736328 
+ClusterState 1587851122194 0.760001 29 153.88788604736328 
+ClusterState 1587851127194 0.760001 29 153.88788604736328 
+ClusterState 1587851132194 0.760001 29 153.88788604736328 
+ClusterState 1587851137194 0.760001 29 153.88788604736328 
+ClusterState 1587851142194 0.760001 29 153.88788604736328 
+ClusterState 1587851147194 0.760001 29 153.88788604736328 
+ClusterState 1587851152194 0.760001 29 153.88788604736328 
+ClusterState 1587851157194 0.760001 29 153.88788604736328 
+ClusterState 1587851162194 0.760001 29 153.88788604736328 
+ClusterState 1587851167194 0.760001 29 153.88788604736328 
+ClusterState 1587851172194 0.760001 29 153.88788604736328 
+ClusterState 1587851177194 0.760001 29 153.88788604736328 
+ClusterState 1587851182194 0.760001 29 153.88788604736328 
+ClusterState 1587851187194 0.760001 29 153.88788604736328 
+ClusterState 1587851192194 0.760001 29 153.88788604736328 
+ClusterState 1587851197194 0.760001 29 153.88788604736328 
+ClusterState 1587851202194 0.760001 29 153.88788604736328 
+ClusterState 1587851207194 0.760001 29 153.88788604736328 
+ClusterState 1587851212194 0.760001 29 153.88788604736328 
+ClusterState 1587851217194 0.760001 29 153.88788604736328 
+ClusterState 1587851222194 0.760001 29 153.88788604736328 
+ClusterState 1587851227194 0.760001 29 153.88788604736328 
+ClusterState 1587851232194 0.760001 29 153.88788604736328 
+ClusterState 1587851237194 0.760001 29 153.88788604736328 
+ClusterState 1587851242194 0.760001 29 153.88788604736328 
+ClusterState 1587851247194 0.760001 29 153.88788604736328 
+ClusterState 1587851252194 0.760001 29 153.88788604736328 
+ClusterState 1587851257194 0.760001 29 153.88788604736328 
+ClusterState 1587851262194 0.760001 29 153.88788604736328 
+ClusterState 1587851267194 0.760001 29 153.88788604736328 
+ClusterState 1587851272194 0.760001 29 153.88788604736328 
+ClusterState 1587851277194 0.760001 29 153.88788604736328 
+ClusterState 1587851282194 0.760001 29 153.88788604736328 
+ClusterState 1587851287194 0.760001 29 153.88788604736328 
+ClusterState 1587851292194 0.760001 29 153.88788604736328 
+ClusterState 1587851297194 0.760001 29 153.88788604736328 
+ClusterState 1587851302194 0.760001 29 153.88788604736328 
+ClusterState 1587851307194 0.760001 29 153.88788604736328 
+ClusterState 1587851312194 0.760001 29 153.88788604736328 
+ClusterState 1587851317194 0.760001 29 153.88788604736328 
+ClusterState 1587851322194 0.760001 29 153.88788604736328 
+ClusterState 1587851327194 0.760001 29 153.88788604736328 
+ClusterState 1587851332194 0.760001 29 153.88788604736328 
+ClusterState 1587851337194 0.760001 29 153.88788604736328 
+ClusterState 1587851342194 0.760001 29 153.88788604736328 
+ClusterState 1587851347194 0.760001 29 153.88788604736328 
+ClusterState 1587851352194 0.760001 29 153.88788604736328 
+ClusterState 1587851357194 0.760001 29 153.88788604736328 
+ClusterState 1587851362194 0.760001 29 153.88788604736328 
+ClusterState 1587851367194 0.760001 29 153.88788604736328 
+ClusterState 1587851372194 0.760001 29 153.88788604736328 
+ClusterState 1587851377194 0.760001 29 153.88788604736328 
+ClusterState 1587851382194 0.760001 29 153.88788604736328 
+ClusterState 1587851387194 0.760001 29 153.88788604736328 
+ClusterState 1587851392194 0.760001 29 153.88788604736328 
+ClusterState 1587851397194 0.760001 29 153.88788604736328 
+ClusterState 1587851402194 0.760001 29 153.88788604736328 
+ClusterState 1587851407194 0.760001 29 153.88788604736328 
+ClusterState 1587851412194 0.760001 29 153.88788604736328 
+ClusterState 1587851417194 0.760001 29 153.88788604736328 
+ClusterState 1587851422194 0.760001 29 153.88788604736328 
+ClusterState 1587851427194 0.760001 29 153.88788604736328 
+ClusterState 1587851432194 0.760001 29 153.88788604736328 
+ClusterState 1587851437194 0.760001 29 153.88788604736328 
+ClusterState 1587851442194 0.760001 29 153.88788604736328 
+ClusterState 1587851447194 0.760001 29 153.88788604736328 
+ClusterState 1587851452194 0.760001 29 153.88788604736328 
+ClusterState 1587851457194 0.760001 29 153.88788604736328 
+ClusterState 1587851462194 0.760001 29 153.88788604736328 
+ClusterState 1587851467194 0.760001 29 153.88788604736328 
+ClusterState 1587851472194 0.760001 29 153.88788604736328 
+ClusterState 1587851477194 0.760001 29 153.88788604736328 
+ClusterState 1587851482194 0.760001 29 153.88788604736328 
+ClusterState 1587851487194 0.760001 29 153.88788604736328 
+ClusterState 1587851492194 0.760001 29 153.88788604736328 
+ClusterState 1587851497194 0.760001 29 153.88788604736328 
+ClusterState 1587851502194 0.760001 29 153.88788604736328 
+ClusterState 1587851507194 0.760001 29 153.88788604736328 
+ClusterState 1587851512194 0.760001 29 153.88788604736328 
+ClusterState 1587851517194 0.760001 29 153.88788604736328 
+ClusterState 1587851522194 0.760001 29 153.88788604736328 
+ClusterState 1587851527194 0.760001 29 153.88788604736328 
+ClusterState 1587851532194 0.760001 29 153.88788604736328 
+ClusterState 1587851537194 0.760001 29 153.88788604736328 
+ClusterState 1587851542194 0.760001 29 153.88788604736328 
+ClusterState 1587851547194 0.760001 29 153.88788604736328 
+ClusterState 1587851552194 0.760001 29 153.88788604736328 
+ClusterState 1587851557194 0.760001 29 153.88788604736328 
+ClusterState 1587851562194 0.760001 29 153.88788604736328 
+ClusterState 1587851567194 0.760001 29 153.88788604736328 
+ClusterState 1587851572194 0.760001 29 153.88788604736328 
+ClusterState 1587851577194 0.760001 29 153.88788604736328 
+ClusterState 1587851582194 0.760001 29 153.88788604736328 
+ClusterState 1587851587194 0.760001 29 153.88788604736328 
+ClusterState 1587851592194 0.760001 29 153.88788604736328 
+ClusterState 1587851597194 0.760001 29 153.88788604736328 
+ClusterState 1587851602194 0.760001 29 153.88788604736328 
+ClusterState 1587851607194 0.760001 29 153.88788604736328 
+ClusterState 1587851612194 0.760001 29 153.88788604736328 
+ClusterState 1587851617194 0.760001 29 153.88788604736328 
+ClusterState 1587851622194 0.760001 29 153.88788604736328 
+ClusterState 1587851627194 0.760001 29 153.88788604736328 
+ClusterState 1587851632194 0.760001 29 153.88788604736328 
+ClusterState 1587851637194 0.760001 29 153.88788604736328 
+ClusterState 1587851642194 0.760001 29 153.88788604736328 
+ClusterState 1587851647194 0.760001 29 153.88788604736328 
+ClusterState 1587851652194 0.760001 29 153.88788604736328 
+ClusterState 1587851657194 0.760001 29 153.88788604736328 
+ClusterState 1587851662194 0.760001 29 153.88788604736328 
+ClusterState 1587851667194 0.760001 29 153.88788604736328 
+ClusterState 1587851672194 0.760001 29 153.88788604736328 
+ClusterState 1587851677194 0.760001 29 153.88788604736328 
+ClusterState 1587851682194 0.760001 29 153.88788604736328 
+ClusterState 1587851687194 0.760001 29 153.88788604736328 
+ClusterState 1587851692194 0.760001 29 153.88788604736328 
+ClusterState 1587851697194 0.760001 29 153.88788604736328 
+ClusterState 1587851702194 0.760001 29 153.88788604736328 
+ClusterState 1587851707194 0.760001 29 153.88788604736328 
+ClusterState 1587851712194 0.760001 29 153.88788604736328 
+ClusterState 1587851717194 0.760001 29 153.88788604736328 
+ClusterState 1587851722194 0.760001 29 153.88788604736328 
+ClusterState 1587851727194 0.760001 29 153.88788604736328 
+ClusterState 1587851732194 0.760001 29 153.88788604736328 
+ClusterState 1587851737194 0.760001 29 153.88788604736328 
+ClusterState 1587851742194 0.760001 29 153.88788604736328 
+ClusterState 1587851747194 0.760001 29 153.88788604736328 
+ClusterState 1587851752194 0.760001 29 153.88788604736328 
+ClusterState 1587851757194 0.760001 29 153.88788604736328 
+ClusterState 1587851762194 0.760001 29 153.88788604736328 
+ClusterState 1587851767194 0.760001 29 153.88788604736328 
+ClusterState 1587851772194 0.760001 29 153.88788604736328 
+ClusterState 1587851777194 0.760001 29 153.88788604736328 
+ClusterState 1587851782194 0.760001 29 153.88788604736328 
+ClusterState 1587851787194 0.760001 29 153.88788604736328 
+ClusterState 1587851792194 0.760001 29 153.88788604736328 
+ClusterState 1587851797194 0.760001 29 153.88788604736328 
+ClusterState 1587851802194 0.760001 29 153.88788604736328 
+ClusterState 1587851807194 0.760001 29 153.88788604736328 
+ClusterState 1587851812194 0.760001 29 153.88788604736328 
+ClusterState 1587851817194 0.760001 29 153.88788604736328 
+ClusterState 1587851822194 0.760001 29 153.88788604736328 
+ClusterState 1587851827194 0.760001 29 153.88788604736328 
+ClusterState 1587851832194 0.760001 29 153.88788604736328 
+ClusterState 1587851837194 0.760001 29 153.88788604736328 
+ClusterState 1587851842194 0.760001 29 153.88788604736328 
+ClusterState 1587851847194 0.760001 29 153.88788604736328 
+ClusterState 1587851852194 0.760001 29 153.88788604736328 
+ClusterState 1587851857194 0.760001 29 153.88788604736328 
+ClusterState 1587851862194 0.760001 29 153.88788604736328 
+ClusterState 1587851867194 0.760001 29 153.88788604736328 
+ClusterState 1587851872194 0.760001 29 153.88788604736328 
+ClusterState 1587851877194 0.760001 29 153.88788604736328 
+ClusterState 1587851882194 0.760001 29 153.88788604736328 
+ClusterState 1587851887194 0.760001 29 153.88788604736328 
+ClusterState 1587851892194 0.760001 29 153.88788604736328 
+ClusterState 1587851897194 0.760001 29 153.88788604736328 
+ClusterState 1587851902194 0.760001 29 153.88788604736328 
+ClusterState 1587851907194 0.760001 29 153.88788604736328 
+ClusterState 1587851912194 0.760001 29 153.88788604736328 
+ClusterState 1587851917194 0.760001 29 153.88788604736328 
+ClusterState 1587851922194 0.760001 29 153.88788604736328 
+ClusterState 1587851927194 0.760001 29 153.88788604736328 
+ClusterState 1587851932194 0.760001 29 153.88788604736328 
+ClusterState 1587851937194 0.760001 29 153.88788604736328 
+ClusterState 1587851942194 0.760001 29 153.88788604736328 
+ClusterState 1587851947194 0.760001 29 153.88788604736328 
+ClusterState 1587851952194 0.760001 29 153.88788604736328 
+ClusterState 1587851957194 0.760001 29 153.88788604736328 
+ClusterState 1587851962194 0.760001 29 153.88788604736328 
+ClusterState 1587851967194 0.760001 29 153.88788604736328 
+ClusterState 1587851972194 0.760001 29 153.88788604736328 
+ClusterState 1587851977194 0.760001 29 153.88788604736328 
+ClusterState 1587851982194 0.760001 29 153.88788604736328 
+ClusterState 1587851987194 0.760001 29 153.88788604736328 
+ClusterState 1587851992194 0.760001 29 153.88788604736328 
+ClusterState 1587851997194 0.760001 29 153.88788604736328 
+ClusterState 1587852002194 0.760001 29 153.88788604736328 
+ClusterState 1587852007194 0.760001 29 153.88788604736328 
+ClusterState 1587852012194 0.760001 29 153.88788604736328 
+ClusterState 1587852017194 0.760001 29 153.88788604736328 
+ClusterState 1587852022194 0.760001 29 153.88788604736328 
+ClusterState 1587852027194 0.760001 29 153.88788604736328 
+ClusterState 1587852032194 0.760001 29 153.88788604736328 
+ClusterState 1587852037194 0.760001 29 153.88788604736328 
+ClusterState 1587852042194 0.760001 29 153.88788604736328 
+ClusterState 1587852047194 0.760001 29 153.88788604736328 
+ClusterState 1587852052194 0.760001 29 153.88788604736328 
+ClusterState 1587852057194 0.760001 29 153.88788604736328 
+ClusterState 1587852062194 0.760001 29 153.88788604736328 
+ClusterState 1587852067194 0.760001 29 153.88788604736328 
+ClusterState 1587852072194 0.760001 29 153.88788604736328 
+ClusterState 1587852077194 0.760001 29 153.88788604736328 
+ClusterState 1587852082194 0.760001 29 153.88788604736328 
+ClusterState 1587852087194 0.760001 29 153.88788604736328 
+ClusterState 1587852092194 0.760001 29 153.88788604736328 
+ClusterState 1587852097194 0.760001 29 153.88788604736328 
+ClusterState 1587852102194 0.760001 29 153.88788604736328 
+ClusterState 1587852107194 0.760001 29 153.88788604736328 
+ClusterState 1587852112194 0.760001 29 153.88788604736328 
+ClusterState 1587852117194 0.760001 29 153.88788604736328 
+ClusterState 1587852122194 0.760001 29 153.88788604736328 
+ClusterState 1587852127194 0.760001 29 153.88788604736328 
+ClusterState 1587852132194 0.760001 29 153.88788604736328 
+ClusterState 1587852137194 0.760001 29 153.88788604736328 
+ClusterState 1587852142194 0.760001 29 153.88788604736328 
+ClusterState 1587852147194 0.760001 29 153.88788604736328 
+ClusterState 1587852152194 0.760001 29 153.88788604736328 
+ClusterState 1587852157194 0.760001 29 153.88788604736328 
+ClusterState 1587852162194 0.760001 29 153.88788604736328 
+ClusterState 1587852167194 0.760001 29 153.88788604736328 
+ClusterState 1587852172194 0.760001 29 153.88788604736328 
+ClusterState 1587852177194 0.760001 29 153.88788604736328 
+ClusterState 1587852182194 0.760001 29 153.88788604736328 
+ClusterState 1587852187194 0.760001 29 153.88788604736328 
+ClusterState 1587852192194 0.760001 29 153.88788604736328 
+ClusterState 1587852197194 0.760001 29 153.88788604736328 
+ClusterState 1587852202194 0.760001 29 153.88788604736328 
+ClusterState 1587852207194 0.760001 29 153.88788604736328 
+ClusterState 1587852212194 0.760001 29 153.88788604736328 
+ClusterState 1587852217194 0.760001 29 153.88788604736328 
+ClusterState 1587852222194 0.760001 29 153.88788604736328 
+ClusterState 1587852227194 0.760001 29 153.88788604736328 
+ClusterState 1587852232194 0.760001 29 153.88788604736328 
+ClusterState 1587852237194 0.760001 29 153.88788604736328 
+ClusterState 1587852242194 0.760001 29 153.88788604736328 
+ClusterState 1587852247194 0.760001 29 153.88788604736328 
+ClusterState 1587852252194 0.760001 29 153.88788604736328 
+ClusterState 1587852257194 0.760001 29 153.88788604736328 
+ClusterState 1587852262194 0.760001 29 153.88788604736328 
+ClusterState 1587852267194 0.760001 29 153.88788604736328 
+ClusterState 1587852272194 0.760001 29 153.88788604736328 
+ClusterState 1587852277194 0.760001 29 153.88788604736328 
+ClusterState 1587852282194 0.760001 29 153.88788604736328 
+ClusterState 1587852287194 0.760001 29 153.88788604736328 
+ClusterState 1587852292194 0.760001 29 153.88788604736328 
+ClusterState 1587852297194 0.760001 29 153.88788604736328 
+ClusterState 1587852302194 0.760001 29 153.88788604736328 
+ClusterState 1587852307194 0.760001 29 153.88788604736328 
+ClusterState 1587852312194 0.760001 29 153.88788604736328 
+ClusterState 1587852317194 0.760001 29 153.88788604736328 
+ClusterState 1587852322194 0.760001 29 153.88788604736328 
+ClusterState 1587852327194 0.760001 29 153.88788604736328 
+ClusterState 1587852332194 0.760001 29 153.88788604736328 
+ClusterState 1587852337194 0.760001 29 153.88788604736328 
+ClusterState 1587852342194 0.760001 29 153.88788604736328 
+ClusterState 1587852347194 0.760001 29 153.88788604736328 
+ClusterState 1587852352194 0.760001 29 153.88788604736328 
+ClusterState 1587852357194 0.760001 29 153.88788604736328 
+ClusterState 1587852362194 0.760001 29 153.88788604736328 
+ClusterState 1587852367194 0.760001 29 153.88788604736328 
+ClusterState 1587852372194 0.760001 29 153.88788604736328 
+ClusterState 1587852377194 0.760001 29 153.88788604736328 
+ClusterState 1587852382194 0.760001 29 153.88788604736328 
+ClusterState 1587852387194 0.760001 29 153.88788604736328 
+ClusterState 1587852392194 0.760001 29 153.88788604736328 
+ClusterState 1587852397194 0.760001 29 153.88788604736328 
+ClusterState 1587852402194 0.760001 29 153.88788604736328 
+ClusterState 1587852407194 0.760001 29 153.88788604736328 
+ClusterState 1587852412194 0.760001 29 153.88788604736328 
+ClusterState 1587852417194 0.760001 29 153.88788604736328 
+ClusterState 1587852422194 0.760001 29 153.88788604736328 
+ClusterState 1587852427194 0.760001 29 153.88788604736328 
+ClusterState 1587852432194 0.760001 29 153.88788604736328 
+ClusterState 1587852437194 0.760001 29 153.88788604736328 
+ClusterState 1587852442194 0.760001 29 153.88788604736328 
+ClusterState 1587852447194 0.760001 29 153.88788604736328 
+ClusterState 1587852452194 0.760001 29 153.88788604736328 
+ClusterState 1587852457194 0.760001 29 153.88788604736328 
+ClusterState 1587852462194 0.760001 29 153.88788604736328 
+ClusterState 1587852467194 0.760001 29 153.88788604736328 
+ClusterState 1587852472194 0.760001 29 153.88788604736328 
+ClusterState 1587852477194 0.760001 29 153.88788604736328 
+ClusterState 1587852482194 0.760001 29 153.88788604736328 
+ClusterState 1587852487194 0.760001 29 153.88788604736328 
+ClusterState 1587852492194 0.760001 29 153.88788604736328 
+ClusterState 1587852497194 0.760001 29 153.88788604736328 
+ClusterState 1587852502194 0.760001 29 153.88788604736328 
+ClusterState 1587852507194 0.760001 29 153.88788604736328 
+ClusterState 1587852512194 0.760001 29 153.88788604736328 
+ClusterState 1587852517194 0.760001 29 153.88788604736328 
+ClusterState 1587852522194 0.760001 29 153.88788604736328 
+ClusterState 1587852527194 0.760001 29 153.88788604736328 
+ClusterState 1587852532194 0.760001 29 153.88788604736328 
+ClusterState 1587852537194 0.760001 29 153.88788604736328 
+ClusterState 1587852542194 0.760001 29 153.88788604736328 
+ClusterState 1587852547194 0.760001 29 153.88788604736328 
+ClusterState 1587852552194 0.760001 29 153.88788604736328 
+ClusterState 1587852557194 0.760001 29 153.88788604736328 
+ClusterState 1587852562194 0.760001 29 153.88788604736328 
+ClusterState 1587852567194 0.760001 29 153.88788604736328 
+ClusterState 1587852572194 0.760001 29 153.88788604736328 
+ClusterState 1587852577194 0.760001 29 153.88788604736328 
+ClusterState 1587852582194 0.760001 29 153.88788604736328 
+ClusterState 1587852587194 0.760001 29 153.88788604736328 
+ClusterState 1587852592194 0.760001 29 153.88788604736328 
+ClusterState 1587852597194 0.760001 29 153.88788604736328 
+ClusterState 1587852602194 0.760001 29 153.88788604736328 
+ClusterState 1587852607194 0.760001 29 153.88788604736328 
+ClusterState 1587852612194 0.760001 29 153.88788604736328 
+ClusterState 1587852617194 0.760001 29 153.88788604736328 
+ClusterState 1587852622194 0.760001 29 153.88788604736328 
+ClusterState 1587852627194 0.760001 29 153.88788604736328 
+ClusterState 1587852632194 0.760001 29 153.88788604736328 
+ClusterState 1587852637194 0.760001 29 153.88788604736328 
+ClusterState 1587852642194 0.760001 29 153.88788604736328 
+ClusterState 1587852647194 0.760001 29 153.88788604736328 
+ClusterState 1587852652194 0.760001 29 153.88788604736328 
+ClusterState 1587852657194 0.760001 29 153.88788604736328 
+ClusterState 1587852662194 0.760001 29 153.88788604736328 
+ClusterState 1587852667194 0.760001 29 153.88788604736328 
+ClusterState 1587852672194 0.760001 29 153.88788604736328 
+ClusterState 1587852677194 0.760001 29 153.88788604736328 
+ClusterState 1587852682194 0.760001 29 153.88788604736328 
+ClusterState 1587852687194 0.760001 29 153.88788604736328 
+ClusterState 1587852692194 0.760001 29 153.88788604736328 
+ClusterState 1587852697194 0.760001 29 153.88788604736328 
+ClusterState 1587852702194 0.760001 29 153.88788604736328 
+ClusterState 1587852707194 0.760001 29 153.88788604736328 
+ClusterState 1587852712194 0.760001 29 153.88788604736328 

@@ -1,0 +1,47 @@
+[SPARK]
+CLUSTER_MANAGER = 'k8s://<kube_master_ip>:6443'
+DOCKER_IMAGE = 'spark:main'
+SPARK_SUBMIT = '/home/ubuntu/capri/spark-2.3.0/bin/spark-submit'
+JAR = 'local:///opt/spark/examples/target/spark-bench_2.11-1.0.jar'
+DEPLOY_MODE = 'cluster'
+DRIVER_CORES = 1
+DRIVER_MEMORY = '1g'
+EXECUTOR_CORES = 1
+EXECUTOR_MEMORY = '1g'
+
+[AWS]
+ACCESS_KEY_ID = '<key_id>'
+SECRET_ACCESS_KEY = '<secret_key>'
+S3_FILE_SYSTEM = 'org.apache.hadoop.fs.s3native.NativeS3FileSystem'
+LIBRARIES = 'local:///opt/spark/lib/hadoop-aws-2.7.4.jar,local:///opt/spark/lib/aws-java-sdk-1.7.4.jar'
+
+[BENCHMARKS]
+IMDB_QUERIES = 'Traces/imdb-single-jobs.txt'
+IMDB_DATASET = 's3n://<path_to_files>'
+IMDB_SIZE = 111
+TPCDS_QUERIES = 'Traces/tpcds-single-jobs.txt'
+TPCDS_DATASET = 's3n://<path_to_dataset>'
+TPCDS_SIZE = 104
+
+[IMDB]
+TOTAL_JOBS = 500
+CONTAINERS_PER_JOB = 5
+RESTARTS_PER_JOB = 10
+INTERARRIVAL_TIME_LOW = 50
+INTERARRIVAL_TIME_HIGH = 200
+REGIME_DURATION = 1200
+TINY_JOBS_CUTOFF = 300000
+TINY_JOBS_FRACTION = 0.41
+SMALL_JOBS_CUTOFF = 1000000
+SMALL_JOBS_FRACTION = 0.695
+MEDIUM_JOBS_CUTOFF = 2000000
+MEDIUM_JOBS_FRACTION = 0.876
+
+[TPCDS]
+TOTAL_JOBS = 500
+CONTAINERS_PER_JOB = 5
+RESTARTS_PER_JOB = 100
+INTERARRIVAL_TIME_LOW = 50
+INTERARRIVAL_TIME_HIGH = 200
+REGIME_DURATION = 1200
+

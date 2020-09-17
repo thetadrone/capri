@@ -1,0 +1,2462 @@
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585661641315 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-driver
+PodStart 1585661641394 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-driver
+PodSubmit 1585661646784 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-exec-2
+PodStart 1585661646790 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-exec-2
+PodSubmit 1585661646796 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-exec-5
+PodSubmit 1585661646821 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-exec-1
+PodStart 1585661646821 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-exec-5
+PodSubmit 1585661646838 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-exec-4
+PodStart 1585661646845 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-exec-1
+PodStart 1585661646870 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-exec-4
+PodSubmit 1585661646877 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-exec-3
+PodStart 1585661646883 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-exec-3
+pod "tpcds-8b5d3b4381583567a915b00aac1f7c2b-driver" force deleted
+PodComplete 1585661848654 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-exec-4 false
+PodComplete 1585661848727 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-exec-5 false
+PodComplete 1585661848800 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-exec-2 false
+PodComplete 1585661848870 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-exec-3 false
+PodComplete 1585661848940 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-exec-1 false
+PodComplete 1585661848940 job-0 tpcds-8b5d3b4381583567a915b00aac1f7c2b-driver true
+JobFinished 1585661848951 1585661641315 job-0 5 1.000001 1.0003806 1217327 207625 207546 79 0 1 5
+PodSubmit 1585661850781 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-driver
+PodStart 1585661850787 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-driver
+PodSubmit 1585661856103 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-exec-2
+PodStart 1585661856107 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-exec-2
+PodSubmit 1585661856110 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-exec-5
+PodSubmit 1585661856119 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-exec-1
+PodStart 1585661856126 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-exec-5
+PodSubmit 1585661856128 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-exec-4
+PodStart 1585661856142 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-exec-1
+PodSubmit 1585661856145 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-exec-3
+PodStart 1585661856159 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-exec-4
+PodStart 1585661856203 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-exec-3
+pod "tpcds-0a04d57a641c3a70abc914a2afe421c1-driver" force deleted
+PodComplete 1585662056828 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-exec-3 false
+PodComplete 1585662056918 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-exec-4 false
+PodComplete 1585662056998 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-exec-1 false
+PodComplete 1585662057084 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-exec-2 false
+PodComplete 1585662057166 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-exec-5 false
+PodComplete 1585662057166 job-1 tpcds-0a04d57a641c3a70abc914a2afe421c1-driver true
+JobFinished 1585662057166 1585661850781 job-1 5 1.000001 1.0000291 1210635 206385 206379 6 0 1 5
+PodSubmit 1585662058993 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-driver
+PodStart 1585662059000 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-driver
+PodSubmit 1585662064356 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-exec-2
+PodStart 1585662064360 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-exec-2
+PodSubmit 1585662064365 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-exec-5
+PodStart 1585662064374 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-exec-5
+PodSubmit 1585662064381 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-exec-1
+PodStart 1585662064411 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-exec-1
+PodSubmit 1585662064427 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-exec-4
+PodStart 1585662064435 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-exec-4
+PodSubmit 1585662064441 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-exec-3
+PodStart 1585662064459 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-exec-3
+pod "tpcds-46866d33700c32029a81b68d7fd613b9-driver" force deleted
+PodComplete 1585662203755 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-exec-5 false
+PodComplete 1585662203825 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-exec-4 false
+PodComplete 1585662203898 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-exec-3 false
+PodComplete 1585662203968 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-exec-2 false
+PodComplete 1585662204037 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-exec-1 false
+PodComplete 1585662204038 job-2 tpcds-46866d33700c32029a81b68d7fd613b9-driver true
+JobFinished 1585662204038 1585662058993 job-2 5 1.000001 1.0000483 842481 145045 145038 7 0 1 5
+PodSubmit 1585662205813 job-3 tpcds-7622568260523af0a1b428128c42edf5-driver
+PodStart 1585662205817 job-3 tpcds-7622568260523af0a1b428128c42edf5-driver
+PodSubmit 1585662211162 job-3 tpcds-7622568260523af0a1b428128c42edf5-exec-2
+PodStart 1585662211168 job-3 tpcds-7622568260523af0a1b428128c42edf5-exec-2
+PodSubmit 1585662211171 job-3 tpcds-7622568260523af0a1b428128c42edf5-exec-5
+PodStart 1585662211176 job-3 tpcds-7622568260523af0a1b428128c42edf5-exec-5
+PodSubmit 1585662211184 job-3 tpcds-7622568260523af0a1b428128c42edf5-exec-1
+PodStart 1585662211189 job-3 tpcds-7622568260523af0a1b428128c42edf5-exec-1
+PodSubmit 1585662211193 job-3 tpcds-7622568260523af0a1b428128c42edf5-exec-4
+PodStart 1585662211208 job-3 tpcds-7622568260523af0a1b428128c42edf5-exec-4
+PodSubmit 1585662211210 job-3 tpcds-7622568260523af0a1b428128c42edf5-exec-3
+PodStart 1585662211222 job-3 tpcds-7622568260523af0a1b428128c42edf5-exec-3
+pod "tpcds-7622568260523af0a1b428128c42edf5-driver" force deleted
+PodComplete 1585662734951 job-3 tpcds-7622568260523af0a1b428128c42edf5-exec-5 false
+PodComplete 1585662735022 job-3 tpcds-7622568260523af0a1b428128c42edf5-exec-4 false
+PodComplete 1585662735104 job-3 tpcds-7622568260523af0a1b428128c42edf5-exec-3 false
+PodComplete 1585662735176 job-3 tpcds-7622568260523af0a1b428128c42edf5-exec-2 false
+PodComplete 1585662735249 job-3 tpcds-7622568260523af0a1b428128c42edf5-exec-1 false
+PodComplete 1585662735249 job-3 tpcds-7622568260523af0a1b428128c42edf5-driver true
+JobFinished 1585662735249 1585662205813 job-3 5 1.000001 1.0000075 3148971 529436 529432 4 0 1 5
+PodSubmit 1585662736910 job-4 tpcds-417839de65853a8e9225204914eecfb7-driver
+PodStart 1585662736964 job-4 tpcds-417839de65853a8e9225204914eecfb7-driver
+PodSubmit 1585662742533 job-4 tpcds-417839de65853a8e9225204914eecfb7-exec-2
+PodStart 1585662742538 job-4 tpcds-417839de65853a8e9225204914eecfb7-exec-2
+PodSubmit 1585662742547 job-4 tpcds-417839de65853a8e9225204914eecfb7-exec-5
+PodSubmit 1585662742549 job-4 tpcds-417839de65853a8e9225204914eecfb7-exec-1
+PodStart 1585662742555 job-4 tpcds-417839de65853a8e9225204914eecfb7-exec-5
+PodSubmit 1585662742560 job-4 tpcds-417839de65853a8e9225204914eecfb7-exec-4
+PodStart 1585662742561 job-4 tpcds-417839de65853a8e9225204914eecfb7-exec-1
+PodStart 1585662742583 job-4 tpcds-417839de65853a8e9225204914eecfb7-exec-4
+PodSubmit 1585662742584 job-4 tpcds-417839de65853a8e9225204914eecfb7-exec-3
+PodStart 1585662742593 job-4 tpcds-417839de65853a8e9225204914eecfb7-exec-3
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585663854859 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-driver
+PodStart 1585663854937 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-driver
+PodSubmit 1585663860229 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-exec-2
+PodStart 1585663860237 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-exec-2
+PodSubmit 1585663860248 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-exec-5
+PodStart 1585663860260 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-exec-5
+PodSubmit 1585663860262 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-exec-1
+PodStart 1585663860276 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-exec-1
+PodSubmit 1585663860284 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-exec-4
+PodStart 1585663860291 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-exec-4
+PodSubmit 1585663860291 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-exec-3
+PodStart 1585663860302 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-exec-3
+pod "tpcds-770631af8a5835edb160d3eb72ee8ff0-driver" force deleted
+PodComplete 1585664484550 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-exec-4 false
+PodComplete 1585664484662 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-exec-5 false
+PodComplete 1585664484754 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-exec-2 false
+PodComplete 1585664484827 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-exec-3 false
+PodComplete 1585664484897 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-exec-1 false
+PodComplete 1585664484897 job-4 tpcds-770631af8a5835edb160d3eb72ee8ff0-driver true
+JobFinished 1585664484907 1585663854859 job-4 5 1.000001 1.0001239 3752285 630038 629960 78 0 1 5
+PodSubmit 1585664486565 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-driver
+PodStart 1585664486614 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-driver
+PodSubmit 1585664492024 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-exec-2
+PodStart 1585664492028 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-exec-2
+PodSubmit 1585664492033 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-exec-5
+PodStart 1585664492039 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-exec-5
+PodSubmit 1585664492051 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-exec-1
+PodStart 1585664492061 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-exec-1
+PodSubmit 1585664492065 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-exec-4
+PodSubmit 1585664492087 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-exec-3
+PodStart 1585664492087 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-exec-4
+PodStart 1585664492097 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-exec-3
+pod "tpcds-1582f6b02ce13398be3b07c520e2baa0-driver" force deleted
+PodComplete 1585664619626 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-exec-1 false
+PodComplete 1585664619708 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-exec-4 false
+PodComplete 1585664619781 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-exec-5 false
+PodComplete 1585664619853 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-exec-2 false
+PodComplete 1585664619929 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-exec-3 false
+PodComplete 1585664619929 job-5 tpcds-1582f6b02ce13398be3b07c520e2baa0-driver true
+JobFinished 1585664619930 1585664486565 job-5 5 1.000001 1.0003675 771900 133364 133315 49 0 1 5
+PodSubmit 1585664621705 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-driver
+PodStart 1585664621709 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-driver
+PodSubmit 1585664627061 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-exec-2
+PodStart 1585664627077 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-exec-2
+PodSubmit 1585664627082 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-exec-5
+PodSubmit 1585664627086 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-exec-1
+PodStart 1585664627092 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-exec-5
+PodSubmit 1585664627116 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-exec-4
+PodStart 1585664627121 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-exec-1
+PodSubmit 1585664627139 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-exec-3
+PodStart 1585664627144 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-exec-4
+PodStart 1585664627151 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-exec-3
+pod "tpcds-55a578f7475e3c1187d8ad2201e878de-driver" force deleted
+PodComplete 1585664737655 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-exec-5 false
+PodComplete 1585664737733 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-exec-3 false
+PodComplete 1585664737831 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-exec-4 false
+PodComplete 1585664737904 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-exec-1 false
+PodComplete 1585664737977 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-exec-2 false
+PodComplete 1585664737978 job-6 tpcds-55a578f7475e3c1187d8ad2201e878de-driver true
+JobFinished 1585664737978 1585664621705 job-6 5 1.000001 1.0000345 669784 116273 116269 4 0 1 5
+PodSubmit 1585664739802 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-driver
+PodStart 1585664739808 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-driver
+PodSubmit 1585664745486 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-exec-2
+PodStart 1585664745490 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-exec-2
+PodSubmit 1585664745495 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-exec-5
+PodStart 1585664745500 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-exec-5
+PodSubmit 1585664745505 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-exec-1
+PodStart 1585664745512 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-exec-1
+PodSubmit 1585664745528 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-exec-4
+PodSubmit 1585664745544 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-exec-3
+PodStart 1585664745549 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-exec-4
+PodStart 1585664745571 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-exec-3
+pod "tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-driver" force deleted
+PodComplete 1585664858569 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-exec-3 false
+PodComplete 1585664858647 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-exec-4 false
+PodComplete 1585664858726 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-exec-5 false
+PodComplete 1585664858802 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-exec-1 false
+PodComplete 1585664858877 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-exec-2 false
+PodComplete 1585664858877 job-7 tpcds-8aa7fd4a2dc73288b0373cfd4242c91e-driver true
+JobFinished 1585664858878 1585664739802 job-7 5 1.000001 1.0000504 685069 119075 119069 6 0 1 5
+PodSubmit 1585664860468 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-driver
+PodStart 1585664860475 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-driver
+PodSubmit 1585664865871 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-exec-2
+PodStart 1585664865876 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-exec-2
+PodSubmit 1585664865882 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-exec-5
+PodStart 1585664865890 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-exec-5
+PodSubmit 1585664865891 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-exec-1
+PodStart 1585664865923 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-exec-1
+PodSubmit 1585664865925 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-exec-4
+PodStart 1585664865934 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-exec-4
+PodSubmit 1585664865944 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-exec-3
+PodStart 1585664865956 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-exec-3
+pod "tpcds-2415998848fd3c788d51401ea0d25fac-driver" force deleted
+PodComplete 1585664902759 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-exec-5 false
+PodComplete 1585664902830 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-exec-4 false
+PodComplete 1585664902902 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-exec-3 false
+PodComplete 1585664902974 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-exec-2 false
+PodComplete 1585664903053 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-exec-1 false
+PodComplete 1585664903053 job-8 tpcds-2415998848fd3c788d51401ea0d25fac-driver true
+JobFinished 1585664903053 1585664860468 job-8 5 1.000001 1.0001644 227516 42585 42578 7 0 1 5
+PodSubmit 1585664904844 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-driver
+PodStart 1585664904850 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-driver
+PodSubmit 1585664910291 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-exec-2
+PodStart 1585664910296 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-exec-2
+PodSubmit 1585664910298 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-exec-5
+PodStart 1585664910302 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-exec-5
+PodSubmit 1585664910305 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-exec-1
+PodStart 1585664910309 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-exec-1
+PodSubmit 1585664910311 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-exec-4
+PodSubmit 1585664910327 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-exec-3
+PodStart 1585664910328 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-exec-4
+PodStart 1585664910340 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-exec-3
+pod "tpcds-324b54890a163356846e12c8e01dbb2b-driver" force deleted
+PodComplete 1585665204347 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-exec-4 false
+PodComplete 1585665204416 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-exec-3 false
+PodComplete 1585665204486 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-exec-2 false
+PodComplete 1585665204557 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-exec-1 false
+PodComplete 1585665204623 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-exec-5 false
+PodComplete 1585665204623 job-9 tpcds-324b54890a163356846e12c8e01dbb2b-driver true
+JobFinished 1585665204623 1585664904844 job-9 5 1.000001 1.00002 1770627 299779 299773 6 0 1 5
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585665740168 job-10 tpcds-a133f60e79d43a5da68860d678731159-driver
+PodStart 1585665740255 job-10 tpcds-a133f60e79d43a5da68860d678731159-driver
+PodSubmit 1585665745621 job-10 tpcds-a133f60e79d43a5da68860d678731159-exec-2
+PodStart 1585665745628 job-10 tpcds-a133f60e79d43a5da68860d678731159-exec-2
+PodSubmit 1585665745631 job-10 tpcds-a133f60e79d43a5da68860d678731159-exec-5
+PodSubmit 1585665745638 job-10 tpcds-a133f60e79d43a5da68860d678731159-exec-1
+PodStart 1585665745643 job-10 tpcds-a133f60e79d43a5da68860d678731159-exec-5
+PodSubmit 1585665745647 job-10 tpcds-a133f60e79d43a5da68860d678731159-exec-4
+PodSubmit 1585665745680 job-10 tpcds-a133f60e79d43a5da68860d678731159-exec-3
+PodStart 1585665745684 job-10 tpcds-a133f60e79d43a5da68860d678731159-exec-1
+PodStart 1585665745693 job-10 tpcds-a133f60e79d43a5da68860d678731159-exec-4
+PodStart 1585665745704 job-10 tpcds-a133f60e79d43a5da68860d678731159-exec-3
+pod "tpcds-a133f60e79d43a5da68860d678731159-driver" force deleted
+PodComplete 1585666087640 job-10 tpcds-a133f60e79d43a5da68860d678731159-exec-4 false
+PodComplete 1585666087723 job-10 tpcds-a133f60e79d43a5da68860d678731159-exec-5 false
+PodComplete 1585666087798 job-10 tpcds-a133f60e79d43a5da68860d678731159-exec-1 false
+PodComplete 1585666087870 job-10 tpcds-a133f60e79d43a5da68860d678731159-exec-2 false
+PodComplete 1585666087942 job-10 tpcds-a133f60e79d43a5da68860d678731159-exec-3 false
+PodComplete 1585666087942 job-10 tpcds-a133f60e79d43a5da68860d678731159-driver true
+JobFinished 1585666087953 1585665740168 job-10 5 1.000001 1.0002502 2058307 347774 347687 87 0 1 5
+PodSubmit 1585666089677 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-driver
+PodStart 1585666089725 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-driver
+PodSubmit 1585666095423 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-exec-2
+PodStart 1585666095430 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-exec-2
+PodSubmit 1585666095431 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-exec-5
+PodStart 1585666095437 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-exec-5
+PodSubmit 1585666095439 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-exec-1
+PodStart 1585666095445 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-exec-1
+PodSubmit 1585666095463 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-exec-4
+PodSubmit 1585666095475 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-exec-3
+PodStart 1585666095479 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-exec-4
+PodStart 1585666095487 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-exec-3
+pod "tpcds-1cb44851736b3b11bbdfc140aed19146-driver" force deleted
+PodComplete 1585666209097 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-exec-3 false
+PodComplete 1585666209179 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-exec-2 false
+PodComplete 1585666209249 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-exec-1 false
+PodComplete 1585666209319 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-exec-5 false
+PodComplete 1585666209394 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-exec-4 false
+PodComplete 1585666209394 job-11 tpcds-1cb44851736b3b11bbdfc140aed19146-driver true
+JobFinished 1585666209395 1585666089677 job-11 5 1.000001 1.0004011 688629 119717 119669 48 0 1 5
+PodSubmit 1585666211001 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-driver
+PodStart 1585666211005 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-driver
+PodSubmit 1585666216654 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-exec-2
+PodStart 1585666216659 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-exec-2
+PodSubmit 1585666216669 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-exec-5
+PodSubmit 1585666216671 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-exec-1
+PodStart 1585666216678 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-exec-5
+PodSubmit 1585666216680 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-exec-4
+PodStart 1585666216691 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-exec-1
+PodSubmit 1585666216695 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-exec-3
+PodStart 1585666216702 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-exec-4
+PodStart 1585666216711 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-exec-3
+pod "tpcds-1abc2eeb877d375082b4e876e7c79dd6-driver" force deleted
+PodComplete 1585666337179 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-exec-1 false
+PodComplete 1585666337250 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-exec-2 false
+PodComplete 1585666337322 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-exec-3 false
+PodComplete 1585666337405 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-exec-4 false
+PodComplete 1585666337478 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-exec-5 false
+PodComplete 1585666337478 job-12 tpcds-1abc2eeb877d375082b4e876e7c79dd6-driver true
+JobFinished 1585666337479 1585666211001 job-12 5 1.000001 1.0000316 729666 126477 126473 4 0 1 5
+PodSubmit 1585666339229 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-driver
+PodStart 1585666339237 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-driver
+PodSubmit 1585666344639 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-exec-2
+PodStart 1585666344643 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-exec-2
+PodSubmit 1585666344651 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-exec-5
+PodStart 1585666344663 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-exec-5
+PodSubmit 1585666344664 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-exec-1
+PodStart 1585666344675 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-exec-1
+PodSubmit 1585666344679 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-exec-4
+PodStart 1585666344695 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-exec-4
+PodSubmit 1585666344704 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-exec-3
+PodStart 1585666344716 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-exec-3
+pod "tpcds-b3396518394d3a5cb7ace4addc6f8aeb-driver" force deleted
+PodComplete 1585667372473 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-exec-3 false
+PodComplete 1585667372550 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-exec-4 false
+PodComplete 1585667372628 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-exec-5 false
+PodComplete 1585667372703 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-exec-1 false
+PodComplete 1585667372785 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-exec-2 false
+PodComplete 1585667372785 job-13 tpcds-b3396518394d3a5cb7ace4addc6f8aeb-driver true
+JobFinished 1585667372787 1585666339229 job-13 5 1.000001 1.0000077 6173295 1033556 1033548 8 0 1 5
+PodSubmit 1585667374401 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-driver
+PodStart 1585667374450 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-driver
+PodSubmit 1585667379806 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-exec-2
+PodStart 1585667379810 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-exec-2
+PodSubmit 1585667379813 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-exec-5
+PodSubmit 1585667379825 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-exec-1
+PodStart 1585667379830 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-exec-5
+PodSubmit 1585667379833 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-exec-4
+PodStart 1585667379839 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-exec-1
+PodSubmit 1585667379840 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-exec-3
+PodStart 1585667379844 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-exec-4
+PodStart 1585667379852 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-exec-3
+pod "tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-driver" force deleted
+PodComplete 1585668086817 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-exec-3 false
+PodComplete 1585668086890 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-exec-4 false
+PodComplete 1585668086987 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-exec-5 false
+PodComplete 1585668087088 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-exec-1 false
+PodComplete 1585668087190 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-exec-2 false
+PodComplete 1585668087191 job-14 tpcds-2ec0bc4dff0a32d8a71421c26e011cfe-driver true
+JobFinished 1585668087192 1585667374401 job-14 5 1.000001 1.0000688 4248537 712790 712741 49 0 1 5
+PodSubmit 1585668088773 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-driver
+PodStart 1585668088823 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-driver
+PodSubmit 1585668094174 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-exec-2
+PodStart 1585668094180 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-exec-2
+PodSubmit 1585668094182 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-exec-5
+PodStart 1585668094195 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-exec-5
+PodSubmit 1585668094200 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-exec-1
+PodStart 1585668094211 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-exec-1
+PodSubmit 1585668094213 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-exec-4
+PodSubmit 1585668094224 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-exec-3
+PodStart 1585668094225 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-exec-4
+PodStart 1585668094232 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-exec-3
+pod "tpcds-b88247e920d83221bcb9d0baf85cc7fa-driver" force deleted
+PodComplete 1585668202704 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-exec-2 false
+PodComplete 1585668202789 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-exec-1 false
+PodComplete 1585668202871 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-exec-4 false
+PodComplete 1585668202954 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-exec-3 false
+PodComplete 1585668203041 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-exec-5 false
+PodComplete 1585668203042 job-15 tpcds-b88247e920d83221bcb9d0baf85cc7fa-driver true
+JobFinished 1585668203042 1585668088773 job-15 5 1.000001 1.0004377 657535 114269 114219 50 0 1 5
+PodSubmit 1585668204865 job-16 tpcds-4321e281d35f383e90dfb153029e34ee-driver
+PodStart 1585668204871 job-16 tpcds-4321e281d35f383e90dfb153029e34ee-driver
+PodSubmit 1585668210251 job-16 tpcds-4321e281d35f383e90dfb153029e34ee-exec-2
+PodStart 1585668210256 job-16 tpcds-4321e281d35f383e90dfb153029e34ee-exec-2
+PodSubmit 1585668210261 job-16 tpcds-4321e281d35f383e90dfb153029e34ee-exec-5
+PodSubmit 1585668210278 job-16 tpcds-4321e281d35f383e90dfb153029e34ee-exec-1
+PodStart 1585668210280 job-16 tpcds-4321e281d35f383e90dfb153029e34ee-exec-5
+PodStart 1585668210289 job-16 tpcds-4321e281d35f383e90dfb153029e34ee-exec-1
+PodSubmit 1585668210301 job-16 tpcds-4321e281d35f383e90dfb153029e34ee-exec-4
+PodStart 1585668210307 job-16 tpcds-4321e281d35f383e90dfb153029e34ee-exec-4
+PodSubmit 1585668210319 job-16 tpcds-4321e281d35f383e90dfb153029e34ee-exec-3
+PodStart 1585668210333 job-16 tpcds-4321e281d35f383e90dfb153029e34ee-exec-3
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585669272976 job-16 tpcds-370d21993e053021b6b308140004b1f7-driver
+PodStart 1585669273060 job-16 tpcds-370d21993e053021b6b308140004b1f7-driver
+PodSubmit 1585669277430 job-16 tpcds-370d21993e053021b6b308140004b1f7-exec-2
+PodStart 1585669277449 job-16 tpcds-370d21993e053021b6b308140004b1f7-exec-2
+PodSubmit 1585669277458 job-16 tpcds-370d21993e053021b6b308140004b1f7-exec-5
+PodSubmit 1585669277467 job-16 tpcds-370d21993e053021b6b308140004b1f7-exec-1
+PodStart 1585669277482 job-16 tpcds-370d21993e053021b6b308140004b1f7-exec-5
+PodStart 1585669277503 job-16 tpcds-370d21993e053021b6b308140004b1f7-exec-1
+PodSubmit 1585669277506 job-16 tpcds-370d21993e053021b6b308140004b1f7-exec-4
+PodSubmit 1585669277515 job-16 tpcds-370d21993e053021b6b308140004b1f7-exec-3
+PodStart 1585669277547 job-16 tpcds-370d21993e053021b6b308140004b1f7-exec-4
+PodStart 1585669277560 job-16 tpcds-370d21993e053021b6b308140004b1f7-exec-3
+pod "tpcds-370d21993e053021b6b308140004b1f7-driver" force deleted
+PodComplete 1585669547683 job-16 tpcds-370d21993e053021b6b308140004b1f7-exec-1 false
+PodComplete 1585669547766 job-16 tpcds-370d21993e053021b6b308140004b1f7-exec-2 false
+PodComplete 1585669547843 job-16 tpcds-370d21993e053021b6b308140004b1f7-exec-3 false
+PodComplete 1585669547919 job-16 tpcds-370d21993e053021b6b308140004b1f7-exec-4 false
+PodComplete 1585669548008 job-16 tpcds-370d21993e053021b6b308140004b1f7-exec-5 false
+PodComplete 1585669548008 job-16 tpcds-370d21993e053021b6b308140004b1f7-driver true
+JobFinished 1585669548019 1585669272976 job-16 5 1.000001 1.0003055 1626626 275032 274948 84 0 1 5
+PodSubmit 1585669549622 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-driver
+PodStart 1585669549629 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-driver
+PodSubmit 1585669555013 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-exec-2
+PodStart 1585669555020 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-exec-2
+PodSubmit 1585669555024 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-exec-5
+PodStart 1585669555031 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-exec-5
+PodSubmit 1585669555035 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-exec-1
+PodStart 1585669555042 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-exec-1
+PodSubmit 1585669555051 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-exec-4
+PodSubmit 1585669555060 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-exec-3
+PodStart 1585669555062 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-exec-4
+PodStart 1585669555073 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-exec-3
+pod "tpcds-27cc5da742bc3e09a98c4df18dfdbab4-driver" force deleted
+PodComplete 1585669843689 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-exec-3 false
+PodComplete 1585669843758 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-exec-4 false
+PodComplete 1585669843831 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-exec-5 false
+PodComplete 1585669843906 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-exec-1 false
+PodComplete 1585669843983 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-exec-2 false
+PodComplete 1585669843983 job-17 tpcds-27cc5da742bc3e09a98c4df18dfdbab4-driver true
+JobFinished 1585669843983 1585669549622 job-17 5 1.000001 1.0000237 1738291 294361 294354 7 0 1 5
+PodSubmit 1585669845761 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-driver
+PodStart 1585669845767 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-driver
+PodSubmit 1585669851083 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-exec-2
+PodStart 1585669851088 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-exec-2
+PodSubmit 1585669851092 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-exec-5
+PodStart 1585669851101 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-exec-5
+PodSubmit 1585669851103 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-exec-1
+PodSubmit 1585669851126 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-exec-4
+PodStart 1585669851129 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-exec-1
+PodSubmit 1585669851154 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-exec-3
+PodStart 1585669851156 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-exec-4
+PodStart 1585669851166 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-exec-3
+pod "tpcds-a25927d675ac336d8f72c0aca179489b-driver" force deleted
+PodComplete 1585669960085 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-exec-1 false
+PodComplete 1585669960159 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-exec-2 false
+PodComplete 1585669960235 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-exec-3 false
+PodComplete 1585669960306 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-exec-4 false
+PodComplete 1585669960384 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-exec-5 false
+PodComplete 1585669960384 job-18 tpcds-a25927d675ac336d8f72c0aca179489b-driver true
+JobFinished 1585669960385 1585669845761 job-18 5 1.000001 1.0000523 660145 114623 114617 6 0 1 5
+PodSubmit 1585669962169 job-19 tpcds-4988e37dde103929a72de13cd8035e12-driver
+PodStart 1585669962180 job-19 tpcds-4988e37dde103929a72de13cd8035e12-driver
+PodSubmit 1585669967490 job-19 tpcds-4988e37dde103929a72de13cd8035e12-exec-2
+PodStart 1585669967494 job-19 tpcds-4988e37dde103929a72de13cd8035e12-exec-2
+PodSubmit 1585669967499 job-19 tpcds-4988e37dde103929a72de13cd8035e12-exec-5
+PodSubmit 1585669967510 job-19 tpcds-4988e37dde103929a72de13cd8035e12-exec-1
+PodStart 1585669967512 job-19 tpcds-4988e37dde103929a72de13cd8035e12-exec-5
+PodStart 1585669967518 job-19 tpcds-4988e37dde103929a72de13cd8035e12-exec-1
+PodSubmit 1585669967524 job-19 tpcds-4988e37dde103929a72de13cd8035e12-exec-4
+PodStart 1585669967533 job-19 tpcds-4988e37dde103929a72de13cd8035e12-exec-4
+PodSubmit 1585669967539 job-19 tpcds-4988e37dde103929a72de13cd8035e12-exec-3
+PodStart 1585669967550 job-19 tpcds-4988e37dde103929a72de13cd8035e12-exec-3
+pod "tpcds-4988e37dde103929a72de13cd8035e12-driver" force deleted
+PodComplete 1585670083856 job-19 tpcds-4988e37dde103929a72de13cd8035e12-exec-5 false
+PodComplete 1585670083928 job-19 tpcds-4988e37dde103929a72de13cd8035e12-exec-4 false
+PodComplete 1585670084006 job-19 tpcds-4988e37dde103929a72de13cd8035e12-exec-3 false
+PodComplete 1585670084078 job-19 tpcds-4988e37dde103929a72de13cd8035e12-exec-2 false
+PodComplete 1585670084147 job-19 tpcds-4988e37dde103929a72de13cd8035e12-exec-1 false
+PodComplete 1585670084148 job-19 tpcds-4988e37dde103929a72de13cd8035e12-driver true
+JobFinished 1585670084148 1585669962169 job-19 5 1.000001 1.0000902 704376 121979 121968 11 0 1 5
+PodSubmit 1585670085933 job-20 tpcds-7d7166e77901339d9fe411d08823b792-driver
+PodStart 1585670085939 job-20 tpcds-7d7166e77901339d9fe411d08823b792-driver
+PodSubmit 1585670091287 job-20 tpcds-7d7166e77901339d9fe411d08823b792-exec-2
+PodStart 1585670091292 job-20 tpcds-7d7166e77901339d9fe411d08823b792-exec-2
+PodSubmit 1585670091295 job-20 tpcds-7d7166e77901339d9fe411d08823b792-exec-5
+PodStart 1585670091301 job-20 tpcds-7d7166e77901339d9fe411d08823b792-exec-5
+PodSubmit 1585670091310 job-20 tpcds-7d7166e77901339d9fe411d08823b792-exec-1
+PodStart 1585670091318 job-20 tpcds-7d7166e77901339d9fe411d08823b792-exec-1
+PodSubmit 1585670091327 job-20 tpcds-7d7166e77901339d9fe411d08823b792-exec-4
+PodStart 1585670091333 job-20 tpcds-7d7166e77901339d9fe411d08823b792-exec-4
+PodSubmit 1585670091350 job-20 tpcds-7d7166e77901339d9fe411d08823b792-exec-3
+PodStart 1585670091356 job-20 tpcds-7d7166e77901339d9fe411d08823b792-exec-3
+pod "tpcds-7d7166e77901339d9fe411d08823b792-driver" force deleted
+PodComplete 1585670200949 job-20 tpcds-7d7166e77901339d9fe411d08823b792-exec-1 false
+PodComplete 1585670201024 job-20 tpcds-7d7166e77901339d9fe411d08823b792-exec-3 false
+PodComplete 1585670201116 job-20 tpcds-7d7166e77901339d9fe411d08823b792-exec-2 false
+PodComplete 1585670201198 job-20 tpcds-7d7166e77901339d9fe411d08823b792-exec-5 false
+PodComplete 1585670201270 job-20 tpcds-7d7166e77901339d9fe411d08823b792-exec-4 false
+PodComplete 1585670201270 job-20 tpcds-7d7166e77901339d9fe411d08823b792-driver true
+JobFinished 1585670201270 1585670085933 job-20 5 1.000001 1.000052 664288 115337 115331 6 0 1 5
+PodSubmit 1585670202885 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-driver
+PodStart 1585670202891 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-driver
+PodSubmit 1585670208287 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-exec-2
+PodStart 1585670208292 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-exec-2
+PodSubmit 1585670208296 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-exec-5
+PodStart 1585670208300 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-exec-5
+PodSubmit 1585670208311 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-exec-1
+PodStart 1585670208320 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-exec-1
+PodSubmit 1585670208327 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-exec-4
+PodSubmit 1585670208337 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-exec-3
+PodStart 1585670208340 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-exec-4
+PodStart 1585670208352 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-exec-3
+pod "tpcds-408f3b3b298a3d648415fc2b7cdd08b3-driver" force deleted
+PodComplete 1585670253886 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-exec-4 false
+PodComplete 1585670253957 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-exec-3 false
+PodComplete 1585670254036 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-exec-5 false
+PodComplete 1585670254107 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-exec-2 false
+PodComplete 1585670254184 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-exec-1 false
+PodComplete 1585670254184 job-21 tpcds-408f3b3b298a3d648415fc2b7cdd08b3-driver true
+JobFinished 1585670254184 1585670202886 job-21 5 1.000001 1.000117 279857 51299 51293 6 0 1 5
+PodSubmit 1585670255957 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-driver
+PodStart 1585670255961 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-driver
+PodSubmit 1585670261275 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-exec-2
+PodStart 1585670261281 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-exec-2
+PodSubmit 1585670261286 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-exec-5
+PodStart 1585670261291 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-exec-5
+PodSubmit 1585670261295 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-exec-1
+PodStart 1585670261308 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-exec-1
+PodSubmit 1585670261311 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-exec-4
+PodStart 1585670261321 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-exec-4
+PodSubmit 1585670261323 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-exec-3
+PodStart 1585670261331 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-exec-3
+pod "tpcds-dad3ce5777c733469aa88da80f2ed116-driver" force deleted
+PodComplete 1585670303588 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-exec-5 false
+PodComplete 1585670303658 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-exec-2 false
+PodComplete 1585670303735 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-exec-1 false
+PodComplete 1585670303813 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-exec-4 false
+PodComplete 1585670303897 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-exec-3 false
+PodComplete 1585670303897 job-22 tpcds-dad3ce5777c733469aa88da80f2ed116-driver true
+JobFinished 1585670303898 1585670255957 job-22 5 1.000001 1.0000834 260095 47940 47936 4 0 1 5
+PodSubmit 1585670305697 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-driver
+PodStart 1585670305702 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-driver
+PodSubmit 1585670311007 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-exec-2
+PodStart 1585670311012 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-exec-2
+PodSubmit 1585670311015 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-exec-5
+PodStart 1585670311022 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-exec-5
+PodSubmit 1585670311024 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-exec-1
+PodStart 1585670311034 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-exec-1
+PodSubmit 1585670311036 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-exec-4
+PodStart 1585670311047 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-exec-4
+PodSubmit 1585670311057 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-exec-3
+PodStart 1585670311098 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-exec-3
+pod "tpcds-649b3a4afe67343daebbc66dbe89fba1-driver" force deleted
+PodComplete 1585670784064 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-exec-2 false
+PodComplete 1585670784157 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-exec-1 false
+PodComplete 1585670784247 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-exec-5 false
+PodComplete 1585670784326 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-exec-4 false
+PodComplete 1585670784404 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-exec-3 false
+PodComplete 1585670784405 job-23 tpcds-649b3a4afe67343daebbc66dbe89fba1-driver true
+JobFinished 1585670784405 1585670305697 job-23 5 1.000001 1.0000105 2844688 478708 478703 5 0 1 5
+PodSubmit 1585670786197 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-driver
+PodStart 1585670786246 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-driver
+PodSubmit 1585670791698 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-exec-2
+PodStart 1585670791703 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-exec-2
+PodSubmit 1585670791706 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-exec-5
+PodStart 1585670791712 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-exec-5
+PodSubmit 1585670791714 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-exec-1
+PodStart 1585670791731 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-exec-1
+PodSubmit 1585670791737 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-exec-4
+PodStart 1585670791745 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-exec-4
+PodSubmit 1585670791777 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-exec-3
+PodStart 1585670791789 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-exec-3
+pod "tpcds-9a755647a1f635a9bae23aed659f9905-driver" force deleted
+PodComplete 1585671222595 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-exec-1 false
+PodComplete 1585671222678 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-exec-3 false
+PodComplete 1585671222772 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-exec-2 false
+PodComplete 1585671222860 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-exec-5 false
+PodComplete 1585671222935 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-exec-4 false
+PodComplete 1585671222935 job-24 tpcds-9a755647a1f635a9bae23aed659f9905-driver true
+JobFinished 1585671222936 1585670786197 job-24 5 1.000001 1.0001122 2591849 436738 436689 49 0 1 5
+PodSubmit 1585671224537 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-driver
+PodStart 1585671224587 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-driver
+PodSubmit 1585671229990 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-exec-2
+PodStart 1585671229995 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-exec-2
+PodSubmit 1585671230001 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-exec-5
+PodStart 1585671230008 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-exec-5
+PodSubmit 1585671230009 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-exec-1
+PodStart 1585671230015 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-exec-1
+PodSubmit 1585671230016 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-exec-4
+PodStart 1585671230026 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-exec-4
+PodSubmit 1585671230028 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-exec-3
+PodStart 1585671230034 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-exec-3
+pod "tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-driver" force deleted
+PodComplete 1585671560203 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-exec-3 false
+PodComplete 1585671560275 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-exec-2 false
+PodComplete 1585671560345 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-exec-1 false
+PodComplete 1585671560419 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-exec-5 false
+PodComplete 1585671560506 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-exec-4 false
+PodComplete 1585671560506 job-25 tpcds-e33154bd7eae3601b734ea1cdd8cb7ba-driver true
+JobFinished 1585671560507 1585671224537 job-25 5 1.000001 1.0001489 1987589 335969 335919 50 0 1 5
+PodSubmit 1585671562326 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-driver
+PodStart 1585671562373 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-driver
+PodSubmit 1585671567813 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-exec-2
+PodStart 1585671567818 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-exec-2
+PodSubmit 1585671567827 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-exec-5
+PodStart 1585671567834 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-exec-5
+PodSubmit 1585671567836 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-exec-1
+PodStart 1585671567855 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-exec-1
+PodSubmit 1585671567863 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-exec-4
+PodStart 1585671567871 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-exec-4
+PodSubmit 1585671567899 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-exec-3
+PodStart 1585671567909 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-exec-3
+pod "tpcds-04793ea5a2bf3cac93f072b20b073d3e-driver" force deleted
+PodComplete 1585671900567 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-exec-4 false
+PodComplete 1585671900655 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-exec-5 false
+PodComplete 1585671900738 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-exec-1 false
+PodComplete 1585671900817 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-exec-2 false
+PodComplete 1585671900896 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-exec-3 false
+PodComplete 1585671900896 job-26 tpcds-04793ea5a2bf3cac93f072b20b073d3e-driver true
+JobFinished 1585671900897 1585671562326 job-26 5 1.000001 1.0001389 2002908 338570 338523 47 0 1 5
+PodSubmit 1585671902746 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-driver
+PodStart 1585671902796 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-driver
+PodSubmit 1585671908250 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-exec-2
+PodStart 1585671908254 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-exec-2
+PodSubmit 1585671908274 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-exec-5
+PodStart 1585671908279 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-exec-5
+PodSubmit 1585671908290 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-exec-1
+PodStart 1585671908297 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-exec-1
+PodSubmit 1585671908306 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-exec-4
+PodSubmit 1585671908314 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-exec-3
+PodStart 1585671908317 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-exec-4
+PodStart 1585671908324 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-exec-3
+pod "tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-driver" force deleted
+PodComplete 1585672187918 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-exec-4 false
+PodComplete 1585672187990 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-exec-5 false
+PodComplete 1585672188060 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-exec-2 false
+PodComplete 1585672188129 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-exec-3 false
+[0m[[0m[31merror[0m] [0m[0m(Thread-3) java.lang.UnsupportedOperationException: empty.minBy[0m
+PodComplete 1585672188229 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-exec-1 false
+PodComplete 1585672188229 job-27 tpcds-ea6ddc595b4531acbb037ca1c86ef5d5-driver true
+JobFinished 1585672188229 1585671902746 job-27 5 1.000001 1.0001751 1684288 285483 285433 50 0 1 5
+[0m[[0m[31merror[0m] [0m[0mjava.lang.UnsupportedOperationException: empty.minBy[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableOnce.minBy(TraversableOnce.scala:254)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableOnce.minBy$(TraversableOnce.scala:252)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractTraversable.minBy(Traversable.scala:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scheduler.BribeScheduler$$anon$1.run(BribeScheduler.scala:40)[0m
+PodSubmit 1585672190053 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-driver
+PodStart 1585672190057 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-driver
+PodSubmit 1585672195214 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-exec-2
+PodStart 1585672195219 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-exec-2
+PodSubmit 1585672195223 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-exec-5
+PodStart 1585672195227 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-exec-5
+PodSubmit 1585672195232 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-exec-1
+PodSubmit 1585672195266 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-exec-4
+PodStart 1585672195268 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-exec-1
+PodStart 1585672195281 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-exec-4
+PodSubmit 1585672195285 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-exec-3
+PodStart 1585672195301 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-exec-3
+pod "tpcds-dafa0c1855fc31a2b11890d3199dbc69-driver" force deleted
+PodComplete 1585672293678 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-exec-2 false
+PodComplete 1585672293747 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-exec-1 false
+PodComplete 1585672293816 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-exec-5 false
+PodComplete 1585672293888 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-exec-4 false
+PodComplete 1585672293961 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-exec-3 false
+PodComplete 1585672293961 job-28 tpcds-dafa0c1855fc31a2b11890d3199dbc69-driver true
+JobFinished 1585672293962 1585672190053 job-28 5 1.000001 1.0000385 596697 103908 103904 4 0 1 5
+PodSubmit 1585672295793 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-driver
+PodStart 1585672295812 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-driver
+PodSubmit 1585672300971 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-exec-2
+PodStart 1585672300975 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-exec-2
+PodSubmit 1585672300979 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-exec-5
+PodStart 1585672300986 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-exec-5
+PodSubmit 1585672300987 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-exec-1
+PodStart 1585672300996 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-exec-1
+PodSubmit 1585672301004 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-exec-4
+PodStart 1585672301011 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-exec-4
+PodSubmit 1585672301015 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-exec-3
+PodStart 1585672301029 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-exec-3
+pod "tpcds-bd51c082e7bd374588fc813dcca9eb4f-driver" force deleted
+PodComplete 1585672406305 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-exec-2 false
+PodComplete 1585672406371 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-exec-3 false
+PodComplete 1585672406436 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-exec-4 false
+PodComplete 1585672406502 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-exec-5 false
+PodComplete 1585672406569 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-exec-1 false
+PodComplete 1585672406569 job-29 tpcds-bd51c082e7bd374588fc813dcca9eb4f-driver true
+JobFinished 1585672406569 1585672295793 job-29 5 1.000001 1.0001715 637943 110776 110757 19 0 1 5
+PodSubmit 1585683172333 job-30 tpcds-87a885617538323ab1534a4bc6811f37-driver
+PodStart 1585683172382 job-30 tpcds-87a885617538323ab1534a4bc6811f37-driver
+PodSubmit 1585683177524 job-30 tpcds-87a885617538323ab1534a4bc6811f37-exec-2
+PodStart 1585683177528 job-30 tpcds-87a885617538323ab1534a4bc6811f37-exec-2
+PodSubmit 1585683177531 job-30 tpcds-87a885617538323ab1534a4bc6811f37-exec-5
+PodStart 1585683177539 job-30 tpcds-87a885617538323ab1534a4bc6811f37-exec-5
+PodSubmit 1585683177549 job-30 tpcds-87a885617538323ab1534a4bc6811f37-exec-1
+PodStart 1585683177558 job-30 tpcds-87a885617538323ab1534a4bc6811f37-exec-1
+PodSubmit 1585683177558 job-30 tpcds-87a885617538323ab1534a4bc6811f37-exec-4
+PodSubmit 1585683177568 job-30 tpcds-87a885617538323ab1534a4bc6811f37-exec-3
+PodStart 1585683177569 job-30 tpcds-87a885617538323ab1534a4bc6811f37-exec-4
+PodStart 1585683177578 job-30 tpcds-87a885617538323ab1534a4bc6811f37-exec-3
+pod "tpcds-87a885617538323ab1534a4bc6811f37-driver" force deleted
+PodComplete 1585683630997 job-30 tpcds-87a885617538323ab1534a4bc6811f37-exec-4 false
+PodComplete 1585683631067 job-30 tpcds-87a885617538323ab1534a4bc6811f37-exec-3 false
+PodComplete 1585683631139 job-30 tpcds-87a885617538323ab1534a4bc6811f37-exec-2 false
+PodComplete 1585683631208 job-30 tpcds-87a885617538323ab1534a4bc6811f37-exec-1 false
+PodComplete 1585683631280 job-30 tpcds-87a885617538323ab1534a4bc6811f37-exec-5 false
+PodComplete 1585683631280 job-30 tpcds-87a885617538323ab1534a4bc6811f37-driver true
+JobFinished 1585683631281 1585683172333 job-30 5 1.000001 1.0001068 2726817 458947 458898 49 0 1 5
+PodSubmit 1585683633084 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-driver
+PodStart 1585683633137 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-driver
+PodSubmit 1585683638290 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-exec-2
+PodStart 1585683638294 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-exec-2
+PodSubmit 1585683638300 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-exec-5
+PodStart 1585683638306 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-exec-5
+PodSubmit 1585683638309 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-exec-1
+PodStart 1585683638315 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-exec-1
+PodSubmit 1585683638317 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-exec-4
+PodStart 1585683638322 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-exec-4
+PodSubmit 1585683638341 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-exec-3
+PodStart 1585683638345 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-exec-3
+pod "tpcds-9e09cc79df6b34b1adea9688e3bbe697-driver" force deleted
+PodComplete 1585683928675 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-exec-4 false
+PodComplete 1585683928750 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-exec-5 false
+PodComplete 1585683928824 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-exec-1 false
+PodComplete 1585683928899 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-exec-2 false
+PodComplete 1585683928971 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-exec-3 false
+PodComplete 1585683928971 job-31 tpcds-9e09cc79df6b34b1adea9688e3bbe697-driver true
+JobFinished 1585683928972 1585683633084 job-31 5 1.000001 1.0001792 1748371 295887 295834 53 0 1 5
+PodSubmit 1585683930592 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-driver
+PodStart 1585683930599 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-driver
+PodSubmit 1585683936034 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-exec-2
+PodStart 1585683936039 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-exec-2
+PodSubmit 1585683936041 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-exec-5
+PodStart 1585683936045 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-exec-5
+PodSubmit 1585683936049 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-exec-1
+PodStart 1585683936060 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-exec-1
+PodSubmit 1585683936072 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-exec-4
+PodStart 1585683936077 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-exec-4
+PodSubmit 1585683936081 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-exec-3
+PodStart 1585683936086 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-exec-3
+pod "tpcds-7424a6e362c93cfb9ed9e5baecf0371a-driver" force deleted
+PodComplete 1585684139394 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-exec-2 false
+PodComplete 1585684139464 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-exec-3 false
+PodComplete 1585684139535 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-exec-4 false
+PodComplete 1585684139604 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-exec-5 false
+PodComplete 1585684139673 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-exec-1 false
+PodComplete 1585684139673 job-32 tpcds-7424a6e362c93cfb9ed9e5baecf0371a-driver true
+JobFinished 1585684139674 1585683930592 job-32 5 1.000001 1.0000335 1226437 209081 209074 7 0 1 5
+PodSubmit 1585684141436 job-33 tpcds-440b30f75a4a3259abeb749b05945861-driver
+PodStart 1585684141441 job-33 tpcds-440b30f75a4a3259abeb749b05945861-driver
+PodSubmit 1585684146545 job-33 tpcds-440b30f75a4a3259abeb749b05945861-exec-2
+PodStart 1585684146550 job-33 tpcds-440b30f75a4a3259abeb749b05945861-exec-2
+PodSubmit 1585684146553 job-33 tpcds-440b30f75a4a3259abeb749b05945861-exec-5
+PodStart 1585684146557 job-33 tpcds-440b30f75a4a3259abeb749b05945861-exec-5
+PodSubmit 1585684146560 job-33 tpcds-440b30f75a4a3259abeb749b05945861-exec-1
+PodStart 1585684146566 job-33 tpcds-440b30f75a4a3259abeb749b05945861-exec-1
+PodSubmit 1585684146584 job-33 tpcds-440b30f75a4a3259abeb749b05945861-exec-4
+PodStart 1585684146589 job-33 tpcds-440b30f75a4a3259abeb749b05945861-exec-4
+PodSubmit 1585684146611 job-33 tpcds-440b30f75a4a3259abeb749b05945861-exec-3
+PodStart 1585684146619 job-33 tpcds-440b30f75a4a3259abeb749b05945861-exec-3
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585731049037 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-driver
+PodStart 1585731049109 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-driver
+PodSubmit 1585731054550 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-exec-2
+PodStart 1585731054556 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-exec-2
+PodSubmit 1585731054561 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-exec-5
+PodStart 1585731054581 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-exec-5
+PodSubmit 1585731054594 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-exec-1
+PodSubmit 1585731054611 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-exec-4
+PodStart 1585731054614 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-exec-1
+PodStart 1585731054628 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-exec-4
+PodSubmit 1585731054647 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-exec-3
+PodStart 1585731054661 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-exec-3
+pod "tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-driver" force deleted
+PodComplete 1585731574173 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-exec-1 false
+PodComplete 1585731574248 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-exec-2 false
+PodComplete 1585731574322 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-exec-3 false
+PodComplete 1585731574393 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-exec-4 false
+PodComplete 1585731574480 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-exec-5 false
+PodComplete 1585731574480 job-33 tpcds-a4f33f3700b23ba39821b13ba5dd2c7e-driver true
+JobFinished 1585731574491 1585731049037 job-33 5 1.000001 1.0001371 3123947 525443 525371 72 0 1 5
+PodSubmit 1585731576045 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-driver
+PodStart 1585731576095 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-driver
+PodSubmit 1585731581505 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-exec-2
+PodStart 1585731581509 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-exec-2
+PodSubmit 1585731581514 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-exec-5
+PodStart 1585731581518 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-exec-5
+PodSubmit 1585731581523 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-exec-1
+PodStart 1585731581542 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-exec-1
+PodSubmit 1585731581584 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-exec-4
+PodSubmit 1585731581610 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-exec-3
+PodStart 1585731581612 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-exec-4
+PodStart 1585731581623 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-exec-3
+pod "tpcds-d2cef03a644a3334b9e7815eaeb0e833-driver" force deleted
+PodComplete 1585731788442 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-exec-4 false
+PodComplete 1585731788520 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-exec-3 false
+PodComplete 1585731788597 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-exec-2 false
+PodComplete 1585731788672 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-exec-1 false
+PodComplete 1585731788748 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-exec-5 false
+PodComplete 1585731788748 job-34 tpcds-d2cef03a644a3334b9e7815eaeb0e833-driver true
+JobFinished 1585731788748 1585731576045 job-34 5 1.000001 1.0002351 1247827 212703 212653 50 0 1 5
+PodSubmit 1585731790510 job-35 tpcds-ef1f543920593878aabceb410639177c-driver
+PodStart 1585731790518 job-35 tpcds-ef1f543920593878aabceb410639177c-driver
+PodSubmit 1585731795893 job-35 tpcds-ef1f543920593878aabceb410639177c-exec-2
+PodStart 1585731795898 job-35 tpcds-ef1f543920593878aabceb410639177c-exec-2
+PodSubmit 1585731795902 job-35 tpcds-ef1f543920593878aabceb410639177c-exec-5
+PodStart 1585731795909 job-35 tpcds-ef1f543920593878aabceb410639177c-exec-5
+PodSubmit 1585731795918 job-35 tpcds-ef1f543920593878aabceb410639177c-exec-1
+PodStart 1585731795926 job-35 tpcds-ef1f543920593878aabceb410639177c-exec-1
+PodSubmit 1585731795950 job-35 tpcds-ef1f543920593878aabceb410639177c-exec-4
+PodStart 1585731795956 job-35 tpcds-ef1f543920593878aabceb410639177c-exec-4
+PodSubmit 1585731795966 job-35 tpcds-ef1f543920593878aabceb410639177c-exec-3
+PodStart 1585731795973 job-35 tpcds-ef1f543920593878aabceb410639177c-exec-3
+pod "tpcds-ef1f543920593878aabceb410639177c-driver" force deleted
+PodComplete 1585732104967 job-35 tpcds-ef1f543920593878aabceb410639177c-exec-1 false
+PodComplete 1585732105057 job-35 tpcds-ef1f543920593878aabceb410639177c-exec-5 false
+PodComplete 1585732105158 job-35 tpcds-ef1f543920593878aabceb410639177c-exec-4 false
+PodComplete 1585732105235 job-35 tpcds-ef1f543920593878aabceb410639177c-exec-3 false
+PodComplete 1585732105305 job-35 tpcds-ef1f543920593878aabceb410639177c-exec-2 false
+PodComplete 1585732105305 job-35 tpcds-ef1f543920593878aabceb410639177c-driver true
+JobFinished 1585732105306 1585731790510 job-35 5 1.000001 1.0000286 1860845 314796 314787 9 0 1 5
+PodSubmit 1585732107042 job-36 tpcds-05a83e827d3c3094b88305ab00faf3ad-driver
+PodStart 1585732107093 job-36 tpcds-05a83e827d3c3094b88305ab00faf3ad-driver
+PodSubmit 1585732112492 job-36 tpcds-05a83e827d3c3094b88305ab00faf3ad-exec-2
+PodStart 1585732112497 job-36 tpcds-05a83e827d3c3094b88305ab00faf3ad-exec-2
+PodSubmit 1585732112503 job-36 tpcds-05a83e827d3c3094b88305ab00faf3ad-exec-5
+PodStart 1585732112507 job-36 tpcds-05a83e827d3c3094b88305ab00faf3ad-exec-5
+PodSubmit 1585732112516 job-36 tpcds-05a83e827d3c3094b88305ab00faf3ad-exec-1
+PodStart 1585732112529 job-36 tpcds-05a83e827d3c3094b88305ab00faf3ad-exec-1
+PodSubmit 1585732112529 job-36 tpcds-05a83e827d3c3094b88305ab00faf3ad-exec-4
+PodStart 1585732112537 job-36 tpcds-05a83e827d3c3094b88305ab00faf3ad-exec-4
+PodSubmit 1585732112540 job-36 tpcds-05a83e827d3c3094b88305ab00faf3ad-exec-3
+PodStart 1585732112586 job-36 tpcds-05a83e827d3c3094b88305ab00faf3ad-exec-3
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585734598377 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-driver
+PodStart 1585734598463 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-driver
+PodSubmit 1585734603932 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-exec-2
+PodStart 1585734603938 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-exec-2
+PodSubmit 1585734603941 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-exec-5
+PodStart 1585734603953 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-exec-5
+PodSubmit 1585734603956 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-exec-1
+PodSubmit 1585734603982 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-exec-4
+PodStart 1585734604011 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-exec-1
+PodSubmit 1585734604013 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-exec-3
+PodStart 1585734604018 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-exec-4
+PodStart 1585734604024 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-exec-3
+pod "tpcds-af1cdc62f1523bcab5c92d767a7852b4-driver" force deleted
+PodComplete 1585734800478 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-exec-5 false
+PodComplete 1585734800549 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-exec-3 false
+PodComplete 1585734800622 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-exec-4 false
+PodComplete 1585734800708 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-exec-1 false
+PodComplete 1585734800789 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-exec-2 false
+PodComplete 1585734800790 job-34 tpcds-af1cdc62f1523bcab5c92d767a7852b4-driver true
+JobFinished 1585734800800 1585734598377 job-34 5 1.000001 1.0004251 1185529 202414 202328 86 0 1 5
+PodSubmit 1585734802533 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-driver
+PodStart 1585734802538 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-driver
+PodSubmit 1585734807899 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-exec-2
+PodSubmit 1585734807918 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-exec-5
+PodStart 1585734807922 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-exec-2
+PodSubmit 1585734807929 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-exec-1
+PodStart 1585734807943 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-exec-5
+PodStart 1585734807948 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-exec-1
+PodSubmit 1585734807951 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-exec-4
+PodSubmit 1585734807960 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-exec-3
+PodStart 1585734807960 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-exec-4
+PodStart 1585734807965 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-exec-3
+pod "tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-driver" force deleted
+PodComplete 1585735126116 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-exec-3 false
+PodComplete 1585735126205 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-exec-4 false
+PodComplete 1585735126285 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-exec-1 false
+PodComplete 1585735126356 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-exec-2 false
+PodComplete 1585735126435 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-exec-5 false
+PodComplete 1585735126435 job-35 tpcds-74261d8b4a7839d4a4c9ac41f7e035f1-driver true
+JobFinished 1585735126435 1585734802533 job-35 5 1.000001 1.0000154 1915556 323902 323897 5 0 1 5
+PodSubmit 1585735128064 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-driver
+PodStart 1585735128117 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-driver
+PodSubmit 1585735133652 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-exec-2
+PodStart 1585735133657 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-exec-2
+PodSubmit 1585735133682 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-exec-5
+PodStart 1585735133696 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-exec-5
+PodSubmit 1585735133708 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-exec-1
+PodStart 1585735133718 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-exec-1
+PodSubmit 1585735133730 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-exec-4
+PodSubmit 1585735133737 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-exec-3
+PodStart 1585735133739 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-exec-4
+PodStart 1585735133758 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-exec-3
+pod "tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-driver" force deleted
+PodComplete 1585735251657 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-exec-5 false
+PodComplete 1585735251735 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-exec-3 false
+PodComplete 1585735251819 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-exec-4 false
+PodComplete 1585735251901 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-exec-1 false
+PodComplete 1585735251970 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-exec-2 false
+PodComplete 1585735251971 job-36 tpcds-464b05fab61f336c9f8a9d3e22d6cdd3-driver true
+JobFinished 1585735251971 1585735128064 job-36 5 1.000001 1.000436 714365 123908 123854 54 0 1 5
+PodSubmit 1585735253770 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-driver
+PodStart 1585735253778 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-driver
+PodSubmit 1585735259194 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-exec-2
+PodStart 1585735259199 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-exec-2
+PodSubmit 1585735259204 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-exec-5
+PodStart 1585735259209 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-exec-5
+PodSubmit 1585735259225 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-exec-1
+PodSubmit 1585735259239 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-exec-4
+PodSubmit 1585735259245 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-exec-3
+PodStart 1585735259255 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-exec-1
+PodStart 1585735259260 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-exec-4
+PodStart 1585735259265 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-exec-3
+pod "tpcds-58f53636fe2c32d6967587b04b8c91eb-driver" force deleted
+PodComplete 1585735550157 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-exec-2 false
+PodComplete 1585735550240 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-exec-1 false
+PodComplete 1585735550340 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-exec-4 false
+PodComplete 1585735550423 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-exec-3 false
+PodComplete 1585735550492 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-exec-5 false
+PodComplete 1585735550492 job-37 tpcds-58f53636fe2c32d6967587b04b8c91eb-driver true
+JobFinished 1585735550492 1585735253770 job-37 5 1.000001 1.000027 1752177 296722 296714 8 0 1 5
+PodSubmit 1585735552245 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-driver
+PodStart 1585735552250 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-driver
+PodSubmit 1585735557621 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-exec-2
+PodStart 1585735557625 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-exec-2
+PodSubmit 1585735557637 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-exec-5
+PodStart 1585735557656 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-exec-5
+PodSubmit 1585735557658 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-exec-1
+PodStart 1585735557663 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-exec-1
+PodSubmit 1585735557666 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-exec-4
+PodSubmit 1585735557679 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-exec-3
+PodStart 1585735557682 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-exec-4
+PodStart 1585735557695 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-exec-3
+pod "tpcds-39d176950faf3b3cbf73fa7a3388e32d-driver" force deleted
+PodComplete 1585735691064 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-exec-5 false
+PodComplete 1585735691146 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-exec-3 false
+PodComplete 1585735691226 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-exec-4 false
+PodComplete 1585735691310 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-exec-1 false
+PodComplete 1585735691388 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-exec-2 false
+PodComplete 1585735691388 job-38 tpcds-39d176950faf3b3cbf73fa7a3388e32d-driver true
+JobFinished 1585735691389 1585735552246 job-38 5 1.000001 1.0000359 806950 139143 139138 5 0 1 5
+PodSubmit 1585735693169 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-driver
+PodStart 1585735693175 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-driver
+PodSubmit 1585735698509 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-exec-2
+PodStart 1585735698513 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-exec-2
+PodSubmit 1585735698531 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-exec-5
+PodStart 1585735698539 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-exec-5
+PodSubmit 1585735698549 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-exec-1
+PodStart 1585735698554 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-exec-1
+PodSubmit 1585735698573 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-exec-4
+PodStart 1585735698580 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-exec-4
+PodSubmit 1585735698590 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-exec-3
+PodStart 1585735698606 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-exec-3
+pod "tpcds-91f7cc8dc8013a77b658e10b995a1fd0-driver" force deleted
+PodComplete 1585735832538 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-exec-5 false
+PodComplete 1585735832629 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-exec-4 false
+PodComplete 1585735832704 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-exec-3 false
+PodComplete 1585735832792 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-exec-2 false
+PodComplete 1585735832865 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-exec-1 false
+PodComplete 1585735832865 job-39 tpcds-91f7cc8dc8013a77b658e10b995a1fd0-driver true
+JobFinished 1585735832866 1585735693169 job-39 5 1.000001 1.0000429 810426 139696 139690 6 0 1 5
+PodSubmit 1585735834505 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-driver
+PodStart 1585735834510 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-driver
+PodSubmit 1585735839991 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-exec-2
+PodStart 1585735839996 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-exec-2
+PodSubmit 1585735840000 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-exec-5
+PodStart 1585735840009 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-exec-5
+PodSubmit 1585735840011 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-exec-1
+PodStart 1585735840028 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-exec-1
+PodSubmit 1585735840034 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-exec-4
+PodStart 1585735840053 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-exec-4
+PodSubmit 1585735840064 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-exec-3
+PodStart 1585735840077 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-exec-3
+pod "tpcds-90126b5c06ae3b4b8d130d508a049d9e-driver" force deleted
+PodComplete 1585736123642 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-exec-5 false
+PodComplete 1585736123721 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-exec-4 false
+PodComplete 1585736123796 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-exec-1 false
+PodComplete 1585736123883 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-exec-3 false
+PodComplete 1585736123953 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-exec-2 false
+PodComplete 1585736123953 job-40 tpcds-90126b5c06ae3b4b8d130d508a049d9e-driver true
+JobFinished 1585736123954 1585735834505 job-40 5 1.000001 1.0000173 1708275 289448 289443 5 0 1 5
+PodSubmit 1585736125724 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-driver
+PodStart 1585736125730 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-driver
+PodSubmit 1585736131109 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-exec-2
+PodStart 1585736131113 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-exec-2
+PodSubmit 1585736131120 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-exec-5
+PodStart 1585736131125 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-exec-5
+PodSubmit 1585736131131 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-exec-1
+PodStart 1585736131141 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-exec-1
+PodSubmit 1585736131159 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-exec-4
+PodStart 1585736131183 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-exec-4
+PodSubmit 1585736131191 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-exec-3
+PodStart 1585736131202 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-exec-3
+pod "tpcds-344caeeb1ac63f9eab843bb8eb986490-driver" force deleted
+PodComplete 1585736192285 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-exec-5 false
+PodComplete 1585736192361 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-exec-4 false
+PodComplete 1585736192432 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-exec-3 false
+PodComplete 1585736192510 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-exec-2 false
+PodComplete 1585736192581 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-exec-1 false
+PodComplete 1585736192581 job-41 tpcds-344caeeb1ac63f9eab843bb8eb986490-driver true
+JobFinished 1585736192581 1585736125725 job-41 5 1.000001 1.0000898 373256 66857 66851 6 0 1 5
+PodSubmit 1585736194378 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-driver
+PodStart 1585736194384 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-driver
+PodSubmit 1585736199823 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-exec-2
+PodStart 1585736199828 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-exec-2
+PodSubmit 1585736199831 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-exec-5
+PodStart 1585736199841 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-exec-5
+PodSubmit 1585736199842 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-exec-1
+PodStart 1585736199854 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-exec-1
+PodSubmit 1585736199858 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-exec-4
+PodSubmit 1585736199869 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-exec-3
+PodStart 1585736199875 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-exec-4
+PodStart 1585736199880 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-exec-3
+pod "tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-driver" force deleted
+PodComplete 1585736256220 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-exec-5 false
+PodComplete 1585736256291 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-exec-3 false
+PodComplete 1585736256367 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-exec-4 false
+PodComplete 1585736256445 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-exec-1 false
+PodComplete 1585736256514 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-exec-2 false
+PodComplete 1585736256514 job-42 tpcds-04a4b03387ee310b9e0c1a08efbf5a1f-driver true
+JobFinished 1585736256515 1585736194378 job-42 5 1.000001 1.0000966 344689 62136 62130 6 0 1 5
+PodSubmit 1585736258285 job-43 tpcds-0e5dcd9db69a3435b49484c8a9158494-driver
+PodStart 1585736258289 job-43 tpcds-0e5dcd9db69a3435b49484c8a9158494-driver
+PodSubmit 1585736263626 job-43 tpcds-0e5dcd9db69a3435b49484c8a9158494-exec-2
+PodStart 1585736263630 job-43 tpcds-0e5dcd9db69a3435b49484c8a9158494-exec-2
+PodSubmit 1585736263634 job-43 tpcds-0e5dcd9db69a3435b49484c8a9158494-exec-5
+PodStart 1585736263639 job-43 tpcds-0e5dcd9db69a3435b49484c8a9158494-exec-5
+PodSubmit 1585736263642 job-43 tpcds-0e5dcd9db69a3435b49484c8a9158494-exec-1
+PodStart 1585736263648 job-43 tpcds-0e5dcd9db69a3435b49484c8a9158494-exec-1
+PodSubmit 1585736263649 job-43 tpcds-0e5dcd9db69a3435b49484c8a9158494-exec-4
+PodStart 1585736263659 job-43 tpcds-0e5dcd9db69a3435b49484c8a9158494-exec-4
+PodSubmit 1585736263663 job-43 tpcds-0e5dcd9db69a3435b49484c8a9158494-exec-3
+PodStart 1585736263674 job-43 tpcds-0e5dcd9db69a3435b49484c8a9158494-exec-3
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585737825496 job-43 tpcds-4b56068745e037e890c3fea82d068caf-driver
+PodStart 1585737825571 job-43 tpcds-4b56068745e037e890c3fea82d068caf-driver
+PodSubmit 1585737830914 job-43 tpcds-4b56068745e037e890c3fea82d068caf-exec-2
+PodSubmit 1585737830914 job-43 tpcds-4b56068745e037e890c3fea82d068caf-exec-5
+PodStart 1585737830922 job-43 tpcds-4b56068745e037e890c3fea82d068caf-exec-2
+PodSubmit 1585737830993 job-43 tpcds-4b56068745e037e890c3fea82d068caf-exec-1
+PodStart 1585737830996 job-43 tpcds-4b56068745e037e890c3fea82d068caf-exec-5
+PodStart 1585737831057 job-43 tpcds-4b56068745e037e890c3fea82d068caf-exec-1
+PodSubmit 1585737831059 job-43 tpcds-4b56068745e037e890c3fea82d068caf-exec-4
+PodStart 1585737831066 job-43 tpcds-4b56068745e037e890c3fea82d068caf-exec-4
+PodSubmit 1585737831077 job-43 tpcds-4b56068745e037e890c3fea82d068caf-exec-3
+PodStart 1585737831085 job-43 tpcds-4b56068745e037e890c3fea82d068caf-exec-3
+pod "tpcds-4b56068745e037e890c3fea82d068caf-driver" force deleted
+PodComplete 1585738043395 job-43 tpcds-4b56068745e037e890c3fea82d068caf-exec-1 false
+PodComplete 1585738043470 job-43 tpcds-4b56068745e037e890c3fea82d068caf-exec-3 false
+PodComplete 1585738043558 job-43 tpcds-4b56068745e037e890c3fea82d068caf-exec-2 false
+PodComplete 1585738043641 job-43 tpcds-4b56068745e037e890c3fea82d068caf-exec-5 false
+PodComplete 1585738043713 job-43 tpcds-4b56068745e037e890c3fea82d068caf-exec-4 false
+PodComplete 1585738043713 job-43 tpcds-4b56068745e037e890c3fea82d068caf-driver true
+JobFinished 1585738043724 1585737825496 job-43 5 1.000001 1.0003438 1280793 218217 218142 75 0 1 5
+PodSubmit 1585738045401 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-driver
+PodStart 1585738045406 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-driver
+PodSubmit 1585738051104 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-exec-2
+PodStart 1585738051108 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-exec-2
+PodSubmit 1585738051113 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-exec-5
+PodStart 1585738051117 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-exec-5
+PodSubmit 1585738051119 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-exec-1
+PodSubmit 1585738051130 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-exec-4
+PodStart 1585738051132 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-exec-1
+PodSubmit 1585738051137 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-exec-3
+PodStart 1585738051140 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-exec-4
+PodStart 1585738051161 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-exec-3
+pod "tpcds-39a066b564043984ac4d5e4cd9457354-driver" force deleted
+PodComplete 1585738077283 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-exec-5 false
+PodComplete 1585738077358 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-exec-4 false
+PodComplete 1585738077434 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-exec-1 false
+PodComplete 1585738077506 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-exec-3 false
+PodComplete 1585738077578 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-exec-2 false
+PodComplete 1585738077578 job-44 tpcds-39a066b564043984ac4d5e4cd9457354-driver true
+JobFinished 1585738077579 1585738045401 job-44 5 1.000001 1.0001554 163673 32177 32172 5 0 1 5
+PodSubmit 1585738079185 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-driver
+PodStart 1585738079190 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-driver
+PodSubmit 1585738084527 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-exec-2
+PodStart 1585738084531 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-exec-2
+PodSubmit 1585738084539 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-exec-5
+PodStart 1585738084547 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-exec-5
+PodSubmit 1585738084550 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-exec-1
+PodStart 1585738084559 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-exec-1
+PodSubmit 1585738084563 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-exec-4
+PodStart 1585738084570 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-exec-4
+PodSubmit 1585738084578 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-exec-3
+PodStart 1585738084603 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-exec-3
+pod "tpcds-0615e1700e25314684ac2f51a3dd8afd-driver" force deleted
+PodComplete 1585738211592 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-exec-2 false
+PodComplete 1585738211675 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-exec-3 false
+PodComplete 1585738211749 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-exec-1 false
+PodComplete 1585738211830 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-exec-4 false
+PodComplete 1585738211900 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-exec-5 false
+PodComplete 1585738211900 job-45 tpcds-0615e1700e25314684ac2f51a3dd8afd-driver true
+JobFinished 1585738211901 1585738079185 job-45 5 1.000001 1.0000377 768646 132715 132710 5 0 1 5
+PodSubmit 1585738213669 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-driver
+PodStart 1585738213683 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-driver
+PodSubmit 1585738219075 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-exec-2
+PodStart 1585738219080 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-exec-2
+PodSubmit 1585738219081 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-exec-5
+PodStart 1585738219085 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-exec-5
+PodSubmit 1585738219090 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-exec-1
+PodStart 1585738219098 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-exec-1
+PodSubmit 1585738219100 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-exec-4
+PodStart 1585738219108 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-exec-4
+PodSubmit 1585738219110 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-exec-3
+PodStart 1585738219130 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-exec-3
+pod "tpcds-c2da39c0416a32d59176d517aa1782a5-driver" force deleted
+PodComplete 1585738334126 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-exec-2 false
+PodComplete 1585738334205 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-exec-1 false
+PodComplete 1585738334284 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-exec-5 false
+PodComplete 1585738334360 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-exec-4 false
+PodComplete 1585738334429 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-exec-3 false
+PodComplete 1585738334429 job-46 tpcds-c2da39c0416a32d59176d517aa1782a5-driver true
+JobFinished 1585738334430 1585738213669 job-46 5 1.000001 1.000116 696649 120760 120746 14 0 1 5
+PodSubmit 1585738336208 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-driver
+PodStart 1585738336217 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-driver
+PodSubmit 1585738341687 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-exec-2
+PodStart 1585738341691 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-exec-2
+PodSubmit 1585738341695 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-exec-5
+PodStart 1585738341702 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-exec-5
+PodSubmit 1585738341705 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-exec-1
+PodStart 1585738341713 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-exec-1
+PodSubmit 1585738341714 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-exec-4
+PodStart 1585738341724 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-exec-4
+PodSubmit 1585738341727 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-exec-3
+PodStart 1585738341736 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-exec-3
+pod "tpcds-5f511110cfa23323b3da4ba94f73aa1d-driver" force deleted
+PodComplete 1585738601951 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-exec-4 false
+PodComplete 1585738602037 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-exec-5 false
+PodComplete 1585738602123 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-exec-1 false
+PodComplete 1585738602196 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-exec-2 false
+[0m[[0m[31merror[0m] [0m[0m(Thread-3) java.lang.UnsupportedOperationException: empty.minBy[0m
+PodComplete 1585738602309 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-exec-3 false
+PodComplete 1585738602309 job-47 tpcds-5f511110cfa23323b3da4ba94f73aa1d-driver true
+JobFinished 1585738602321 1585738336210 job-47 5 1.000001 1.0000339 1568140 266101 266092 9 0 1 5
+[0m[[0m[31merror[0m] [0m[0mjava.lang.UnsupportedOperationException: empty.minBy[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableOnce.minBy(TraversableOnce.scala:254)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableOnce.minBy$(TraversableOnce.scala:252)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractTraversable.minBy(Traversable.scala:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scheduler.BribeScheduler$$anon$1.run(BribeScheduler.scala:40)[0m
+PodSubmit 1585738604033 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-driver
+PodStart 1585738604037 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-driver
+PodSubmit 1585738609160 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-exec-2
+PodStart 1585738609165 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-exec-2
+PodSubmit 1585738609173 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-exec-5
+PodSubmit 1585738609180 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-exec-1
+PodStart 1585738609180 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-exec-5
+PodStart 1585738609187 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-exec-1
+PodSubmit 1585738609202 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-exec-4
+PodSubmit 1585738609209 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-exec-3
+PodStart 1585738609211 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-exec-4
+PodStart 1585738609220 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-exec-3
+pod "tpcds-761d941a1e8432a2870d69e520de9dde-driver" force deleted
+PodComplete 1585738721969 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-exec-3 false
+PodComplete 1585738722039 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-exec-2 false
+PodComplete 1585738722109 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-exec-1 false
+PodComplete 1585738722177 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-exec-5 false
+PodComplete 1585738722248 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-exec-4 false
+PodComplete 1585738722249 job-48 tpcds-761d941a1e8432a2870d69e520de9dde-driver true
+JobFinished 1585738722249 1585738604033 job-48 5 1.000001 1.0000339 682790 118216 118212 4 0 1 5
+PodSubmit 1585738724017 job-49 tpcds-ca0c55948e9c3c05ad56e75d86a8dd30-driver
+PodStart 1585738724021 job-49 tpcds-ca0c55948e9c3c05ad56e75d86a8dd30-driver
+PodSubmit 1585738729132 job-49 tpcds-ca0c55948e9c3c05ad56e75d86a8dd30-exec-2
+PodStart 1585738729136 job-49 tpcds-ca0c55948e9c3c05ad56e75d86a8dd30-exec-2
+PodSubmit 1585738729139 job-49 tpcds-ca0c55948e9c3c05ad56e75d86a8dd30-exec-5
+PodStart 1585738729146 job-49 tpcds-ca0c55948e9c3c05ad56e75d86a8dd30-exec-5
+PodSubmit 1585738729147 job-49 tpcds-ca0c55948e9c3c05ad56e75d86a8dd30-exec-1
+PodSubmit 1585738729154 job-49 tpcds-ca0c55948e9c3c05ad56e75d86a8dd30-exec-4
+PodStart 1585738729156 job-49 tpcds-ca0c55948e9c3c05ad56e75d86a8dd30-exec-1
+PodStart 1585738729163 job-49 tpcds-ca0c55948e9c3c05ad56e75d86a8dd30-exec-4
+PodSubmit 1585738729164 job-49 tpcds-ca0c55948e9c3c05ad56e75d86a8dd30-exec-3
+PodStart 1585738729186 job-49 tpcds-ca0c55948e9c3c05ad56e75d86a8dd30-exec-3
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585741929737 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-driver
+PodStart 1585741929827 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-driver
+PodSubmit 1585741935229 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-exec-2
+PodStart 1585741935238 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-exec-2
+PodSubmit 1585741935242 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-exec-5
+PodSubmit 1585741935248 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-exec-1
+PodStart 1585741935254 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-exec-5
+PodSubmit 1585741935259 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-exec-4
+PodStart 1585741935265 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-exec-1
+PodStart 1585741935276 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-exec-4
+PodSubmit 1585741935278 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-exec-3
+PodStart 1585741935293 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-exec-3
+pod "tpcds-7f4107f2ee163035b048fece149f8ee3-driver" force deleted
+PodComplete 1585742057738 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-exec-4 false
+PodComplete 1585742057806 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-exec-3 false
+PodComplete 1585742057882 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-exec-5 false
+PodComplete 1585742057957 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-exec-2 false
+PodComplete 1585742058024 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-exec-1 false
+PodComplete 1585742058024 job-49 tpcds-7f4107f2ee163035b048fece149f8ee3-driver true
+JobFinished 1585742058034 1585741929738 job-49 5 1.000001 1.000702 741276 128287 128197 90 0 1 5
+PodSubmit 1585742513085 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-driver
+PodStart 1585742513138 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-driver
+PodSubmit 1585742518637 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-exec-2
+PodStart 1585742518642 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-exec-2
+PodSubmit 1585742518646 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-exec-5
+PodStart 1585742518650 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-exec-5
+PodSubmit 1585742518662 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-exec-1
+PodStart 1585742518666 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-exec-1
+PodSubmit 1585742518680 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-exec-4
+PodSubmit 1585742518692 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-exec-3
+PodStart 1585742518697 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-exec-4
+PodStart 1585742518713 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-exec-3
+pod "tpcds-a943543f6b1532b08a3438c2e3b85ac8-driver" force deleted
+PodComplete 1585742727265 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-exec-1 false
+PodComplete 1585742727338 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-exec-2 false
+PodComplete 1585742727424 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-exec-3 false
+PodComplete 1585742727500 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-exec-4 false
+PodComplete 1585742727577 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-exec-5 false
+PodComplete 1585742727578 job-50 tpcds-a943543f6b1532b08a3438c2e3b85ac8-driver true
+JobFinished 1585742727578 1585742513085 job-50 5 1.000001 1.0002471 1258176 214493 214440 53 0 1 5
+PodSubmit 1585742729383 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-driver
+PodStart 1585742729390 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-driver
+PodSubmit 1585742734767 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-exec-2
+PodStart 1585742734773 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-exec-2
+PodSubmit 1585742734775 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-exec-5
+PodStart 1585742734780 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-exec-5
+PodSubmit 1585742734783 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-exec-1
+PodStart 1585742734790 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-exec-1
+PodSubmit 1585742734800 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-exec-4
+PodStart 1585742734821 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-exec-4
+PodSubmit 1585742734823 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-exec-3
+PodStart 1585742734836 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-exec-3
+pod "tpcds-14e210780aa13ece9adc645287f6a1e0-driver" force deleted
+PodComplete 1585742852316 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-exec-1 false
+PodComplete 1585742852392 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-exec-2 false
+PodComplete 1585742852465 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-exec-5 false
+PodComplete 1585742852541 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-exec-3 false
+PodComplete 1585742852612 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-exec-4 false
+PodComplete 1585742852612 job-51 tpcds-14e210780aa13ece9adc645287f6a1e0-driver true
+JobFinished 1585742852612 1585742729383 job-51 5 1.000001 1.0000569 711547 123229 123222 7 0 1 5
+PodSubmit 1585742854429 job-52 tpcds-b119a3856a353e7daa262c2a1dcb168d-driver
+PodStart 1585742854434 job-52 tpcds-b119a3856a353e7daa262c2a1dcb168d-driver
+PodSubmit 1585742859793 job-52 tpcds-b119a3856a353e7daa262c2a1dcb168d-exec-2
+PodStart 1585742859798 job-52 tpcds-b119a3856a353e7daa262c2a1dcb168d-exec-2
+PodSubmit 1585742859801 job-52 tpcds-b119a3856a353e7daa262c2a1dcb168d-exec-5
+PodStart 1585742859807 job-52 tpcds-b119a3856a353e7daa262c2a1dcb168d-exec-5
+PodSubmit 1585742859814 job-52 tpcds-b119a3856a353e7daa262c2a1dcb168d-exec-1
+PodStart 1585742859818 job-52 tpcds-b119a3856a353e7daa262c2a1dcb168d-exec-1
+PodSubmit 1585742859823 job-52 tpcds-b119a3856a353e7daa262c2a1dcb168d-exec-4
+PodStart 1585742859860 job-52 tpcds-b119a3856a353e7daa262c2a1dcb168d-exec-4
+PodSubmit 1585742859861 job-52 tpcds-b119a3856a353e7daa262c2a1dcb168d-exec-3
+PodStart 1585742859884 job-52 tpcds-b119a3856a353e7daa262c2a1dcb168d-exec-3
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585744074251 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-driver
+PodStart 1585744074332 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-driver
+PodSubmit 1585744079645 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-exec-2
+PodStart 1585744079651 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-exec-2
+PodSubmit 1585744079652 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-exec-5
+PodStart 1585744079657 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-exec-5
+PodSubmit 1585744079664 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-exec-1
+PodStart 1585744079672 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-exec-1
+PodSubmit 1585744079673 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-exec-4
+PodStart 1585744079682 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-exec-4
+PodSubmit 1585744079691 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-exec-3
+PodStart 1585744079697 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-exec-3
+pod "tpcds-2951db4ac2d73eefbe44bcfddded3d08-driver" force deleted
+PodComplete 1585744666158 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-exec-1 false
+PodComplete 1585744666251 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-exec-2 false
+PodComplete 1585744666324 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-exec-3 false
+PodComplete 1585744666397 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-exec-4 false
+PodComplete 1585744666468 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-exec-5 false
+PodComplete 1585744666468 job-52 tpcds-2951db4ac2d73eefbe44bcfddded3d08-driver true
+JobFinished 1585744666479 1585744074252 job-52 5 1.000001 1.0001369 3525374 592217 592136 81 0 1 5
+PodSubmit 1585744668086 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-driver
+PodStart 1585744668140 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-driver
+PodSubmit 1585744673559 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-exec-2
+PodStart 1585744673565 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-exec-2
+PodSubmit 1585744673569 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-exec-5
+PodStart 1585744673577 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-exec-5
+PodSubmit 1585744673580 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-exec-1
+PodStart 1585744673594 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-exec-1
+PodSubmit 1585744673597 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-exec-4
+PodSubmit 1585744673625 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-exec-3
+PodStart 1585744673633 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-exec-4
+PodStart 1585744673645 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-exec-3
+pod "tpcds-160f40c535fb372bb1d84f22b97337ed-driver" force deleted
+PodComplete 1585744873057 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-exec-5 false
+PodComplete 1585744873134 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-exec-4 false
+PodComplete 1585744873219 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-exec-1 false
+PodComplete 1585744873291 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-exec-3 false
+PodComplete 1585744873373 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-exec-2 false
+PodComplete 1585744873373 job-53 tpcds-160f40c535fb372bb1d84f22b97337ed-driver true
+JobFinished 1585744873374 1585744668086 job-53 5 1.000001 1.0002631 1203293 205287 205233 54 0 1 5
+PodSubmit 1585744875137 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-driver
+PodStart 1585744875142 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-driver
+PodSubmit 1585744880605 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-exec-2
+PodStart 1585744880610 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-exec-2
+PodSubmit 1585744880613 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-exec-5
+PodStart 1585744880624 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-exec-5
+PodSubmit 1585744880632 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-exec-1
+PodStart 1585744880640 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-exec-1
+PodSubmit 1585744880643 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-exec-4
+PodStart 1585744880675 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-exec-4
+PodSubmit 1585744880678 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-exec-3
+PodStart 1585744880686 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-exec-3
+pod "tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-driver" force deleted
+PodComplete 1585745095713 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-exec-1 false
+PodComplete 1585745095789 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-exec-2 false
+PodComplete 1585745095861 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-exec-3 false
+PodComplete 1585745095933 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-exec-4 false
+PodComplete 1585745096003 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-exec-5 false
+PodComplete 1585745096003 job-54 tpcds-597ebc2212bf39f99ca2adbdb13f9fd7-driver true
+JobFinished 1585745096004 1585744875137 job-54 5 1.000001 1.0000226 1296925 220866 220861 5 0 1 5
+PodSubmit 1585745097829 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-driver
+PodStart 1585745097836 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-driver
+PodSubmit 1585745103168 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-exec-2
+PodStart 1585745103172 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-exec-2
+PodSubmit 1585745103177 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-exec-5
+PodSubmit 1585745103191 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-exec-1
+PodStart 1585745103192 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-exec-5
+PodStart 1585745103199 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-exec-1
+PodSubmit 1585745103206 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-exec-4
+PodStart 1585745103228 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-exec-4
+PodSubmit 1585745103229 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-exec-3
+PodStart 1585745103236 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-exec-3
+pod "tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-driver" force deleted
+PodComplete 1585745212238 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-exec-2 false
+PodComplete 1585745212309 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-exec-1 false
+PodComplete 1585745212384 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-exec-4 false
+PodComplete 1585745212456 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-exec-3 false
+PodComplete 1585745212536 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-exec-5 false
+PodComplete 1585745212536 job-55 tpcds-13b7b0cbc4453f3e91e8b9ea237f0b35-driver true
+JobFinished 1585745212536 1585745097829 job-55 5 1.000001 1.000061 660597 114707 114700 7 0 1 5
+PodSubmit 1585745214320 job-56 tpcds-976c6107848e30e49ec136a67a9c2152-driver
+PodStart 1585745214325 job-56 tpcds-976c6107848e30e49ec136a67a9c2152-driver
+PodSubmit 1585745219717 job-56 tpcds-976c6107848e30e49ec136a67a9c2152-exec-2
+PodStart 1585745219730 job-56 tpcds-976c6107848e30e49ec136a67a9c2152-exec-2
+PodSubmit 1585745219734 job-56 tpcds-976c6107848e30e49ec136a67a9c2152-exec-5
+PodStart 1585745219749 job-56 tpcds-976c6107848e30e49ec136a67a9c2152-exec-5
+PodSubmit 1585745219749 job-56 tpcds-976c6107848e30e49ec136a67a9c2152-exec-1
+PodSubmit 1585745219762 job-56 tpcds-976c6107848e30e49ec136a67a9c2152-exec-4
+PodStart 1585745219766 job-56 tpcds-976c6107848e30e49ec136a67a9c2152-exec-1
+PodStart 1585745219777 job-56 tpcds-976c6107848e30e49ec136a67a9c2152-exec-4
+PodSubmit 1585745219777 job-56 tpcds-976c6107848e30e49ec136a67a9c2152-exec-3
+PodStart 1585745219787 job-56 tpcds-976c6107848e30e49ec136a67a9c2152-exec-3
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585745680937 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-driver
+PodStart 1585745681032 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-driver
+PodSubmit 1585745686347 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-exec-2
+PodStart 1585745686354 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-exec-2
+PodSubmit 1585745686363 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-exec-5
+PodStart 1585745686377 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-exec-5
+PodSubmit 1585745686403 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-exec-1
+PodSubmit 1585745686405 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-exec-4
+PodSubmit 1585745686408 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-exec-3
+PodStart 1585745686416 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-exec-1
+PodStart 1585745686421 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-exec-4
+PodStart 1585745686428 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-exec-3
+pod "tpcds-29e188100c4a31d8af3a338b12eefaa5-driver" force deleted
+PodComplete 1585745804969 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-exec-5 false
+PodComplete 1585745805038 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-exec-4 false
+PodComplete 1585745805110 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-exec-3 false
+PodComplete 1585745805187 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-exec-2 false
+PodComplete 1585745805259 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-exec-1 false
+PodComplete 1585745805259 job-56 tpcds-29e188100c4a31d8af3a338b12eefaa5-driver true
+JobFinished 1585745805270 1585745680937 job-56 5 1.000001 1.0007647 717794 124322 124227 95 0 1 5
+PodSubmit 1585745806989 job-57 tpcds-ee1ceabf1fd437bcbf1157d4a3c852a8-driver
+PodStart 1585745806995 job-57 tpcds-ee1ceabf1fd437bcbf1157d4a3c852a8-driver
+PodSubmit 1585745812343 job-57 tpcds-ee1ceabf1fd437bcbf1157d4a3c852a8-exec-2
+PodStart 1585745812348 job-57 tpcds-ee1ceabf1fd437bcbf1157d4a3c852a8-exec-2
+PodSubmit 1585745812351 job-57 tpcds-ee1ceabf1fd437bcbf1157d4a3c852a8-exec-5
+PodStart 1585745812378 job-57 tpcds-ee1ceabf1fd437bcbf1157d4a3c852a8-exec-5
+PodSubmit 1585745812385 job-57 tpcds-ee1ceabf1fd437bcbf1157d4a3c852a8-exec-1
+PodStart 1585745812395 job-57 tpcds-ee1ceabf1fd437bcbf1157d4a3c852a8-exec-1
+PodSubmit 1585745812402 job-57 tpcds-ee1ceabf1fd437bcbf1157d4a3c852a8-exec-4
+PodStart 1585745812413 job-57 tpcds-ee1ceabf1fd437bcbf1157d4a3c852a8-exec-4
+PodSubmit 1585745812423 job-57 tpcds-ee1ceabf1fd437bcbf1157d4a3c852a8-exec-3
+PodStart 1585745812430 job-57 tpcds-ee1ceabf1fd437bcbf1157d4a3c852a8-exec-3
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585746772491 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-driver
+PodStart 1585746772574 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-driver
+PodSubmit 1585746777959 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-exec-2
+PodStart 1585746777964 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-exec-2
+PodSubmit 1585746777970 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-exec-5
+PodSubmit 1585746777980 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-exec-1
+PodStart 1585746777985 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-exec-5
+PodSubmit 1585746777989 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-exec-4
+PodStart 1585746777996 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-exec-1
+PodStart 1585746778005 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-exec-4
+PodSubmit 1585746778008 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-exec-3
+PodStart 1585746778013 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-exec-3
+pod "tpcds-c337f668fe1a343bbe46b76cfff76c49-driver" force deleted
+PodComplete 1585747070519 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-exec-5 false
+PodComplete 1585747070597 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-exec-1 false
+PodComplete 1585747070675 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-exec-2 false
+PodComplete 1585747070753 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-exec-3 false
+PodComplete 1585747070831 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-exec-4 false
+PodComplete 1585747070831 job-57 tpcds-c337f668fe1a343bbe46b76cfff76c49-driver true
+JobFinished 1585747070841 1585746772491 job-57 5 1.000001 1.0002782 1761667 298340 298257 83 0 1 5
+PodSubmit 1585747072394 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-driver
+PodStart 1585747072402 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-driver
+PodSubmit 1585747077738 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-exec-2
+PodStart 1585747077743 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-exec-2
+PodSubmit 1585747077759 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-exec-5
+PodStart 1585747077766 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-exec-5
+PodSubmit 1585747077770 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-exec-1
+PodSubmit 1585747077781 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-exec-4
+PodStart 1585747077786 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-exec-1
+PodStart 1585747077796 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-exec-4
+PodSubmit 1585747077799 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-exec-3
+PodStart 1585747077812 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-exec-3
+pod "tpcds-18c3ad34a59c35cf9d78aae43700feb4-driver" force deleted
+PodComplete 1585747190141 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-exec-5 false
+PodComplete 1585747190220 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-exec-4 false
+PodComplete 1585747190298 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-exec-1 false
+PodComplete 1585747190382 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-exec-3 false
+PodComplete 1585747190457 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-exec-2 false
+PodComplete 1585747190457 job-58 tpcds-18c3ad34a59c35cf9d78aae43700feb4-driver true
+JobFinished 1585747190458 1585747072394 job-58 5 1.000001 1.0000677 680648 118063 118055 8 0 1 5
+PodSubmit 1585747192257 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-driver
+PodStart 1585747192262 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-driver
+PodSubmit 1585747197625 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-exec-2
+PodStart 1585747197629 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-exec-2
+PodSubmit 1585747197634 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-exec-5
+PodStart 1585747197641 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-exec-5
+PodSubmit 1585747197645 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-exec-1
+PodStart 1585747197651 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-exec-1
+PodSubmit 1585747197657 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-exec-4
+PodStart 1585747197678 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-exec-4
+PodSubmit 1585747197678 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-exec-3
+PodStart 1585747197685 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-exec-3
+pod "tpcds-e127cdb1a9d837b5b1d8175eaea91b45-driver" force deleted
+PodComplete 1585747487524 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-exec-5 false
+PodComplete 1585747487597 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-exec-3 false
+PodComplete 1585747487674 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-exec-4 false
+PodComplete 1585747487746 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-exec-1 false
+PodComplete 1585747487821 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-exec-2 false
+PodComplete 1585747487821 job-59 tpcds-e127cdb1a9d837b5b1d8175eaea91b45-driver true
+JobFinished 1585747487822 1585747192257 job-59 5 1.000001 1.0000169 1745637 295564 295559 5 0 1 5
+PodSubmit 1585747489633 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-driver
+PodStart 1585747489653 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-driver
+PodSubmit 1585747495063 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-exec-2
+PodStart 1585747495067 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-exec-2
+PodSubmit 1585747495070 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-exec-5
+PodSubmit 1585747495082 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-exec-1
+PodStart 1585747495082 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-exec-5
+PodSubmit 1585747495085 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-exec-4
+PodStart 1585747495086 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-exec-1
+PodSubmit 1585747495097 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-exec-3
+PodStart 1585747495100 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-exec-4
+PodStart 1585747495107 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-exec-3
+pod "tpcds-0305e7d532143e10b90e2f5a463bd26d-driver" force deleted
+PodComplete 1585747697440 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-exec-5 false
+PodComplete 1585747697512 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-exec-2 false
+PodComplete 1585747697590 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-exec-1 false
+PodComplete 1585747697667 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-exec-4 false
+PodComplete 1585747697756 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-exec-3 false
+PodComplete 1585747697756 job-60 tpcds-0305e7d532143e10b90e2f5a463bd26d-driver true
+JobFinished 1585747697756 1585747489633 job-60 5 1.000001 1.0000961 1220624 208123 208103 20 0 1 5
+PodSubmit 1585747699385 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-driver
+PodStart 1585747699389 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-driver
+PodSubmit 1585747704737 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-exec-2
+PodStart 1585747704742 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-exec-2
+PodSubmit 1585747704746 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-exec-5
+PodStart 1585747704755 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-exec-5
+PodSubmit 1585747704761 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-exec-1
+PodStart 1585747704765 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-exec-1
+PodSubmit 1585747704768 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-exec-4
+PodStart 1585747704776 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-exec-4
+PodSubmit 1585747704782 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-exec-3
+PodStart 1585747704799 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-exec-3
+pod "tpcds-bc8c3ca2290330999c84fb813a1f2ccd-driver" force deleted
+PodComplete 1585747984887 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-exec-1 false
+PodComplete 1585747984960 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-exec-3 false
+PodComplete 1585747985033 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-exec-2 false
+PodComplete 1585747985105 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-exec-5 false
+PodComplete 1585747985209 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-exec-4 false
+PodComplete 1585747985209 job-61 tpcds-bc8c3ca2290330999c84fb813a1f2ccd-driver true
+JobFinished 1585747985209 1585747699385 job-61 5 1.000001 1.000014 1687177 285824 285820 4 0 1 5
+PodSubmit 1585747987009 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-driver
+PodStart 1585747987014 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-driver
+PodSubmit 1585747992590 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-exec-2
+PodStart 1585747992595 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-exec-2
+PodSubmit 1585747992598 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-exec-5
+PodStart 1585747992605 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-exec-5
+PodSubmit 1585747992607 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-exec-1
+PodStart 1585747992611 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-exec-1
+PodSubmit 1585747992619 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-exec-4
+PodSubmit 1585747992630 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-exec-3
+PodStart 1585747992634 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-exec-4
+PodStart 1585747992648 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-exec-3
+pod "tpcds-c186252b847e358ab4e1145b2e14421e-driver" force deleted
+PodComplete 1585748105336 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-exec-1 false
+PodComplete 1585748105417 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-exec-2 false
+PodComplete 1585748105490 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-exec-3 false
+PodComplete 1585748105564 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-exec-4 false
+PodComplete 1585748105641 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-exec-5 false
+PodComplete 1585748105641 job-62 tpcds-c186252b847e358ab4e1145b2e14421e-driver true
+JobFinished 1585748105642 1585747987009 job-62 5 1.000001 1.0000422 682982 118632 118627 5 0 1 5
+PodSubmit 1585748107441 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-driver
+PodStart 1585748107446 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-driver
+PodSubmit 1585748112780 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-exec-2
+PodStart 1585748112784 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-exec-2
+PodSubmit 1585748112788 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-exec-5
+PodStart 1585748112792 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-exec-5
+PodSubmit 1585748112803 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-exec-1
+PodSubmit 1585748112813 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-exec-4
+PodStart 1585748112814 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-exec-1
+PodStart 1585748112822 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-exec-4
+PodSubmit 1585748112825 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-exec-3
+PodStart 1585748112830 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-exec-3
+pod "tpcds-6761bf2723ba3199aaedbf4148d89a81-driver" force deleted
+PodComplete 1585748398522 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-exec-3 false
+PodComplete 1585748398594 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-exec-2 false
+PodComplete 1585748398676 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-exec-5 false
+PodComplete 1585748398746 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-exec-4 false
+PodComplete 1585748398830 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-exec-1 false
+PodComplete 1585748398830 job-63 tpcds-6761bf2723ba3199aaedbf4148d89a81-driver true
+JobFinished 1585748398830 1585748107441 job-63 5 1.000001 1.0000172 1720708 291389 291384 5 0 1 5
+PodSubmit 1585748400472 job-64 tpcds-a89098b9219b373896c122032af7297c-driver
+PodStart 1585748400477 job-64 tpcds-a89098b9219b373896c122032af7297c-driver
+PodSubmit 1585748405922 job-64 tpcds-a89098b9219b373896c122032af7297c-exec-2
+PodStart 1585748405927 job-64 tpcds-a89098b9219b373896c122032af7297c-exec-2
+PodSubmit 1585748405934 job-64 tpcds-a89098b9219b373896c122032af7297c-exec-5
+PodStart 1585748405950 job-64 tpcds-a89098b9219b373896c122032af7297c-exec-5
+PodSubmit 1585748405969 job-64 tpcds-a89098b9219b373896c122032af7297c-exec-1
+PodSubmit 1585748405979 job-64 tpcds-a89098b9219b373896c122032af7297c-exec-4
+PodStart 1585748405979 job-64 tpcds-a89098b9219b373896c122032af7297c-exec-1
+PodStart 1585748405987 job-64 tpcds-a89098b9219b373896c122032af7297c-exec-4
+PodSubmit 1585748406009 job-64 tpcds-a89098b9219b373896c122032af7297c-exec-3
+PodStart 1585748406024 job-64 tpcds-a89098b9219b373896c122032af7297c-exec-3
+pod "tpcds-a89098b9219b373896c122032af7297c-driver" force deleted
+PodComplete 1585748591986 job-64 tpcds-a89098b9219b373896c122032af7297c-exec-2 false
+PodComplete 1585748592063 job-64 tpcds-a89098b9219b373896c122032af7297c-exec-3 false
+PodComplete 1585748592139 job-64 tpcds-a89098b9219b373896c122032af7297c-exec-1 false
+PodComplete 1585748592209 job-64 tpcds-a89098b9219b373896c122032af7297c-exec-4 false
+PodComplete 1585748592283 job-64 tpcds-a89098b9219b373896c122032af7297c-exec-5 false
+PodComplete 1585748592284 job-64 tpcds-a89098b9219b373896c122032af7297c-driver true
+JobFinished 1585748592284 1585748400472 job-64 5 1.000001 1.0000261 1122619 191812 191807 5 0 1 5
+PodSubmit 1585748594069 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-driver
+PodStart 1585748594074 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-driver
+PodSubmit 1585748599473 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-exec-2
+PodStart 1585748599478 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-exec-2
+PodSubmit 1585748599500 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-exec-5
+PodStart 1585748599504 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-exec-5
+PodSubmit 1585748599508 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-exec-1
+PodStart 1585748599523 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-exec-1
+PodSubmit 1585748599524 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-exec-4
+PodStart 1585748599550 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-exec-4
+PodSubmit 1585748599563 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-exec-3
+PodStart 1585748599571 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-exec-3
+pod "tpcds-81466eff6ef53e11a929d0adfc80159d-driver" force deleted
+PodComplete 1585748703416 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-exec-5 false
+PodComplete 1585748703495 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-exec-4 false
+PodComplete 1585748703572 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-exec-3 false
+PodComplete 1585748703644 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-exec-2 false
+PodComplete 1585748703714 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-exec-1 false
+PodComplete 1585748703714 job-65 tpcds-81466eff6ef53e11a929d0adfc80159d-driver true
+JobFinished 1585748703715 1585748594069 job-65 5 1.000001 1.0000457 629854 109645 109640 5 0 1 5
+PodSubmit 1585748705513 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-driver
+PodStart 1585748705517 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-driver
+PodSubmit 1585748710869 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-exec-2
+PodStart 1585748710873 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-exec-2
+PodSubmit 1585748710877 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-exec-5
+PodStart 1585748710882 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-exec-5
+PodSubmit 1585748710885 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-exec-1
+PodStart 1585748710889 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-exec-1
+PodSubmit 1585748710902 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-exec-4
+PodStart 1585748710921 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-exec-4
+PodSubmit 1585748710928 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-exec-3
+PodStart 1585748710939 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-exec-3
+pod "tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-driver" force deleted
+PodComplete 1585748829792 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-exec-1 false
+PodComplete 1585748829870 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-exec-3 false
+PodComplete 1585748829943 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-exec-2 false
+PodComplete 1585748830016 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-exec-5 false
+PodComplete 1585748830090 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-exec-4 false
+PodComplete 1585748830090 job-66 tpcds-3c2e58df87ea3315bc0495e4e6f3bebd-driver true
+JobFinished 1585748830091 1585748705513 job-66 5 1.000001 1.0000321 719779 124577 124573 4 0 1 5
+PodSubmit 1585748831949 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-driver
+PodStart 1585748831953 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-driver
+PodSubmit 1585748837410 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-exec-2
+PodStart 1585748837414 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-exec-2
+PodSubmit 1585748837424 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-exec-5
+PodStart 1585748837429 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-exec-5
+PodSubmit 1585748837440 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-exec-1
+PodStart 1585748837447 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-exec-1
+PodSubmit 1585748837448 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-exec-4
+PodStart 1585748837454 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-exec-4
+PodSubmit 1585748837462 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-exec-3
+PodStart 1585748837491 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-exec-3
+pod "tpcds-1e84cc26d95a35ae8c3564f700070a44-driver" force deleted
+PodComplete 1585749238755 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-exec-3 false
+PodComplete 1585749238859 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-exec-4 false
+PodComplete 1585749238935 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-exec-1 false
+PodComplete 1585749239015 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-exec-2 false
+PodComplete 1585749239091 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-exec-5 false
+PodComplete 1585749239091 job-67 tpcds-1e84cc26d95a35ae8c3564f700070a44-driver true
+JobFinished 1585749239091 1585748831949 job-67 5 1.000001 1.0000098 2414557 407142 407138 4 0 1 5
+PodSubmit 1585749240711 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-driver
+PodStart 1585749240764 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-driver
+PodSubmit 1585749246160 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-exec-2
+PodStart 1585749246164 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-exec-2
+PodSubmit 1585749246168 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-exec-5
+PodStart 1585749246183 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-exec-5
+PodSubmit 1585749246185 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-exec-1
+PodStart 1585749246192 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-exec-1
+PodSubmit 1585749246201 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-exec-4
+PodStart 1585749246209 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-exec-4
+PodSubmit 1585749246212 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-exec-3
+PodStart 1585749246218 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-exec-3
+pod "tpcds-e19dd9268c913453a856f551a9e5488a-driver" force deleted
+PodComplete 1585749440749 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-exec-4 false
+PodComplete 1585749440822 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-exec-5 false
+PodComplete 1585749440902 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-exec-1 false
+PodComplete 1585749441001 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-exec-2 false
+PodComplete 1585749441082 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-exec-3 false
+PodComplete 1585749441082 job-68 tpcds-e19dd9268c913453a856f551a9e5488a-driver true
+JobFinished 1585749441083 1585749240711 job-68 5 1.000001 1.0002645 1173907 200371 200318 53 0 1 5
+PodSubmit 1585749442832 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-driver
+PodStart 1585749442838 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-driver
+PodSubmit 1585749448261 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-exec-2
+PodStart 1585749448265 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-exec-2
+PodSubmit 1585749448283 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-exec-5
+PodSubmit 1585749448283 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-exec-1
+PodStart 1585749448289 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-exec-5
+PodSubmit 1585749448295 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-exec-4
+PodSubmit 1585749448316 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-exec-3
+PodStart 1585749448320 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-exec-1
+PodStart 1585749448326 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-exec-4
+PodStart 1585749448336 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-exec-3
+pod "tpcds-260d02485f8f31f1bc8528ba09ebabd3-driver" force deleted
+PodComplete 1585749631517 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-exec-5 false
+PodComplete 1585749631619 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-exec-3 false
+PodComplete 1585749631711 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-exec-4 false
+PodComplete 1585749631792 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-exec-1 false
+PodComplete 1585749631862 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-exec-2 false
+PodComplete 1585749631862 job-69 tpcds-260d02485f8f31f1bc8528ba09ebabd3-driver true
+JobFinished 1585749631862 1585749442832 job-69 5 1.000001 1.0000317 1105989 189030 189024 6 0 1 5
+PodSubmit 1585749633629 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-driver
+PodStart 1585749633636 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-driver
+PodSubmit 1585749638998 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-exec-2
+PodStart 1585749639002 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-exec-2
+PodSubmit 1585749639006 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-exec-5
+PodStart 1585749639010 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-exec-5
+PodSubmit 1585749639014 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-exec-1
+PodStart 1585749639023 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-exec-1
+PodSubmit 1585749639023 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-exec-4
+PodStart 1585749639042 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-exec-4
+PodSubmit 1585749639047 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-exec-3
+PodStart 1585749639054 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-exec-3
+pod "tpcds-33d22529984438eeb7f07738c4b207d3-driver" force deleted
+PodComplete 1585749764694 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-exec-1 false
+PodComplete 1585749764765 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-exec-2 false
+PodComplete 1585749764840 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-exec-3 false
+PodComplete 1585749764914 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-exec-4 false
+PodComplete 1585749764988 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-exec-5 false
+PodComplete 1585749764988 job-70 tpcds-33d22529984438eeb7f07738c4b207d3-driver true
+JobFinished 1585749764988 1585749633629 job-70 5 1.000001 1.0000533 760422 131359 131352 7 0 1 5
+PodSubmit 1585749766790 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-driver
+PodStart 1585749766795 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-driver
+PodSubmit 1585749772254 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-exec-2
+PodStart 1585749772259 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-exec-2
+PodSubmit 1585749772263 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-exec-5
+PodStart 1585749772269 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-exec-5
+PodSubmit 1585749772272 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-exec-1
+PodStart 1585749772278 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-exec-1
+PodSubmit 1585749772282 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-exec-4
+PodStart 1585749772295 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-exec-4
+PodSubmit 1585749772302 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-exec-3
+PodStart 1585749772308 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-exec-3
+pod "tpcds-e1273a4b3d3438ff82a7334770916ebb-driver" force deleted
+PodComplete 1585749883729 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-exec-1 false
+PodComplete 1585749883803 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-exec-2 false
+PodComplete 1585749883876 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-exec-3 false
+PodComplete 1585749883947 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-exec-4 false
+PodComplete 1585749884021 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-exec-5 false
+PodComplete 1585749884021 job-71 tpcds-e1273a4b3d3438ff82a7334770916ebb-driver true
+JobFinished 1585749884022 1585749766790 job-71 5 1.000001 1.0000427 675193 117231 117226 5 0 1 5
+PodSubmit 1585749885669 job-72 tpcds-1f9f34dade913f5b8502da46fe7025a7-driver
+PodStart 1585749885674 job-72 tpcds-1f9f34dade913f5b8502da46fe7025a7-driver
+PodSubmit 1585749891024 job-72 tpcds-1f9f34dade913f5b8502da46fe7025a7-exec-2
+PodSubmit 1585749891032 job-72 tpcds-1f9f34dade913f5b8502da46fe7025a7-exec-5
+PodStart 1585749891032 job-72 tpcds-1f9f34dade913f5b8502da46fe7025a7-exec-2
+PodStart 1585749891036 job-72 tpcds-1f9f34dade913f5b8502da46fe7025a7-exec-5
+PodSubmit 1585749891042 job-72 tpcds-1f9f34dade913f5b8502da46fe7025a7-exec-1
+PodStart 1585749891059 job-72 tpcds-1f9f34dade913f5b8502da46fe7025a7-exec-1
+PodSubmit 1585749891064 job-72 tpcds-1f9f34dade913f5b8502da46fe7025a7-exec-4
+PodStart 1585749891071 job-72 tpcds-1f9f34dade913f5b8502da46fe7025a7-exec-4
+PodSubmit 1585749891081 job-72 tpcds-1f9f34dade913f5b8502da46fe7025a7-exec-3
+PodStart 1585749891086 job-72 tpcds-1f9f34dade913f5b8502da46fe7025a7-exec-3
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585750300334 job-72 tpcds-1306b57d2a7f384fb3d7f4fb1b65d7ee-driver
+PodStart 1585750300402 job-72 tpcds-1306b57d2a7f384fb3d7f4fb1b65d7ee-driver
+PodSubmit 1585750305842 job-72 tpcds-1306b57d2a7f384fb3d7f4fb1b65d7ee-exec-2
+PodStart 1585750305848 job-72 tpcds-1306b57d2a7f384fb3d7f4fb1b65d7ee-exec-2
+PodSubmit 1585750305849 job-72 tpcds-1306b57d2a7f384fb3d7f4fb1b65d7ee-exec-5
+PodStart 1585750305854 job-72 tpcds-1306b57d2a7f384fb3d7f4fb1b65d7ee-exec-5
+PodSubmit 1585750305857 job-72 tpcds-1306b57d2a7f384fb3d7f4fb1b65d7ee-exec-1
+PodStart 1585750305862 job-72 tpcds-1306b57d2a7f384fb3d7f4fb1b65d7ee-exec-1
+PodSubmit 1585750305873 job-72 tpcds-1306b57d2a7f384fb3d7f4fb1b65d7ee-exec-4
+PodSubmit 1585750305890 job-72 tpcds-1306b57d2a7f384fb3d7f4fb1b65d7ee-exec-3
+PodStart 1585750305919 job-72 tpcds-1306b57d2a7f384fb3d7f4fb1b65d7ee-exec-4
+PodStart 1585750305936 job-72 tpcds-1306b57d2a7f384fb3d7f4fb1b65d7ee-exec-3
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585750503768 job-72 tpcds-6c3634e043603ebf8d9bf849b7518259-driver
+PodStart 1585750503846 job-72 tpcds-6c3634e043603ebf8d9bf849b7518259-driver
+PodSubmit 1585750509346 job-72 tpcds-6c3634e043603ebf8d9bf849b7518259-exec-2
+PodStart 1585750509354 job-72 tpcds-6c3634e043603ebf8d9bf849b7518259-exec-2
+PodSubmit 1585750509357 job-72 tpcds-6c3634e043603ebf8d9bf849b7518259-exec-5
+PodStart 1585750509363 job-72 tpcds-6c3634e043603ebf8d9bf849b7518259-exec-5
+PodSubmit 1585750509366 job-72 tpcds-6c3634e043603ebf8d9bf849b7518259-exec-1
+PodSubmit 1585750509372 job-72 tpcds-6c3634e043603ebf8d9bf849b7518259-exec-4
+PodStart 1585750509378 job-72 tpcds-6c3634e043603ebf8d9bf849b7518259-exec-1
+PodStart 1585750509402 job-72 tpcds-6c3634e043603ebf8d9bf849b7518259-exec-4
+PodSubmit 1585750509408 job-72 tpcds-6c3634e043603ebf8d9bf849b7518259-exec-3
+PodStart 1585750509435 job-72 tpcds-6c3634e043603ebf8d9bf849b7518259-exec-3
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585750771519 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-driver
+PodStart 1585750771583 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-driver
+PodSubmit 1585750777251 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-exec-2
+PodStart 1585750777258 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-exec-2
+PodSubmit 1585750777261 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-exec-5
+PodSubmit 1585750777270 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-exec-1
+PodStart 1585750777279 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-exec-5
+PodSubmit 1585750777289 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-exec-4
+PodStart 1585750777297 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-exec-1
+PodStart 1585750777306 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-exec-4
+PodSubmit 1585750777307 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-exec-3
+PodStart 1585750777314 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-exec-3
+pod "tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-driver" force deleted
+PodComplete 1585751050867 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-exec-3 false
+PodComplete 1585751050951 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-exec-2 false
+PodComplete 1585751051027 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-exec-5 false
+PodComplete 1585751051120 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-exec-4 false
+PodComplete 1585751051212 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-exec-1 false
+PodComplete 1585751051212 job-72 tpcds-b496ed07fc5d3c4a8a38f1296baadb0d-driver true
+JobFinished 1585751051223 1585750771519 job-72 5 1.000001 1.0002325 1648352 279694 279629 65 0 1 5
+PodSubmit 1585751052901 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-driver
+PodStart 1585751052910 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-driver
+PodSubmit 1585751058318 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-exec-2
+PodStart 1585751058323 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-exec-2
+PodSubmit 1585751058326 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-exec-5
+PodStart 1585751058355 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-exec-5
+PodSubmit 1585751058356 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-exec-1
+PodStart 1585751058373 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-exec-1
+PodSubmit 1585751058375 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-exec-4
+PodStart 1585751058383 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-exec-4
+PodSubmit 1585751058397 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-exec-3
+PodStart 1585751058403 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-exec-3
+pod "tpcds-6db4049947cd3f4181222484fe0bb659-driver" force deleted
+PodComplete 1585751246962 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-exec-4 false
+PodComplete 1585751247034 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-exec-5 false
+PodComplete 1585751247107 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-exec-2 false
+PodComplete 1585751247188 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-exec-3 false
+PodComplete 1585751247261 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-exec-1 false
+PodComplete 1585751247261 job-73 tpcds-6db4049947cd3f4181222484fe0bb659-driver true
+JobFinished 1585751247261 1585751052902 job-73 5 1.000001 1.0000463 1138066 194360 194351 9 0 1 5
+PodSubmit 1585751249089 job-74 tpcds-8ff6189fc62531b9b53ca6b14b2862c7-driver
+PodStart 1585751249094 job-74 tpcds-8ff6189fc62531b9b53ca6b14b2862c7-driver
+PodSubmit 1585751254519 job-74 tpcds-8ff6189fc62531b9b53ca6b14b2862c7-exec-2
+PodStart 1585751254524 job-74 tpcds-8ff6189fc62531b9b53ca6b14b2862c7-exec-2
+PodSubmit 1585751254527 job-74 tpcds-8ff6189fc62531b9b53ca6b14b2862c7-exec-5
+PodStart 1585751254533 job-74 tpcds-8ff6189fc62531b9b53ca6b14b2862c7-exec-5
+PodSubmit 1585751254535 job-74 tpcds-8ff6189fc62531b9b53ca6b14b2862c7-exec-1
+PodStart 1585751254543 job-74 tpcds-8ff6189fc62531b9b53ca6b14b2862c7-exec-1
+PodSubmit 1585751254544 job-74 tpcds-8ff6189fc62531b9b53ca6b14b2862c7-exec-4
+PodStart 1585751254570 job-74 tpcds-8ff6189fc62531b9b53ca6b14b2862c7-exec-4
+PodSubmit 1585751254570 job-74 tpcds-8ff6189fc62531b9b53ca6b14b2862c7-exec-3
+PodStart 1585751254580 job-74 tpcds-8ff6189fc62531b9b53ca6b14b2862c7-exec-3
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585751558546 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-driver
+PodStart 1585751558620 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-driver
+PodSubmit 1585751564271 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-exec-2
+PodStart 1585751564277 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-exec-2
+PodSubmit 1585751564280 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-exec-5
+PodStart 1585751564287 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-exec-5
+PodSubmit 1585751564298 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-exec-1
+PodSubmit 1585751564333 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-exec-3
+PodSubmit 1585751564333 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-exec-4
+PodStart 1585751564338 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-exec-1
+PodStart 1585751564379 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-exec-3
+PodStart 1585751564399 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-exec-4
+pod "tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-driver" force deleted
+PodComplete 1585751860588 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-exec-5 false
+PodComplete 1585751860717 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-exec-3 false
+PodComplete 1585751860804 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-exec-4 false
+PodComplete 1585751860880 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-exec-1 false
+PodComplete 1585751860957 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-exec-2 false
+PodComplete 1585751860957 job-74 tpcds-0f8dda2ac6013cafad1ed41d3740bbc1-driver true
+JobFinished 1585751860968 1585751558546 job-74 5 1.000001 1.0002447 1784603 302411 302337 74 0 1 5
+PodSubmit 1585751862658 job-75 tpcds-d2a4993c7e4a39f796d1a2a19f0e1948-driver
+PodStart 1585751862665 job-75 tpcds-d2a4993c7e4a39f796d1a2a19f0e1948-driver
+PodSubmit 1585751868161 job-75 tpcds-d2a4993c7e4a39f796d1a2a19f0e1948-exec-2
+PodStart 1585751868166 job-75 tpcds-d2a4993c7e4a39f796d1a2a19f0e1948-exec-2
+PodSubmit 1585751868174 job-75 tpcds-d2a4993c7e4a39f796d1a2a19f0e1948-exec-5
+PodSubmit 1585751868178 job-75 tpcds-d2a4993c7e4a39f796d1a2a19f0e1948-exec-1
+PodStart 1585751868182 job-75 tpcds-d2a4993c7e4a39f796d1a2a19f0e1948-exec-5
+PodSubmit 1585751868187 job-75 tpcds-d2a4993c7e4a39f796d1a2a19f0e1948-exec-4
+PodStart 1585751868189 job-75 tpcds-d2a4993c7e4a39f796d1a2a19f0e1948-exec-1
+PodStart 1585751868202 job-75 tpcds-d2a4993c7e4a39f796d1a2a19f0e1948-exec-4
+PodSubmit 1585751868204 job-75 tpcds-d2a4993c7e4a39f796d1a2a19f0e1948-exec-3
+PodStart 1585751868220 job-75 tpcds-d2a4993c7e4a39f796d1a2a19f0e1948-exec-3
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585752175349 job-75 tpcds-588523e8a01836e19dd659726024458d-driver
+PodStart 1585752175415 job-75 tpcds-588523e8a01836e19dd659726024458d-driver
+PodSubmit 1585752180851 job-75 tpcds-588523e8a01836e19dd659726024458d-exec-2
+PodStart 1585752180857 job-75 tpcds-588523e8a01836e19dd659726024458d-exec-2
+PodSubmit 1585752180861 job-75 tpcds-588523e8a01836e19dd659726024458d-exec-5
+PodStart 1585752180869 job-75 tpcds-588523e8a01836e19dd659726024458d-exec-5
+PodSubmit 1585752180871 job-75 tpcds-588523e8a01836e19dd659726024458d-exec-1
+PodStart 1585752180888 job-75 tpcds-588523e8a01836e19dd659726024458d-exec-1
+PodSubmit 1585752180900 job-75 tpcds-588523e8a01836e19dd659726024458d-exec-4
+PodSubmit 1585752180906 job-75 tpcds-588523e8a01836e19dd659726024458d-exec-3
+PodStart 1585752180913 job-75 tpcds-588523e8a01836e19dd659726024458d-exec-4
+PodStart 1585752180933 job-75 tpcds-588523e8a01836e19dd659726024458d-exec-3
+pod "tpcds-588523e8a01836e19dd659726024458d-driver" force deleted
+PodComplete 1585752410585 job-75 tpcds-588523e8a01836e19dd659726024458d-exec-4 false
+PodComplete 1585752410691 job-75 tpcds-588523e8a01836e19dd659726024458d-exec-5 false
+PodComplete 1585752410792 job-75 tpcds-588523e8a01836e19dd659726024458d-exec-2 false
+PodComplete 1585752410894 job-75 tpcds-588523e8a01836e19dd659726024458d-exec-3 false
+PodComplete 1585752410965 job-75 tpcds-588523e8a01836e19dd659726024458d-exec-1 false
+PodComplete 1585752410966 job-75 tpcds-588523e8a01836e19dd659726024458d-driver true
+JobFinished 1585752410976 1585752175349 job-75 5 1.000001 1.0002801 1385016 235617 235551 66 0 1 5
+PodSubmit 1585752412706 job-76 tpcds-65d31a209fe43e028f7e156789d72786-driver
+PodStart 1585752412712 job-76 tpcds-65d31a209fe43e028f7e156789d72786-driver
+PodSubmit 1585752418146 job-76 tpcds-65d31a209fe43e028f7e156789d72786-exec-2
+PodStart 1585752418151 job-76 tpcds-65d31a209fe43e028f7e156789d72786-exec-2
+PodSubmit 1585752418157 job-76 tpcds-65d31a209fe43e028f7e156789d72786-exec-5
+PodStart 1585752418173 job-76 tpcds-65d31a209fe43e028f7e156789d72786-exec-5
+PodSubmit 1585752418173 job-76 tpcds-65d31a209fe43e028f7e156789d72786-exec-1
+PodStart 1585752418182 job-76 tpcds-65d31a209fe43e028f7e156789d72786-exec-1
+PodSubmit 1585752418187 job-76 tpcds-65d31a209fe43e028f7e156789d72786-exec-4
+PodStart 1585752418202 job-76 tpcds-65d31a209fe43e028f7e156789d72786-exec-4
+PodSubmit 1585752418205 job-76 tpcds-65d31a209fe43e028f7e156789d72786-exec-3
+PodStart 1585752418214 job-76 tpcds-65d31a209fe43e028f7e156789d72786-exec-3
+pod "tpcds-65d31a209fe43e028f7e156789d72786-driver" force deleted
+PodComplete 1585752528181 job-76 tpcds-65d31a209fe43e028f7e156789d72786-exec-4 false
+PodComplete 1585752528252 job-76 tpcds-65d31a209fe43e028f7e156789d72786-exec-5 false
+PodComplete 1585752528329 job-76 tpcds-65d31a209fe43e028f7e156789d72786-exec-2 false
+PodComplete 1585752528413 job-76 tpcds-65d31a209fe43e028f7e156789d72786-exec-3 false
+PodComplete 1585752528484 job-76 tpcds-65d31a209fe43e028f7e156789d72786-exec-1 false
+PodComplete 1585752528484 job-76 tpcds-65d31a209fe43e028f7e156789d72786-driver true
+JobFinished 1585752528485 1585752412706 job-76 5 1.000001 1.0000519 666508 115778 115772 6 0 1 5
+PodSubmit 1585752530253 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-driver
+PodStart 1585752530259 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-driver
+PodSubmit 1585752535708 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-exec-2
+PodStart 1585752535712 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-exec-2
+PodSubmit 1585752535715 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-exec-5
+PodStart 1585752535726 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-exec-5
+PodSubmit 1585752535733 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-exec-1
+PodStart 1585752535749 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-exec-1
+PodSubmit 1585752535758 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-exec-4
+PodStart 1585752535765 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-exec-4
+PodSubmit 1585752535778 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-exec-3
+PodStart 1585752535783 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-exec-3
+pod "tpcds-1c133e32aa6e3364bc95336042b321bf-driver" force deleted
+PodComplete 1585752868978 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-exec-5 false
+PodComplete 1585752869050 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-exec-1 false
+PodComplete 1585752869124 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-exec-2 false
+PodComplete 1585752869201 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-exec-3 false
+PodComplete 1585752869282 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-exec-4 false
+PodComplete 1585752869282 job-77 tpcds-1c133e32aa6e3364bc95336042b321bf-driver true
+JobFinished 1585752869284 1585752530253 job-77 5 1.000001 1.0000176 2005921 339029 339023 6 0 1 5
+PodSubmit 1585752871095 job-78 tpcds-353b784454cd38fa97062b5fb1042126-driver
+PodStart 1585752871146 job-78 tpcds-353b784454cd38fa97062b5fb1042126-driver
+PodSubmit 1585752876564 job-78 tpcds-353b784454cd38fa97062b5fb1042126-exec-2
+PodStart 1585752876568 job-78 tpcds-353b784454cd38fa97062b5fb1042126-exec-2
+PodSubmit 1585752876571 job-78 tpcds-353b784454cd38fa97062b5fb1042126-exec-5
+PodStart 1585752876577 job-78 tpcds-353b784454cd38fa97062b5fb1042126-exec-5
+PodSubmit 1585752876580 job-78 tpcds-353b784454cd38fa97062b5fb1042126-exec-1
+PodStart 1585752876585 job-78 tpcds-353b784454cd38fa97062b5fb1042126-exec-1
+PodSubmit 1585752876591 job-78 tpcds-353b784454cd38fa97062b5fb1042126-exec-4
+PodStart 1585752876607 job-78 tpcds-353b784454cd38fa97062b5fb1042126-exec-4
+PodSubmit 1585752876610 job-78 tpcds-353b784454cd38fa97062b5fb1042126-exec-3
+PodStart 1585752876630 job-78 tpcds-353b784454cd38fa97062b5fb1042126-exec-3
+pod "tpcds-353b784454cd38fa97062b5fb1042126-driver" force deleted
+PodComplete 1585753642872 job-78 tpcds-353b784454cd38fa97062b5fb1042126-exec-1 false
+PodComplete 1585753642942 job-78 tpcds-353b784454cd38fa97062b5fb1042126-exec-2 false
+PodComplete 1585753643027 job-78 tpcds-353b784454cd38fa97062b5fb1042126-exec-3 false
+PodComplete 1585753643102 job-78 tpcds-353b784454cd38fa97062b5fb1042126-exec-4 false
+PodComplete 1585753643184 job-78 tpcds-353b784454cd38fa97062b5fb1042126-exec-5 false
+PodComplete 1585753643184 job-78 tpcds-353b784454cd38fa97062b5fb1042126-driver true
+JobFinished 1585753643185 1585752871095 job-78 5 1.000001 1.000066 4604197 772089 772038 51 0 1 5
+PodSubmit 1585753644853 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-driver
+PodStart 1585753644906 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-driver
+PodSubmit 1585753650356 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-exec-2
+PodStart 1585753650361 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-exec-2
+PodSubmit 1585753650365 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-exec-5
+PodStart 1585753650370 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-exec-5
+PodSubmit 1585753650378 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-exec-1
+PodStart 1585753650387 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-exec-1
+PodSubmit 1585753650389 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-exec-4
+PodStart 1585753650403 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-exec-4
+PodSubmit 1585753650408 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-exec-3
+PodStart 1585753650418 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-exec-3
+pod "tpcds-dcf140c6ffb135b98a72fa681e557065-driver" force deleted
+PodComplete 1585753905324 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-exec-4 false
+PodComplete 1585753905394 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-exec-5 false
+PodComplete 1585753905471 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-exec-2 false
+PodComplete 1585753905544 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-exec-3 false
+[0m[[0m[31merror[0m] [0m[0m(Thread-3) java.lang.UnsupportedOperationException: empty.minBy[0m
+PodComplete 1585753905640 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-exec-1 false
+PodComplete 1585753905640 job-79 tpcds-dcf140c6ffb135b98a72fa681e557065-driver true
+JobFinished 1585753905641 1585753644853 job-79 5 1.000001 1.0002033 1536168 260787 260734 53 0 1 5
+[0m[[0m[31merror[0m] [0m[0mjava.lang.UnsupportedOperationException: empty.minBy[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableOnce.minBy(TraversableOnce.scala:254)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableOnce.minBy$(TraversableOnce.scala:252)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractTraversable.minBy(Traversable.scala:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scheduler.BribeScheduler$$anon$1.run(BribeScheduler.scala:40)[0m
+PodSubmit 1585753907413 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-driver
+PodStart 1585753907418 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-driver
+PodSubmit 1585753912583 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-exec-2
+PodStart 1585753912588 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-exec-2
+PodSubmit 1585753912592 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-exec-5
+PodStart 1585753912596 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-exec-5
+PodSubmit 1585753912599 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-exec-1
+PodStart 1585753912608 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-exec-1
+PodSubmit 1585753912611 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-exec-4
+PodStart 1585753912616 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-exec-4
+PodSubmit 1585753912620 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-exec-3
+PodStart 1585753912629 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-exec-3
+pod "tpcds-e1f59a794d6a36309a0c10840d29ef6f-driver" force deleted
+PodComplete 1585754555207 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-exec-5 false
+PodComplete 1585754555276 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-exec-4 false
+PodComplete 1585754555350 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-exec-3 false
+PodComplete 1585754555421 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-exec-2 false
+PodComplete 1585754555490 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-exec-1 false
+PodComplete 1585754555490 job-80 tpcds-e1f59a794d6a36309a0c10840d29ef6f-driver true
+JobFinished 1585754555491 1585753907413 job-80 5 1.000001 1.0000077 3861779 648077 648072 5 0 1 5
+PodSubmit 1585754557290 job-81 tpcds-d005bfcbead832269761ac4411742806-driver
+PodStart 1585754557337 job-81 tpcds-d005bfcbead832269761ac4411742806-driver
+PodSubmit 1585754562508 job-81 tpcds-d005bfcbead832269761ac4411742806-exec-2
+PodStart 1585754562512 job-81 tpcds-d005bfcbead832269761ac4411742806-exec-2
+PodSubmit 1585754562515 job-81 tpcds-d005bfcbead832269761ac4411742806-exec-5
+PodStart 1585754562526 job-81 tpcds-d005bfcbead832269761ac4411742806-exec-5
+PodSubmit 1585754562528 job-81 tpcds-d005bfcbead832269761ac4411742806-exec-1
+PodStart 1585754562532 job-81 tpcds-d005bfcbead832269761ac4411742806-exec-1
+PodSubmit 1585754562535 job-81 tpcds-d005bfcbead832269761ac4411742806-exec-4
+PodStart 1585754562543 job-81 tpcds-d005bfcbead832269761ac4411742806-exec-4
+PodSubmit 1585754562579 job-81 tpcds-d005bfcbead832269761ac4411742806-exec-3
+PodStart 1585754562586 job-81 tpcds-d005bfcbead832269761ac4411742806-exec-3
+pod "tpcds-d005bfcbead832269761ac4411742806-driver" force deleted
+PodComplete 1585755093999 job-81 tpcds-d005bfcbead832269761ac4411742806-exec-1 false
+PodComplete 1585755094073 job-81 tpcds-d005bfcbead832269761ac4411742806-exec-2 false
+PodComplete 1585755094139 job-81 tpcds-d005bfcbead832269761ac4411742806-exec-3 false
+PodComplete 1585755094207 job-81 tpcds-d005bfcbead832269761ac4411742806-exec-4 false
+PodComplete 1585755094279 job-81 tpcds-d005bfcbead832269761ac4411742806-exec-5 false
+PodComplete 1585755094280 job-81 tpcds-d005bfcbead832269761ac4411742806-driver true
+JobFinished 1585755094280 1585754557290 job-81 5 1.000001 1.0000875 3194941 536990 536943 47 0 1 5
+PodSubmit 1585755096073 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-driver
+PodStart 1585755096121 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-driver
+PodSubmit 1585755101560 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-exec-2
+PodStart 1585755101564 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-exec-2
+PodSubmit 1585755101567 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-exec-5
+PodStart 1585755101572 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-exec-5
+PodSubmit 1585755101575 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-exec-1
+PodStart 1585755101580 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-exec-1
+PodSubmit 1585755101586 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-exec-4
+PodStart 1585755101590 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-exec-4
+PodSubmit 1585755101621 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-exec-3
+PodStart 1585755101634 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-exec-3
+pod "tpcds-23f592dcd3773881bf5644e65084bbf0-driver" force deleted
+PodComplete 1585755212578 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-exec-4 false
+PodComplete 1585755212649 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-exec-5 false
+PodComplete 1585755212720 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-exec-2 false
+PodComplete 1585755212792 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-exec-3 false
+PodComplete 1585755212872 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-exec-1 false
+PodComplete 1585755212873 job-82 tpcds-23f592dcd3773881bf5644e65084bbf0-driver true
+JobFinished 1585755212874 1585755096073 job-82 5 1.000001 1.0004112 672422 116800 116752 48 0 1 5
+PodSubmit 1585755214553 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-driver
+PodStart 1585755214558 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-driver
+PodSubmit 1585755219743 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-exec-2
+PodStart 1585755219748 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-exec-2
+PodSubmit 1585755219751 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-exec-5
+PodStart 1585755219756 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-exec-5
+PodSubmit 1585755219758 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-exec-1
+PodStart 1585755219767 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-exec-1
+PodSubmit 1585755219770 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-exec-4
+PodStart 1585755219780 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-exec-4
+PodSubmit 1585755219782 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-exec-3
+PodStart 1585755219789 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-exec-3
+pod "tpcds-e52c85c1bf86325c8de0d99bc002563e-driver" force deleted
+PodComplete 1585755745038 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-exec-1 false
+PodComplete 1585755745114 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-exec-2 false
+PodComplete 1585755745195 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-exec-3 false
+PodComplete 1585755745273 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-exec-4 false
+PodComplete 1585755745351 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-exec-5 false
+PodComplete 1585755745351 job-83 tpcds-e52c85c1bf86325c8de0d99bc002563e-driver true
+JobFinished 1585755745352 1585755214553 job-83 5 1.000001 1.0000094 3157924 530798 530793 5 0 1 5
+PodSubmit 1585755747178 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-driver
+PodStart 1585755747228 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-driver
+PodSubmit 1585755752381 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-exec-2
+PodStart 1585755752390 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-exec-2
+PodSubmit 1585755752390 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-exec-5
+PodStart 1585755752395 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-exec-5
+PodSubmit 1585755752398 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-exec-1
+PodSubmit 1585755752405 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-exec-4
+PodStart 1585755752408 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-exec-1
+PodStart 1585755752432 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-exec-4
+PodSubmit 1585755752433 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-exec-3
+PodStart 1585755752441 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-exec-3
+pod "tpcds-e5acf4fb53283c42990b46e9a28cc855-driver" force deleted
+PodComplete 1585755934387 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-exec-5 false
+PodComplete 1585755934457 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-exec-3 false
+PodComplete 1585755934535 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-exec-4 false
+PodComplete 1585755934603 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-exec-1 false
+PodComplete 1585755934680 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-exec-2 false
+PodComplete 1585755934680 job-84 tpcds-e5acf4fb53283c42990b46e9a28cc855-driver true
+JobFinished 1585755934681 1585755747178 job-84 5 1.000001 1.0002668 1098049 187502 187452 50 0 1 5
+PodSubmit 1585755936293 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-driver
+PodStart 1585755936297 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-driver
+PodSubmit 1585755941420 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-exec-2
+PodStart 1585755941424 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-exec-2
+PodSubmit 1585755941427 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-exec-5
+PodStart 1585755941431 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-exec-5
+PodSubmit 1585755941434 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-exec-1
+PodStart 1585755941439 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-exec-1
+PodSubmit 1585755941440 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-exec-4
+PodSubmit 1585755941454 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-exec-3
+PodStart 1585755941464 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-exec-4
+PodStart 1585755941469 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-exec-3
+pod "tpcds-e9db3c40c8b330aabf5c188eff4a6621-driver" force deleted
+PodComplete 1585756060406 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-exec-1 false
+PodComplete 1585756060502 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-exec-2 false
+PodComplete 1585756060591 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-exec-3 false
+PodComplete 1585756060682 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-exec-4 false
+PodComplete 1585756060755 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-exec-5 false
+PodComplete 1585756060756 job-85 tpcds-e9db3c40c8b330aabf5c188eff4a6621-driver true
+JobFinished 1585756060756 1585755936293 job-85 5 1.000001 1.0000322 720167 124463 124459 4 0 1 5
+PodSubmit 1585756062514 job-86 tpcds-586d94fcf1ef3fcaacbd6f97faede07b-driver
+PodStart 1585756062520 job-86 tpcds-586d94fcf1ef3fcaacbd6f97faede07b-driver
+PodSubmit 1585756067726 job-86 tpcds-586d94fcf1ef3fcaacbd6f97faede07b-exec-2
+PodStart 1585756067731 job-86 tpcds-586d94fcf1ef3fcaacbd6f97faede07b-exec-2
+PodSubmit 1585756067734 job-86 tpcds-586d94fcf1ef3fcaacbd6f97faede07b-exec-5
+PodStart 1585756067738 job-86 tpcds-586d94fcf1ef3fcaacbd6f97faede07b-exec-5
+PodSubmit 1585756067742 job-86 tpcds-586d94fcf1ef3fcaacbd6f97faede07b-exec-1
+PodStart 1585756067750 job-86 tpcds-586d94fcf1ef3fcaacbd6f97faede07b-exec-1
+PodSubmit 1585756067751 job-86 tpcds-586d94fcf1ef3fcaacbd6f97faede07b-exec-4
+PodStart 1585756067755 job-86 tpcds-586d94fcf1ef3fcaacbd6f97faede07b-exec-4
+PodSubmit 1585756067758 job-86 tpcds-586d94fcf1ef3fcaacbd6f97faede07b-exec-3
+PodStart 1585756067770 job-86 tpcds-586d94fcf1ef3fcaacbd6f97faede07b-exec-3
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585759184052 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-driver
+PodStart 1585759184124 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-driver
+PodSubmit 1585759189439 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-exec-2
+PodSubmit 1585759189451 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-exec-5
+PodStart 1585759189451 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-exec-2
+PodStart 1585759189462 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-exec-5
+PodSubmit 1585759189476 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-exec-1
+PodSubmit 1585759189491 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-exec-4
+PodStart 1585759189494 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-exec-1
+PodStart 1585759189512 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-exec-4
+PodSubmit 1585759189517 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-exec-3
+PodStart 1585759189527 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-exec-3
+pod "tpcds-6f5837f53745357e8ffed5272274b12f-driver" force deleted
+PodComplete 1585759520372 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-exec-1 false
+PodComplete 1585759520441 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-exec-3 false
+PodComplete 1585759520515 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-exec-2 false
+PodComplete 1585759520594 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-exec-5 false
+PodComplete 1585759520683 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-exec-4 false
+PodComplete 1585759520683 job-86 tpcds-6f5837f53745357e8ffed5272274b12f-driver true
+JobFinished 1585759520694 1585759184052 job-86 5 1.000001 1.000214 1991717 336631 336559 72 0 1 5
+PodSubmit 1585759522406 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-driver
+PodStart 1585759522458 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-driver
+PodSubmit 1585759527877 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-exec-2
+PodStart 1585759527882 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-exec-2
+PodSubmit 1585759527890 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-exec-5
+PodStart 1585759527896 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-exec-5
+PodSubmit 1585759527911 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-exec-1
+PodStart 1585759527923 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-exec-1
+PodSubmit 1585759527953 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-exec-4
+PodSubmit 1585759527955 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-exec-3
+PodStart 1585759527967 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-exec-4
+PodStart 1585759527976 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-exec-3
+pod "tpcds-5aafa9480f5838df9fd225b62bd2d561-driver" force deleted
+PodComplete 1585759639018 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-exec-1 false
+PodComplete 1585759639095 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-exec-2 false
+PodComplete 1585759639173 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-exec-5 false
+PodComplete 1585759639247 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-exec-3 false
+PodComplete 1585759639318 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-exec-4 false
+PodComplete 1585759639318 job-87 tpcds-5aafa9480f5838df9fd225b62bd2d561-driver true
+JobFinished 1585759639319 1585759522406 job-87 5 1.000001 1.000445 673066 116912 116860 52 0 1 5
+PodSubmit 1585759641001 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-driver
+PodStart 1585759641006 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-driver
+PodSubmit 1585759646395 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-exec-2
+PodStart 1585759646404 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-exec-2
+PodSubmit 1585759646405 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-exec-5
+PodStart 1585759646412 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-exec-5
+PodSubmit 1585759646418 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-exec-1
+PodStart 1585759646425 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-exec-1
+PodSubmit 1585759646425 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-exec-4
+PodSubmit 1585759646440 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-exec-3
+PodStart 1585759646443 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-exec-4
+PodStart 1585759646451 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-exec-3
+pod "tpcds-90967522167d3bfea1d0b1e5afb68362-driver" force deleted
+PodComplete 1585759871452 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-exec-1 false
+PodComplete 1585759871537 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-exec-2 false
+PodComplete 1585759871624 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-exec-5 false
+PodComplete 1585759871700 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-exec-3 false
+PodComplete 1585759871770 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-exec-4 false
+PodComplete 1585759871770 job-88 tpcds-90967522167d3bfea1d0b1e5afb68362-driver true
+JobFinished 1585759871771 1585759641001 job-88 5 1.000001 1.0000217 1356712 230769 230764 5 0 1 5
+PodSubmit 1585759873601 job-89 tpcds-25c64315d6813e5984ef6884660603b2-driver
+PodStart 1585759873612 job-89 tpcds-25c64315d6813e5984ef6884660603b2-driver
+PodSubmit 1585759879030 job-89 tpcds-25c64315d6813e5984ef6884660603b2-exec-2
+PodStart 1585759879034 job-89 tpcds-25c64315d6813e5984ef6884660603b2-exec-2
+PodSubmit 1585759879044 job-89 tpcds-25c64315d6813e5984ef6884660603b2-exec-5
+PodSubmit 1585759879048 job-89 tpcds-25c64315d6813e5984ef6884660603b2-exec-1
+PodStart 1585759879049 job-89 tpcds-25c64315d6813e5984ef6884660603b2-exec-5
+PodSubmit 1585759879056 job-89 tpcds-25c64315d6813e5984ef6884660603b2-exec-4
+PodStart 1585759879058 job-89 tpcds-25c64315d6813e5984ef6884660603b2-exec-1
+PodStart 1585759879072 job-89 tpcds-25c64315d6813e5984ef6884660603b2-exec-4
+PodSubmit 1585759879075 job-89 tpcds-25c64315d6813e5984ef6884660603b2-exec-3
+PodStart 1585759879089 job-89 tpcds-25c64315d6813e5984ef6884660603b2-exec-3
+pod "tpcds-25c64315d6813e5984ef6884660603b2-driver" force deleted
+PodComplete 1585759990744 job-89 tpcds-25c64315d6813e5984ef6884660603b2-exec-4 false
+PodComplete 1585759990821 job-89 tpcds-25c64315d6813e5984ef6884660603b2-exec-5 false
+PodComplete 1585759990897 job-89 tpcds-25c64315d6813e5984ef6884660603b2-exec-1 false
+PodComplete 1585759990966 job-89 tpcds-25c64315d6813e5984ef6884660603b2-exec-2 false
+PodComplete 1585759991038 job-89 tpcds-25c64315d6813e5984ef6884660603b2-exec-3 false
+PodComplete 1585759991038 job-89 tpcds-25c64315d6813e5984ef6884660603b2-driver true
+JobFinished 1585759991038 1585759873601 job-89 5 1.000001 1.0000937 676589 117437 117426 11 0 1 5
+PodSubmit 1585759992848 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-driver
+PodStart 1585759992853 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-driver
+PodSubmit 1585759998282 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-exec-2
+PodStart 1585759998287 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-exec-2
+PodSubmit 1585759998294 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-exec-5
+PodStart 1585759998306 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-exec-5
+PodSubmit 1585759998307 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-exec-1
+PodStart 1585759998316 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-exec-1
+PodSubmit 1585759998319 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-exec-4
+PodSubmit 1585759998330 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-exec-3
+PodStart 1585759998331 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-exec-4
+PodStart 1585759998344 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-exec-3
+pod "tpcds-00f314bb7e923a83a00f92b0bd2be34b-driver" force deleted
+PodComplete 1585760308037 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-exec-5 false
+PodComplete 1585760308108 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-exec-4 false
+PodComplete 1585760308188 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-exec-1 false
+PodComplete 1585760308266 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-exec-3 false
+[0m[[0m[31merror[0m] [0m[0m(Thread-3) java.lang.UnsupportedOperationException: empty.minBy[0m
+PodComplete 1585760308356 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-exec-2 false
+PodComplete 1585760308356 job-90 tpcds-00f314bb7e923a83a00f92b0bd2be34b-driver true
+JobFinished 1585760308357 1585759992849 job-90 5 1.000001 1.0000159 1864874 315508 315503 5 0 1 5
+[0m[[0m[31merror[0m] [0m[0mjava.lang.UnsupportedOperationException: empty.minBy[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableOnce.minBy(TraversableOnce.scala:254)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableOnce.minBy$(TraversableOnce.scala:252)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractTraversable.minBy(Traversable.scala:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scheduler.BribeScheduler$$anon$1.run(BribeScheduler.scala:40)[0m
+PodSubmit 1585760309924 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-driver
+PodStart 1585760309973 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-driver
+PodSubmit 1585760315120 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-exec-2
+PodStart 1585760315124 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-exec-2
+PodSubmit 1585760315131 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-exec-5
+PodStart 1585760315140 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-exec-5
+PodSubmit 1585760315140 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-exec-1
+PodSubmit 1585760315148 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-exec-4
+PodStart 1585760315149 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-exec-1
+PodStart 1585760315156 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-exec-4
+PodSubmit 1585760315177 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-exec-3
+PodStart 1585760315186 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-exec-3
+pod "tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-driver" force deleted
+PodComplete 1585760853825 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-exec-4 false
+PodComplete 1585760853895 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-exec-3 false
+PodComplete 1585760853964 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-exec-5 false
+PodComplete 1585760854035 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-exec-2 false
+PodComplete 1585760854107 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-exec-1 false
+PodComplete 1585760854107 job-91 tpcds-ac2475e4ef3f3b4d80ef31ada236d0dc-driver true
+JobFinished 1585760854107 1585760309924 job-91 5 1.000001 1.00009 3238204 544183 544134 49 0 1 5
+PodSubmit 1585760855873 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-driver
+PodStart 1585760855922 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-driver
+PodSubmit 1585760861033 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-exec-2
+PodStart 1585760861037 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-exec-2
+PodSubmit 1585760861041 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-exec-5
+PodStart 1585760861045 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-exec-5
+PodSubmit 1585760861052 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-exec-1
+PodStart 1585760861060 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-exec-1
+PodSubmit 1585760861068 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-exec-4
+PodSubmit 1585760861080 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-exec-3
+PodStart 1585760861091 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-exec-4
+PodStart 1585760861099 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-exec-3
+pod "tpcds-99e114ca8a883ceb9357309d82ccd478-driver" force deleted
+PodComplete 1585760981637 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-exec-5 false
+PodComplete 1585760981717 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-exec-4 false
+PodComplete 1585760981787 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-exec-1 false
+PodComplete 1585760981857 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-exec-3 false
+PodComplete 1585760981933 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-exec-2 false
+PodComplete 1585760981933 job-92 tpcds-99e114ca8a883ceb9357309d82ccd478-driver true
+JobFinished 1585760981933 1585760855873 job-92 5 1.000001 1.0003809 729611 126060 126012 48 0 1 5
+PodSubmit 1585760983541 job-93 tpcds-364d37656731368ab966b196a276582d-driver
+PodStart 1585760983545 job-93 tpcds-364d37656731368ab966b196a276582d-driver
+PodSubmit 1585760988671 job-93 tpcds-364d37656731368ab966b196a276582d-exec-2
+PodStart 1585760988675 job-93 tpcds-364d37656731368ab966b196a276582d-exec-2
+PodSubmit 1585760988679 job-93 tpcds-364d37656731368ab966b196a276582d-exec-5
+PodStart 1585760988682 job-93 tpcds-364d37656731368ab966b196a276582d-exec-5
+PodSubmit 1585760988700 job-93 tpcds-364d37656731368ab966b196a276582d-exec-1
+PodStart 1585760988709 job-93 tpcds-364d37656731368ab966b196a276582d-exec-1
+PodSubmit 1585760988711 job-93 tpcds-364d37656731368ab966b196a276582d-exec-4
+PodStart 1585760988718 job-93 tpcds-364d37656731368ab966b196a276582d-exec-4
+PodSubmit 1585760988729 job-93 tpcds-364d37656731368ab966b196a276582d-exec-3
+PodStart 1585760988734 job-93 tpcds-364d37656731368ab966b196a276582d-exec-3
+pod "tpcds-364d37656731368ab966b196a276582d-driver" force deleted
+PodComplete 1585761151800 job-93 tpcds-364d37656731368ab966b196a276582d-exec-4 false
+PodComplete 1585761151868 job-93 tpcds-364d37656731368ab966b196a276582d-exec-3 false
+PodComplete 1585761151938 job-93 tpcds-364d37656731368ab966b196a276582d-exec-5 false
+PodComplete 1585761152008 job-93 tpcds-364d37656731368ab966b196a276582d-exec-2 false
+PodComplete 1585761152077 job-93 tpcds-364d37656731368ab966b196a276582d-exec-1 false
+PodComplete 1585761152077 job-93 tpcds-364d37656731368ab966b196a276582d-driver true
+JobFinished 1585761152077 1585760983541 job-93 5 1.000001 1.0000237 984705 168536 168532 4 0 1 5
+PodSubmit 1585761153853 job-94 tpcds-8e4719c01f3839468f178aea2c270837-driver
+PodStart 1585761153857 job-94 tpcds-8e4719c01f3839468f178aea2c270837-driver
+PodSubmit 1585761159013 job-94 tpcds-8e4719c01f3839468f178aea2c270837-exec-2
+PodStart 1585761159017 job-94 tpcds-8e4719c01f3839468f178aea2c270837-exec-2
+PodSubmit 1585761159020 job-94 tpcds-8e4719c01f3839468f178aea2c270837-exec-5
+PodStart 1585761159024 job-94 tpcds-8e4719c01f3839468f178aea2c270837-exec-5
+PodSubmit 1585761159027 job-94 tpcds-8e4719c01f3839468f178aea2c270837-exec-1
+PodStart 1585761159037 job-94 tpcds-8e4719c01f3839468f178aea2c270837-exec-1
+PodSubmit 1585761159038 job-94 tpcds-8e4719c01f3839468f178aea2c270837-exec-4
+PodStart 1585761159055 job-94 tpcds-8e4719c01f3839468f178aea2c270837-exec-4
+PodSubmit 1585761159055 job-94 tpcds-8e4719c01f3839468f178aea2c270837-exec-3
+PodStart 1585761159059 job-94 tpcds-8e4719c01f3839468f178aea2c270837-exec-3
+pod "tpcds-8e4719c01f3839468f178aea2c270837-driver" force deleted
+PodComplete 1585761281720 job-94 tpcds-8e4719c01f3839468f178aea2c270837-exec-1 false
+PodComplete 1585761281791 job-94 tpcds-8e4719c01f3839468f178aea2c270837-exec-3 false
+PodComplete 1585761281857 job-94 tpcds-8e4719c01f3839468f178aea2c270837-exec-2 false
+PodComplete 1585761281927 job-94 tpcds-8e4719c01f3839468f178aea2c270837-exec-5 false
+PodComplete 1585761282002 job-94 tpcds-8e4719c01f3839468f178aea2c270837-exec-4 false
+PodComplete 1585761282002 job-94 tpcds-8e4719c01f3839468f178aea2c270837-driver true
+JobFinished 1585761282003 1585761153853 job-94 5 1.000001 1.0000312 742250 128149 128145 4 0 1 5
+PodSubmit 1585761283841 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-driver
+PodStart 1585761283845 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-driver
+PodSubmit 1585761288977 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-exec-2
+PodStart 1585761288981 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-exec-2
+PodSubmit 1585761288985 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-exec-5
+PodStart 1585761288989 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-exec-5
+PodSubmit 1585761288992 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-exec-1
+PodStart 1585761289005 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-exec-1
+PodSubmit 1585761289005 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-exec-4
+PodStart 1585761289019 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-exec-4
+PodSubmit 1585761289034 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-exec-3
+PodStart 1585761289044 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-exec-3
+pod "tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-driver" force deleted
+PodComplete 1585761467900 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-exec-5 false
+PodComplete 1585761467972 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-exec-4 false
+PodComplete 1585761468042 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-exec-1 false
+PodComplete 1585761468112 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-exec-3 false
+PodComplete 1585761468184 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-exec-2 false
+PodComplete 1585761468184 job-95 tpcds-cfbf2a9b922631668637cc4bc1d4fdd0-driver true
+JobFinished 1585761468185 1585761283841 job-95 5 1.000001 1.0000272 1079511 184344 184339 5 0 1 5
+PodSubmit 1585761469944 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-driver
+PodStart 1585761469951 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-driver
+PodSubmit 1585761475148 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-exec-2
+PodStart 1585761475153 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-exec-2
+PodSubmit 1585761475156 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-exec-5
+PodStart 1585761475160 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-exec-5
+PodSubmit 1585761475163 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-exec-1
+PodStart 1585761475168 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-exec-1
+PodSubmit 1585761475170 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-exec-4
+PodStart 1585761475175 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-exec-4
+PodSubmit 1585761475178 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-exec-3
+PodStart 1585761475186 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-exec-3
+pod "tpcds-d3475f3f7ceb3c68a665a883637f12dd-driver" force deleted
+PodComplete 1585761693479 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-exec-1 false
+PodComplete 1585761693551 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-exec-2 false
+PodComplete 1585761693623 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-exec-3 false
+PodComplete 1585761693695 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-exec-4 false
+PodComplete 1585761693769 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-exec-5 false
+PodComplete 1585761693770 job-96 tpcds-d3475f3f7ceb3c68a665a883637f12dd-driver true
+JobFinished 1585761693770 1585761469945 job-96 5 1.000001 1.0000312 1316094 223826 223819 7 0 1 5
+PodSubmit 1585761695372 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-driver
+PodStart 1585761695376 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-driver
+PodSubmit 1585761700511 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-exec-2
+PodStart 1585761700515 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-exec-2
+PodSubmit 1585761700533 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-exec-5
+PodStart 1585761700537 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-exec-5
+PodSubmit 1585761700541 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-exec-1
+PodStart 1585761700552 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-exec-1
+PodSubmit 1585761700556 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-exec-4
+PodSubmit 1585761700563 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-exec-3
+PodStart 1585761700565 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-exec-4
+PodStart 1585761700583 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-exec-3
+pod "tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-driver" force deleted
+PodComplete 1585761969247 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-exec-1 false
+PodComplete 1585761969322 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-exec-2 false
+PodComplete 1585761969394 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-exec-3 false
+PodComplete 1585761969464 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-exec-4 false
+PodComplete 1585761969533 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-exec-5 false
+PodComplete 1585761969533 job-97 tpcds-7cd0c977d5ec3a84b832a9ea3ef263a1-driver true
+JobFinished 1585761969533 1585761695372 job-97 5 1.000001 1.0000145 1618365 274161 274157 4 0 1 5
+PodSubmit 1585761971320 job-98 tpcds-c6857ae378cf36a9ab7405b7a030d8c8-driver
+PodStart 1585761971325 job-98 tpcds-c6857ae378cf36a9ab7405b7a030d8c8-driver
+PodSubmit 1585761976461 job-98 tpcds-c6857ae378cf36a9ab7405b7a030d8c8-exec-2
+PodStart 1585761976465 job-98 tpcds-c6857ae378cf36a9ab7405b7a030d8c8-exec-2
+PodSubmit 1585761976468 job-98 tpcds-c6857ae378cf36a9ab7405b7a030d8c8-exec-5
+PodStart 1585761976472 job-98 tpcds-c6857ae378cf36a9ab7405b7a030d8c8-exec-5
+PodSubmit 1585761976478 job-98 tpcds-c6857ae378cf36a9ab7405b7a030d8c8-exec-1
+PodStart 1585761976482 job-98 tpcds-c6857ae378cf36a9ab7405b7a030d8c8-exec-1
+PodSubmit 1585761976486 job-98 tpcds-c6857ae378cf36a9ab7405b7a030d8c8-exec-4
+PodStart 1585761976493 job-98 tpcds-c6857ae378cf36a9ab7405b7a030d8c8-exec-4
+PodSubmit 1585761976511 job-98 tpcds-c6857ae378cf36a9ab7405b7a030d8c8-exec-3
+PodStart 1585761976519 job-98 tpcds-c6857ae378cf36a9ab7405b7a030d8c8-exec-3
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from /home/ubuntu/capri/bribe-scheduler/project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project bribe-scheduler from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to bribesched (in build file:/home/ubuntu/capri/bribe-scheduler/)[0m
+[0m[[0m[0minfo[0m] [0m[0mRunning scheduler.SpotManager [0m
+Starting the bribe pod controller None
+Active node ip-172-31-16-123 <cpu, mem> = <8, 31.3223876953125>
+Starting the bribe pod controller
+PodSubmit 1585763039844 job-98 tpcds-2961d454029437babadba3ef0b83393c-driver
+PodStart 1585763039965 job-98 tpcds-2961d454029437babadba3ef0b83393c-driver
+PodSubmit 1585763045337 job-98 tpcds-2961d454029437babadba3ef0b83393c-exec-2
+PodStart 1585763045342 job-98 tpcds-2961d454029437babadba3ef0b83393c-exec-2
+PodSubmit 1585763045345 job-98 tpcds-2961d454029437babadba3ef0b83393c-exec-5
+PodStart 1585763045370 job-98 tpcds-2961d454029437babadba3ef0b83393c-exec-5
+PodSubmit 1585763045374 job-98 tpcds-2961d454029437babadba3ef0b83393c-exec-1
+PodSubmit 1585763045379 job-98 tpcds-2961d454029437babadba3ef0b83393c-exec-4
+PodStart 1585763045398 job-98 tpcds-2961d454029437babadba3ef0b83393c-exec-1
+PodSubmit 1585763045400 job-98 tpcds-2961d454029437babadba3ef0b83393c-exec-3
+PodStart 1585763045411 job-98 tpcds-2961d454029437babadba3ef0b83393c-exec-4
+PodStart 1585763045424 job-98 tpcds-2961d454029437babadba3ef0b83393c-exec-3
+pod "tpcds-2961d454029437babadba3ef0b83393c-driver" force deleted
+PodComplete 1585763423155 job-98 tpcds-2961d454029437babadba3ef0b83393c-exec-2 false
+PodComplete 1585763423226 job-98 tpcds-2961d454029437babadba3ef0b83393c-exec-3 false
+PodComplete 1585763423309 job-98 tpcds-2961d454029437babadba3ef0b83393c-exec-4 false
+PodComplete 1585763423385 job-98 tpcds-2961d454029437babadba3ef0b83393c-exec-5 false
+PodComplete 1585763423495 job-98 tpcds-2961d454029437babadba3ef0b83393c-exec-1 false
+PodComplete 1585763423495 job-98 tpcds-2961d454029437babadba3ef0b83393c-driver true
+JobFinished 1585763423506 1585763039844 job-98 5 1.000001 1.0003155 2273151 383651 383530 121 0 1 5
+PodSubmit 1585763425206 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-driver
+PodStart 1585763425267 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-driver
+PodSubmit 1585763430656 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-exec-2
+PodStart 1585763430661 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-exec-2
+PodSubmit 1585763430664 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-exec-5
+PodStart 1585763430670 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-exec-5
+PodSubmit 1585763430673 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-exec-1
+PodStart 1585763430678 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-exec-1
+PodSubmit 1585763430692 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-exec-4
+PodSubmit 1585763430704 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-exec-3
+PodStart 1585763430718 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-exec-4
+PodStart 1585763430727 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-exec-3
+pod "tpcds-a8e48376a0d73fb78901105a1f291cb6-driver" force deleted
+PodComplete 1585763542971 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-exec-4 false
+PodComplete 1585763543040 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-exec-3 false
+PodComplete 1585763543110 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-exec-5 false
+PodComplete 1585763543185 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-exec-2 false
+PodComplete 1585763543254 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-exec-1 false
+PodComplete 1585763543254 job-99 tpcds-a8e48376a0d73fb78901105a1f291cb6-driver true
+JobFinished 1585763543255 1585763425206 job-99 5 1.000001 1.000517 680093 118048 117987 61 0 1 5
+PodSubmit 1585764130650 job-100 tpcds-914b1c8802603feaa1702e580098e948-driver
+PodStart 1585764130702 job-100 tpcds-914b1c8802603feaa1702e580098e948-driver
+PodSubmit 1585764135243 job-100 tpcds-914b1c8802603feaa1702e580098e948-exec-2
+PodSubmit 1585764135248 job-100 tpcds-914b1c8802603feaa1702e580098e948-exec-5
+PodStart 1585764135250 job-100 tpcds-914b1c8802603feaa1702e580098e948-exec-2
+PodSubmit 1585764135254 job-100 tpcds-914b1c8802603feaa1702e580098e948-exec-1
+PodStart 1585764135257 job-100 tpcds-914b1c8802603feaa1702e580098e948-exec-5
+PodSubmit 1585764135262 job-100 tpcds-914b1c8802603feaa1702e580098e948-exec-4
+PodSubmit 1585764135273 job-100 tpcds-914b1c8802603feaa1702e580098e948-exec-3
+PodStart 1585764135295 job-100 tpcds-914b1c8802603feaa1702e580098e948-exec-1
+PodStart 1585764135303 job-100 tpcds-914b1c8802603feaa1702e580098e948-exec-4
+PodStart 1585764135312 job-100 tpcds-914b1c8802603feaa1702e580098e948-exec-3
+pod "tpcds-914b1c8802603feaa1702e580098e948-driver" force deleted
+PodComplete 1585764343984 job-100 tpcds-914b1c8802603feaa1702e580098e948-exec-3 false
+PodComplete 1585764344064 job-100 tpcds-914b1c8802603feaa1702e580098e948-exec-4 false
+PodComplete 1585764344154 job-100 tpcds-914b1c8802603feaa1702e580098e948-exec-5 false
+PodComplete 1585764344227 job-100 tpcds-914b1c8802603feaa1702e580098e948-exec-1 false
+PodComplete 1585764344301 job-100 tpcds-914b1c8802603feaa1702e580098e948-exec-2 false
+PodComplete 1585764344301 job-100 tpcds-914b1c8802603feaa1702e580098e948-driver true
+JobFinished 1585764344301 1585764130651 job-100 5 1.000001 1.0002434 1257911 213651 213599 52 0 1 5
+PodSubmit 1585764345958 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-driver
+PodStart 1585764345963 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-driver
+PodSubmit 1585764351442 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-exec-2
+PodStart 1585764351447 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-exec-2
+PodSubmit 1585764351450 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-exec-5
+PodStart 1585764351455 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-exec-5
+PodSubmit 1585764351469 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-exec-1
+PodStart 1585764351486 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-exec-1
+PodSubmit 1585764351504 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-exec-4
+PodStart 1585764351515 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-exec-4
+PodSubmit 1585764351538 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-exec-3
+PodStart 1585764351555 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-exec-3
+pod "tpcds-1d38b52ea09c3e018e60530a86232eae-driver" force deleted
+PodComplete 1585764466565 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-exec-4 false
+PodComplete 1585764466638 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-exec-5 false
+PodComplete 1585764466724 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-exec-1 false
+PodComplete 1585764466801 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-exec-2 false
+PodComplete 1585764466887 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-exec-3 false
+PodComplete 1585764466887 job-101 tpcds-1d38b52ea09c3e018e60530a86232eae-driver true
+JobFinished 1585764466888 1585764345958 job-101 5 1.000001 1.0000414 697080 120929 120924 5 0 1 5
+PodSubmit 1585764468686 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-driver
+PodStart 1585764468691 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-driver
+PodSubmit 1585764474111 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-exec-2
+PodStart 1585764474116 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-exec-2
+PodSubmit 1585764474120 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-exec-5
+PodStart 1585764474129 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-exec-5
+PodSubmit 1585764474129 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-exec-1
+PodStart 1585764474137 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-exec-1
+PodSubmit 1585764474151 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-exec-4
+PodStart 1585764474197 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-exec-4
+PodSubmit 1585764474200 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-exec-3
+PodStart 1585764474206 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-exec-3
+pod "tpcds-06179f6b60e93ad2b10976ca1799bc7f-driver" force deleted
+PodComplete 1585764590425 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-exec-3 false
+PodComplete 1585764590492 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-exec-2 false
+PodComplete 1585764590562 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-exec-1 false
+PodComplete 1585764590633 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-exec-5 false
+PodComplete 1585764590709 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-exec-4 false
+PodComplete 1585764590709 job-102 tpcds-06179f6b60e93ad2b10976ca1799bc7f-driver true
+JobFinished 1585764590710 1585764468686 job-102 5 1.000001 1.000041 704054 122023 122018 5 0 1 5
+PodSubmit 1585813628237 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-driver
+PodStart 1585813628285 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-driver
+PodSubmit 1585813633635 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-exec-2
+PodStart 1585813633640 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-exec-2
+PodSubmit 1585813633645 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-exec-5
+PodStart 1585813633654 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-exec-5
+PodSubmit 1585813633654 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-exec-1
+PodStart 1585813633661 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-exec-1
+PodSubmit 1585813633667 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-exec-4
+PodSubmit 1585813633682 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-exec-3
+PodStart 1585813633686 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-exec-4
+PodStart 1585813633704 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-exec-3
+pod "tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-driver" force deleted
+PodComplete 1585813669534 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-exec-3 false
+PodComplete 1585813669604 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-exec-2 false
+PodComplete 1585813669676 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-exec-1 false
+PodComplete 1585813669746 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-exec-5 false
+PodComplete 1585813669814 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-exec-4 false
+PodComplete 1585813669814 job-103 tpcds-bbd4a089057330ca8bb8bcf9fe2633b5-driver true
+JobFinished 1585813669815 1585813628237 job-103 5 1.000001 1.0011559 221558 41577 41529 48 0 1 5
